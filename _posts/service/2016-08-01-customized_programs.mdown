@@ -1,0 +1,17 @@
+---
+layout: sub-page
+title: Customized Programs - Maßgeschneiderte Weiterbildung für den Erfolg Ihres Unternehmens!
+name: customized_programs_maßgeschneiderte_weiterbildung_für_den_erfolg_ihres_unternehmens!
+description: Die forschungsstarke Universität der Bundeswehr München arbeitet in der Innovationsregion München eng mit der Industrie und Wirtschaft zusammen.
+category: service
+tagline: Unser Service
+image: pi-profile.jpg
+---
+
+Die Schwerpunkte der Fakultäten in den Ingenieur-, Wirtschafts- und Gesellschaftswissenschaften machen es möglich, themenspezifische, aber auch interdisziplinäre Weiterbildungsangebote maßgeschneidert nach den Bedürfnissen der Unternehmen zu kreieren.
+
+casc fungiert als Schnittstelle zwischen den Unternehmen und den Professorinnen und Professoren der Universität sowie externen Experten aus Wissenschaft und Wirtschaft. Dabei begleitet casc den gesamten Prozess der bedarfsorientierten und individuellen Angebotsentwicklung, -durchführung und -auswertung.
+
+Als Formen der Customized Programs ist das gesamte Angebotsspektrum der wissenschaftlichen Weiterbildung möglich, von Seminaren und Workshops bis hin zu Zertifikatsprogrammen und Studiengängen.
+
+Gerne informieren wir Sie über das umfassende Themenangebot der Universität der Bundeswehr München und die Möglichkeiten der Angebotsentwicklung.

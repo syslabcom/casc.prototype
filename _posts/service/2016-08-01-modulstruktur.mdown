@@ -1,0 +1,30 @@
+---
+layout: sub-page
+title: Modulstruktur
+name: modulstruktur
+description: Das Studium ist in drei Studienabschnitte organisiert, welche 24 Monate umfassen. Für die Erstellung der Master-Arbeit sind weitere drei Monate vorgesehen ist.
+category: mba-public-management
+tagline: Unser Service
+image: pi-profile.jpg
+---
+
+Pro Studienabschnitt werden vier Module durchgeführt, je Modul ist eine Wochenend-Präsenz von Donnerstag bis Samstag vorgesehen.
+
+Die Studierenden werden während des Fernlernens durch ständiges E-Tutorium und Gruppenarbeitsaufgaben unterstützt und motiviert. Die Bereitstellung der Lerninhalte geschieht sukzessiv jeweils in Verbindung mit konkreten Arbeitsaufträgen. Als Prüfungsformen sind schriftliche Prüfungen sowie Fallbearbeitungen mit Präsentationen in der Gruppe als Leistungsnachweis vorgesehen.
+
+Innerhalb der letzten drei Monate erstellen die Studierenden eine Master-Arbeit, die individuell betreut wird. In der Regel werden hier bereits praxisnahe Themen lösungsorientiert und wissenschaftlich fundiert bearbeitet.
+
+Das erworbene Wissen kann während des gesamten Studiums direkt in die berufliche Praxis einfließen, so dass ein unmittelbarer Nutzen entsteht. Die workload des Studiengangs ist an die zur Verfügung stehenden Zeitkontingente berufstätiger Studierender mit durchschnittlich 40 ECTS pro Studienjahr angepasst.
+
+ 
+
+# Modulstudium
+
+Der modulare Aufbau des Studiengangs erlaubt es, auch einzelne Module im Rahmen eines Modulstudiums zu belegen und diese mit einem Hochschulzertifikat abzuschließen. Für erfolgreich abgelegte Module werden von der Universität ECTS-Leistungspunkte bescheinigt.
+
+Wurden auf diese Art alle Module belegt und erfolgreich abgeschlossen, kann die Ausbildung mit dem MBA-Abschluss beendet werden, sofern eine Masterarbeit entsprechend der Prüfungsordnung erfolgreich angefertigt wurde.
+
+Im MBA Public Management sind die Modulstudien
+
+* Public Controlling sowie
+* Public Procurement zu belegen.
