@@ -8,7 +8,6 @@ tagline: Unser Service
 image: pi-profile.jpg
 ---
 
-#casc
 #Internettexte Master-Studiengang „Systems Engineering“
 
 #Warum ist das Studium Systems Engineering wichtig? (> „WARUM?“)
