@@ -10,8 +10,13 @@ if (typeof(require) === 'undefined') {
 require.config({
     baseUrl: 'src',
     paths: {
+        "almond":                           "bower_components/almond/almond",
+        "desandro-matches-selector":        "bower_components/desandro-matches-selector",
+        "doc-ready":                        "bower_components/doc-ready",
         "eventEmitter":                     "bower_components/eventEmitter",
         "eventie":                          "bower_components/eventie",
+        "ev-emitter":                       "bower_components/ev-emitter",
+        "fizzy-ui-utils":                   "bower_components/fizzy-ui-utils",
         "get-size":                         "bower_components/get-size",
         "get-style-property":               "bower_components/get-style-property",
         "google-code-prettify":             "bower_components/google-code-prettify/src/prettify",
@@ -27,7 +32,7 @@ require.config({
         "jquery.placeholder":               "bower_components/jquery-placeholder/jquery.placeholder.min",
         "jquery.textchange":                "bower_components/jquery-textchange/jquery.textchange",
         "logging":                          "bower_components/logging/src/logging",
-        "masonry":                          "bower_components/masonry/dist/masonry.pkgd",
+        "masonry":                          "bower_components/masonry/masonry",
         "matches-selector":                 "bower_components/matches-selector",
         "modernizr":                        "bower_components/modernizr/modernizr",
         "modernizr-csspositionsticky":      "bower_components/modernizr/feature-detects/css-positionsticky",
@@ -53,9 +58,8 @@ require.config({
         "validate":                         "bower_components/validate/validate",
 
         // Calendar pattern
-        "moment": "bower_components/moment/moment",
-        "moment-timezone": "bower_components/moment-timezone/moment-timezone",
-        "pat-calendar-moment-timezone-data": "../patternslib/src/pat/calendar/moment-timezone-data",
+        "moment":                           "bower_components/moment/moment",
+        "moment-timezone-data":             "../patternslib/src/pat/calendar/moment-timezone-with-data-2010-2020",
 
         // Core
         "pat-compat":               "../patternslib/src/core/compat",
@@ -104,6 +108,7 @@ require.config({
         "pat-form-state":              "../patternslib/src/pat/form-state/form-state",
         "pat-forward":                 "../patternslib/src/pat/forward/forward",
         "pat-gallery":                 "../patternslib/src/pat/gallery/gallery",
+        "pat-gallery-url":             "../patternslib/src/pat/gallery",
         "pat-grid":                    "../patternslib/src/pat/grid/grid",  // Hack, there's no grid jS, but we need for website bundler
         "pat-syntax-highlight":        "../patternslib/src/pat/syntax-highlight/syntax-highlight",
         "pat-image-crop":              "../patternslib/src/pat/image-crop/image-crop",

@@ -1,0 +1,1485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>CASC | Universität der Bundeswehr München</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/bootstrap-datepicker3.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>
+
+    <!--
+    <header class="main">
+        <div class="container">
+            <img src="images/uniBw/logo_big.png" id="logo-big"/>
+        </div>
+    </header>
+    -->
+
+    <header class="navbar navbar-inverse wet-asphalt hidden-xs" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.desktop-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="logo-small-wrapper">
+                    <a id="logo-small" class="navbar-brand" href="home.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse desktop-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">UniBw M<i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el uni-bw clearfix">
+                            <div>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            <strong>Aktuelles</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Stellenausschreibungen</a></li>
+                                    <li><a href="#">Meldungen</a></li>
+                                    <li><a href="#">Veranstaltungen</a></li>
+                                    <li><a href="#">Kolloquien</a></li>
+                                    <li><a href="#">Schriftenreihen</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Leitung</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Präsidentin</a></li>
+                                    <li><a href="#">Vizepräsidenten</a></li>
+                                    <li><a href="#">Kanzler</a></li>
+                                    <li><a href="#">Militärische Leitung</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Gremien</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Erweiterte Hochschulleitung (EHL)</a></li>
+                                    <li><a href="#">Senat</a></li>
+                                    <li><a href="#">Universitätsrat</a></li>
+                                    <li><a href="#">Verwaltungsrat</a></li>
+                                    <li><a href="#">Beirat für Informations- und KommunikationsInfraStruktur (IKIS)</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                                            <strong>Vertretungen</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Personalvertretungen</a></li>
+                                    <li><a href="#">Gleichstellungsbeauftragte</a></li>
+                                    <li><a href="#">Studentischer Konvent</a></li>
+                                    <li><a href="#">Konvent der wissenschaftlichen Mitarbeiter</a></li>
+                                    <li><a href="#">Datenschutzbeauftragter</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-university" aria-hidden="true"></i>
+                                            <strong>Über die Universität</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Auszeichnungen</a></li>
+                                    <li><a href="#">Anfahrt</a></li>
+                                    <li><a href="#">Geschichte</a></li>
+                                    <li><a href="#">Kontakt</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Einrichtungen <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu four-el facilities clearfix">
+                            <div>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                            <strong>Universitäre Fakultäten</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Bauingenieurwesen und Umweltwissenschaften (BAU)</a></li>
+                                    <li><a href="#">Elektrotechnik und Informationstechnik (EIT)</a></li>
+                                    <li><a href="#">Humanwissenschaften (HUM)</a></li>
+                                    <li><a href="#">Informatik (INF)</a></li>
+                                    <li><a href="#">Luft- und Raumfahrttechnik (LRT)</a></li>
+                                    <li><a href="#">Staats- und Sozialwissenschaften (SOWI)</a></li>
+                                    <li><a href="#">Wirtschafts- und Organisationswissenschaften (WOW)</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-flask" aria-hidden="true"></i>
+                                            <strong>Hochschulbereich für Angewandte Wissenschaften</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Betriebswirtschaft (BW)</a></li>
+                                    <li><a href="#">Elektrotechnik und Technische Informatik (ETTI)</a></li>
+                                    <li><a href="#">Maschinenbau (MB)</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-universal-access" aria-hidden="true"></i>
+                                            <strong>Zentrale Einrichtungen</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Bibliothek</a></li>
+                                    <li><a href="#">Rechenzentrum</a></li>
+                                    <li><a href="#">Sprachenzentrum</a></li>
+                                    <li><a href="#">Medienzentrum</a></li>
+                                    <li><a href="#">Förderberatung</a></li>
+                                    <li><a href="#">Pressestelle</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-cubes" aria-hidden="true"></i>
+                                            <strong>Dienstleistungen</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Pass- und Ausweisstelle (PAUS)</a></li>
+                                    <li><a href="#">Bundeswehrdienstleistungszentrum (BwDLZ)</a></li>
+                                    <li><a href="#">Feuerwehr</a></li>
+                                    <li><a href="#">Betriebsarzt</a></li>
+                                    <li><a href="#">Arbeitssicherheit</a></li>
+                                    <li><a href="#">Fundbüro</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studium <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el studies clearfix">
+                            <div>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                            <strong>Vor dem Studium</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Voraussetzungen</a></li>
+                                    <li><a href="#">Studiengänge</a></li>
+                                    <li><a href="#">Studium bei der Bundeswehr</a></li>
+                                    <li><a href="#">Industriestipendien</a></li>
+                                    <li><a href="#">Weiterbildungsangebot</a></li>
+                                    <li><a href="#">Beratung & Bewerbung</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-tachometer" aria-hidden="true"></i>
+                                            <strong>Im Studium</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Studienberatung</a></li>
+                                    <li><a href="#">Vorlesungsverzeichnis (=HISinOne)</a></li>
+                                    <li><a href="#">Prüfungswesen</a></li>
+                                    <li><a href="#">Studium Plus</a></li>
+                                    <li><a href="#">Evaluation</a></li>
+                                    <li><a href="#">Förderprogramme</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-flag-checkered" aria-hidden="true"></i>
+                                            <strong>Weiterbildung (CASC)</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">MBAs</a></li>
+                                    <li><a href="#">Studiengänge</a></li>
+                                    <li><a href="#">Zertifikatskurse</a></li>
+                                    <li><a href="#">Summer School</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                            <strong>Nach dem Studium</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Alumni</a></li>
+                                    <li><a href="#">Career Service</a></li>
+                                    <li><a href="#">Veranstaltungen</a></li>
+                                    <li><a href="#">Stellenbörse</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-globe" aria-hidden="true"></i>
+                                            <strong>Internationales</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Auslandsbüro</a></li>
+                                    <li><a href="#">Erasmus+</a></li>
+                                    <li><a href="#">Partnerhochschulen</a></li>
+                                    <li><a href="#">Sprachnachweis</a></li>
+                                    <li><a href="#">TOEFL Test</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wissenschaft <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el science clearfix">
+                            <div>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            <strong>Aktuelles</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Publikationen (=Athene Forschung)</a></li>
+                                    <li><a href="#">Forschungsdatenbank (=Athene Forschung)</a></li>
+                                    <li><a href="#">Elektronische Dissertationen</a></li>
+                                    <li><a href="#">Preise und Ehrungen</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-flask" aria-hidden="true"></i>
+                                            <strong>Forschungszentren</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Cyber Defence (CODE)</a></li>
+                                    <li><a href="#">Munich Integrated Resesarch on Aerospace (MIRA)</a></li>
+                                    <li><a href="#">Modern Vehicles (MOVE)</a></li>
+                                    <li><a href="#">Risiko, Infrastruktur, Sicherheit und Konflikt (RISK)</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-money" aria-hidden="true"></i>
+                                            <strong>Forschungsförderung</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Kooperationspartner</a></li>
+                                    <li><a href="#">Technologietransfer</a></li>
+                                    <li><a href="#">Entrepreneurship</a></li>
+                                    <li><a href="#">Nachwuchsförderung</a></li>
+                                    <li><a href="#">ProfiLehre</a></li>
+                                    <li><a href="#">Institut für Technik Intelligenter Systeme (ITIS)</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                                            <strong>Qualitätssicherung</strong>
+                                        </p>
+                                    <li><a href="#">Ombudsperson</a></li>
+                                    <li><a href="#">DFG-Beauftraugter</a></li>
+                                    <li><a href="#">Ethikkommission</a></li>
+                                    </li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Stellenausschreibungen</strong>
+                                        </p>
+                                    <li><a href="#">Wissenschaftliche Mitarbeiter</a></li>
+                                    <li><a href="#">Post-Docs</a></li>
+                                    <li><a href="#">Vakante Professuren</a></li>
+                                    <li><a href="#">Berufungsangelegenheiten</a></li>
+                                    </li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Campusleben <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el campus clearfix">
+                            <div>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                                            <strong>Services</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Wohnen</a></li>
+                                    <li><a href="#">Sanitätszentrum</a></li>
+                                    <li><a href="#">Friseur</a></li>
+                                    <li><a href="#">Kinderbetreuung</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-beer" aria-hidden="true"></i>
+                                            <strong>Freizeit</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Hochschulsport</a></li>
+                                    <li><a href="#">Sportförderverein</a></li>
+                                    <li><a href="#">Musik</a></li>
+                                    <li><a href="#">Uni-Fashion</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                                            <strong>Für die Seele</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Psychosoziale Beratungsstelle</a></li>
+                                    <li><a href="#">Sozialdienst der Bundeswehr</a></li>
+                                    <li><a href="#">Militärseelsorge</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                            <strong>Verpflegung</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">Offizierskasino</a></li>
+                                    <li><a href="#">Brandl</a></li>
+                                    <li><a href="#">Mensa</a></li>
+                                    <li><a href="#">EDEKA</a></li>
+                                    <li><a href="#">Unibar</a></li>
+                                </ul>
+                                <ul class="">
+                                    <li class="list-unstyled first">
+                                        <p>
+                                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                                            <strong>Studierendenbereiche</strong>
+                                        </p>
+                                    </li>
+                                    <li><a href="#">alpha</a></li>
+                                    <li><a href="#">bravo</a></li>
+                                    <li><a href="#">charlie</a></li>
+                                    <li><a href="#">delta</a></li>
+                                    <li><a href="#">aero</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li id="search" class="hidden-xs">
+                        <input type="text" class="form-control" id="overlay-search" aria-describedby="inputSuccess2Status" placeholder="Suche">
+                        <span class="glyphicon glyphicon-search" id="search-btn" aria-hidden="true"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- mobile menu -->
+    <header class="navbar navbar-inverse wet-asphalt visible-xs" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse.mobile-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="glyphicon glyphicon-search mobile-search-btn" id="" aria-hidden="true"></span>
+                <div class="logo-small-wrapper">
+                    <a id="logo-small" class="navbar-brand animated" href="home.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="navbar-collapse mobile-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            UniBw M
+                            <i class="icon-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu five-el uni-bw clearfix">
+                            <div>
+                                <div class="dropdown-mobile-news">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-news">
+                                        <p>
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            <strong>Aktuelles</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Stellenausschreibungen</a></li>
+                                        <li><a href="#">Meldungen</a></li>
+                                        <li><a href="#">Veranstaltungen</a></li>
+                                        <li><a href="#">Kolloquien</a></li>
+                                        <li><a href="#">Schriftenreihen</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-leadership">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-leadership">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Leitung</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Präsidentin</a></li>
+                                        <li><a href="#">Vizepräsidenten</a></li>
+                                        <li><a href="#">Kanzler</a></li>
+                                        <li><a href="#">Militärische Leitung</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-board">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-board">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Gremien</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li>Erweiterte Hochschulleitung (EHL)</li>
+                                        <li>Senat</li>
+                                        <li>Universitätsrat</li>
+                                        <li>Verwaltungsrat</li>
+                                        <li>Beirat für Informations- und KommunikationsInfraStruktur (IKIS)</li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-representation">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-representation">
+                                        <p>
+                                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                                            <strong>Vertretungen</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li>Personalvertretungen</li>
+                                        <li>Gleichstellungsbeauftragte</li>
+                                        <li>Studentischer Konvent</li>
+                                        <li>Konvent der wissenschaftlichen Mitarbeiter</li>
+                                        <li>Datenschutzbeauftragter</li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-about">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-about">
+                                        <p>
+                                            <i class="fa fa-university" aria-hidden="true"></i>
+                                            <strong>Über die Universität</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li>Auszeichnungen</li>
+                                        <li>Anfahrt</li>
+                                        <li>Geschichte</li>
+                                        <li>Kontakt</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Einrichtungen <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu four-el facilities clearfix">
+                            <div>
+                                <div class="dropdown-mobile-university">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-university">
+                                        <p>
+                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                                            <strong>Universitäre Fakultäten</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Bauingenieurwesen und Umweltwissenschaften (BAU)</a></li>
+                                        <li><a href="#">Elektrotechnik und Informationstechnik (EIT)</a></li>
+                                        <li><a href="#">Humanwissenschaften (HUM)</a></li>
+                                        <li><a href="#">Informatik (INF)</a></li>
+                                        <li><a href="#">Luft- und Raumfahrttechnik (LRT)</a></li>
+                                        <li><a href="#">Staats- und Sozialwissenschaften (SOWI)</a></li>
+                                        <li><a href="#">Wirtschafts- und Organisationswissenschaften (WOW)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-science">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-science">
+                                        <p>
+                                            <i class="fa fa-flask" aria-hidden="true"></i>
+                                            <strong>Hochschulbereich für Angewandte Wissenschaften</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Betriebswirtschaft (BW)</a></li>
+                                        <li><a href="#">Elektrotechnik und Technische Informatik (ETTI)</a></li>
+                                        <li><a href="#">Maschinenbau (MB)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-central">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-central">
+                                        <p>
+                                            <i class="fa fa-universal-access" aria-hidden="true"></i>
+                                            <strong>Zentrale Einrichtungen</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Bibliothek</a></li>
+                                        <li><a href="#">Rechenzentrum</a></li>
+                                        <li><a href="#">Sprachenzentrum</a></li>
+                                        <li><a href="#">Medienzentrum</a></li>
+                                        <li><a href="#">Förderberatung</a></li>
+                                        <li><a href="#">Pressestelle</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-services">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-services">
+                                        <p>
+                                            <i class="fa fa-cubes" aria-hidden="true"></i>
+                                            <strong>Dienstleistungen</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Pass- und Ausweisstelle (PAUS)</a></li>
+                                        <li><a href="#">Bundeswehrdienstleistungszentrum (BwDLZ)</a></li>
+                                        <li><a href="#">Feuerwehr</a></li>
+                                        <li><a href="#">Betriebsarzt</a></li>
+                                        <li><a href="#">Arbeitssicherheit</a></li>
+                                        <li><a href="#">Fundbüro</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studium <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el studies clearfix">
+                            <div>
+                                <div class="dropdown-mobile-studies">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-studies">
+                                        <p>
+                                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                            <strong>Vor dem Studium</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Voraussetzungen</a></li>
+                                        <li><a href="#">Studiengänge</a></li>
+                                        <li><a href="#">Studium bei der Bundeswehr</a></li>
+                                        <li><a href="#">Industriestipendien</a></li>
+                                        <li><a href="#">Weiterbildungsangebot</a></li>
+                                        <li><a href="#">Beratung & Bewerbung</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-study">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-study">
+                                        <p>
+                                            <i class="fa fa-tachometer" aria-hidden="true"></i>
+                                            <strong>Im Studium</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Studienberatung</a></li>
+                                        <li><a href="#">Vorlesungsverzeichnis (=HISinOne)</a></li>
+                                        <li><a href="#">Prüfungswesen</a></li>
+                                        <li><a href="#">Studium Plus</a></li>
+                                        <li><a href="#">Evaluation</a></li>
+                                        <li><a href="#">Förderprogramme</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-casc">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-casc">
+                                        <p>
+                                            <i class="fa fa-flag-checkered" aria-hidden="true"></i>
+                                            <strong>Weiterbildung (CASC)</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">MBAs</a></li>
+                                        <li><a href="#">Studiengänge</a></li>
+                                        <li><a href="#">Zertifikatskurse</a></li>
+                                        <li><a href="#">Summer School</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-beyond">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-beyond">
+                                        <p>
+                                            <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                            <strong>Nach dem Studium</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Alumni</a></li>
+                                        <li><a href="#">Career Service</a></li>
+                                        <li><a href="#">Veranstaltungen</a></li>
+                                        <li><a href="#">Stellenbörse</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-international">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-international">
+                                        <p>
+                                            <i class="fa fa-globe" aria-hidden="true"></i>
+                                            <strong>Internationales</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Auslandsbüro</a></li>
+                                        <li><a href="#">Erasmus+</a></li>
+                                        <li><a href="#">Partnerhochschulen</a></li>
+                                        <li><a href="#">Sprachnachweis</a></li>
+                                        <li><a href="#">TOEFL Test</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wissenschaft <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el science clearfix">
+                            <div>
+                                <div class="dropdown-mobile-news-1">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-news-1">
+                                        <p>
+                                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                            <strong>Aktuelles</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Publikationen (=Athene Forschung)</a></li>
+                                        <li><a href="#">Forschungsdatenbank (=Athene Forschung)</a></li>
+                                        <li><a href="#">Elektronische Dissertationen</a></li>
+                                        <li><a href="#">Preise und Ehrungen</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-center">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-center">
+                                        <p>
+                                            <i class="fa fa-flask" aria-hidden="true"></i>
+                                            <strong>Forschungszentren</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Cyber Defence (CODE)</a></li>
+                                        <li><a href="#">Munich Integrated Resesarch on Aerospace (MIRA)</a></li>
+                                        <li><a href="#">Modern Vehicles (MOVE)</a></li>
+                                        <li><a href="#">Risiko, Infrastruktur, Sicherheit und Konflikt (RISK)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-promotion">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-promotion">
+                                        <p>
+                                            <i class="fa fa-money" aria-hidden="true"></i>
+                                            <strong>Forschungsförderung</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Kooperationspartner</a></li>
+                                        <li><a href="#">Technologietransfer</a></li>
+                                        <li><a href="#">Entrepreneurship</a></li>
+                                        <li><a href="#">Nachwuchsförderung</a></li>
+                                        <li><a href="#">ProfiLehre</a></li>
+                                        <li><a href="#">Institut für Technik Intelligenter Systeme (ITIS)</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-quality">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-quality">
+                                        <p>
+                                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                                            <strong>Qualitätssicherung</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Ombudsperson</a></li>
+                                        <li><a href="#">DFG-Beauftraugter</a></li>
+                                        <li><a href="#">Ethikkommission</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-jobs">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-jobs">
+                                        <p>
+                                            <i class="fa fa-users" aria-hidden="true"></i>
+                                            <strong>Stellenausschreibungen</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Wissenschaftliche Mitarbeiter</a></li>
+                                        <li><a href="#">Post-Docs</a></li>
+                                        <li><a href="#">Vakante Professuren</a></li>
+                                        <li><a href="#">Berufungsangelegenheiten</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Campusleben <i class="icon-angle-down"></i></a>
+                        <ul class="dropdown-menu five-el campus clearfix">
+                            <div>
+                                <div class="dropdown-mobile-service">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-service">
+                                        <p>
+                                            <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+                                            <strong>Services</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Wohnen</a></li>
+                                        <li><a href="#">Sanitätszentrum</a></li>
+                                        <li><a href="#">Friseur</a></li>
+                                        <li><a href="#">Kinderbetreuung</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-time-off">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-time-off">
+                                        <p>
+                                            <i class="fa fa-beer" aria-hidden="true"></i>
+                                            <strong>Freizeit</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Hochschulsport</a></li>
+                                        <li><a href="#">Sportförderverein</a></li>
+                                        <li><a href="#">Musik</a></li>
+                                        <li><a href="#">Uni-Fashion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-soul">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-soul">
+                                        <p>
+                                            <i class="fa fa-balance-scale" aria-hidden="true"></i>
+                                            <strong>Für die Seele</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Psychosoziale Beratungsstelle</a></li>
+                                        <li><a href="#">Sozialdienst der Bundeswehr</a></li>
+                                        <li><a href="#">Militärseelsorge</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-catering">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-catering">
+                                        <p>
+                                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                                            <strong>Verpflegung</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">Offizierskasino</a></li>
+                                        <li><a href="#">Brandl</a></li>
+                                        <li><a href="#">Mensa</a></li>
+                                        <li><a href="#">EDEKA</a></li>
+                                        <li><a href="#">Unibar</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown-mobile-areas">
+                                    <a href="#" class="dropdown-toggle mobile" data-toggle="dropdown-mobile-areas">
+                                        <p>
+                                            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+                                            <strong>Studierendenbereiche</strong>
+                                        </p>
+                                    </a>
+                                    <ul class="dropdown-menu inner">
+                                        <li><a href="#">alpha</a></li>
+                                        <li><a href="#">bravo</a></li>
+                                        <li><a href="#">charlie</a></li>
+                                        <li><a href="#">delta</a></li>
+                                        <li><a href="#">aero</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li id="search" class="visible-lg">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </li>
+                    <li id="en" class="visible-lg">
+                        <a href="#" class="lang">EN</a>
+                    </li>
+                    <li id="de" class="visible-lg">
+                        <a href="#" class="lang">DE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section class="secondary-header bg-image casc sil">
+        <div class="marker orange hidden-xs hidden-sm">
+            <span>CASC</span>
+        </div>
+        <div class="container">
+            <div class="secondary-header-heading container">
+                <small>Campus Advanced Studies Center (CASC)</small> <br/>
+                <h1><img src="images/uniBw/casc_logo_white.png" class="title-logo">Weiterbildungsinstitut</h1>
+            </div>
+        </div>
+    </section><!-- #secondary-header -->
+
+    <section id="breadcrumb">
+        <div class="container">
+            <ol class="breadcrumb silver-light">
+                <li><a href="#">Home</a></li>
+                <li class="active">CASC</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="program" class="">
+        <div class="container">
+
+            <form data-toggle="validator" data-disable="false" role="form" novalidate="true">
+
+                <div class="row">
+
+                    <h2 class="center">Antrag auf Aufnahme</h2>
+                    <p class="center form-subline">
+                        Antrag auf Aufnahme in den Bachelor-Studiengang Wirtschaftsingenieurwesen (B.Eng.) an der Universität der Bundeswehr München (UniBw M).
+                    </p>
+
+                    <div class="col-md-7">
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-12">
+                                <label for="" class="control-label">Anrede*</label>
+                                <select class="form-control" required data-required-error="Füllen Sie dieses Feld aus.">
+                                    <option>Herr</option>
+                                    <option>Frau</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="firstName" class="control-label">Vorname*</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="z.B. Max" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="lastName" class="control-label">Nachname*</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="z.B. Mustermann" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-4">
+                                <label for="birthday" class="control-label">Geburtsdatum*</label>
+                                <input type="text" class="form-control" id="birthday" placeholder="z.B. 29.08.1981" required pattern="^\d{2}[./-]\d{2}[./-]\d{4}$" data-pattern-error="Bitte geben Sie Ihr Geburtsdatum im Format TT.MM.YYYY an." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-4">
+                                <label for="birthLocation" class="control-label">Geburtsort*</label>
+                                <input type="text" class="form-control" id="birthLocation" placeholder="z.B. München" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-4">
+                                <label for="nationality" class="control-label">Staatsangehörigkeit*</label>
+                                <input type="text" class="form-control" id="nationality" placeholder="z.B. deutsch" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="street" class="control-label">Straße*</label>
+                                <input type="text" class="form-control" id="street" placeholder="z.B. Sendlingerstraße" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="street-number" class="control-label">Hausnummer*</label>
+                                <input type="text" class="form-control" id="street-number" placeholder="z.B. 25" required data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="plz" class="control-label">PLZ*</label>
+                                <input type="text" class="form-control" id="plz" placeholder="z.B. 80331" required data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="city" class="control-label">Ort*</label>
+                                <input type="text" class="form-control" id="city" placeholder="z.B. München" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="phone" class="control-label">Tel.*</label>
+                                <input type="text" class="form-control" id="phone" placeholder="z.B. 089 123456" required data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="email" class="control-label">Email*</label>
+                                <input type="email" class="form-control" id="email" placeholder="z.B. max.mustermann@gmail.com" required data-required-error="Füllen Sie dieses Feld aus." data-error="Bitte geben Sie eine gültige Emailadresse ein.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="form-group col-sm-12">
+
+                                <p><b>Anlagen:</b></p>
+                                <div for="" class="">
+                                    <ul>
+                                        <li><b>Nachweis der Hochschulzugangsberechtigung</b> durch die allgemeine
+                                            Hochschulreife oder einschlägige fachgebundene Hochschulreife, die
+                                            Fachhochschulreife oder die einschlägige fachgebundene Hochschulreife
+                                            oder durch den Nachweis der erfolgreich bestandenen Meister- oder
+                                            Technikerprüfung nach näherer Maßgabe von Art. 45 Abs. 1 Bayerisches
+                                            Hochschulgesetz (BayHSchG) i. V. m. der Qualifikationsverordnung oder
+                                            durch den Nachweis der sonstigen beruflichen Qualifizierung gemäß Art.
+                                            45 Abs. 2 BayHSchG) i. V. m. der Qualifikationsverordnung
+                                        </li>
+                                        <li><b>Tabellarischer Lebenslauf</b> (mit Original-Unterschrift)</li>
+                                        <li><b>Lichtbild</b></li>
+                                        <li>Ausgefüllter <b>Immatrikulationsantrag</b></li>
+                                    </ul>
+                                </div>
+
+                                <div action="/file-upload" class="dropzone clearfix" id="upload-form"></div>
+
+                                <div id="preview-template" style="display: none;">
+                                    <div class="dz-preview dz-file-preview">
+                                        <div class="dz-details">
+                                            <img data-dz-thumbnail />
+                                            <div class="dz-filename"><span data-dz-name></span></div>
+                                            <div class="dz-size" data-dz-size></div>
+                                        </div>
+                                        <div class="dz-progress"><span class="dz-upload" data-dz-uploadprogress></span></div>
+                                        <!-- <div class="dz-success-mark"><span>✔</span></div> -->
+                                        <!-- <div class="dz-error-mark"><span>✘</span></div> -->
+                                        <!-- <div class="dz-error-message"><span data-dz-errormessage></span></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label>
+                                <input type="checkbox" value="" class="" required>
+                                <small class="form-no-highlight control-label">
+                                    Hiermit erkenne ich die anliegenden <a class="form-link" href="#">Bedingungen</a> und die <a class="form-link" href="#">Prüfungsordnung</a> des Bachelor-Studiengangs Wirtschaftsingenieurwesen an und bestätige die Richtigkeit und Vollständigkeit meiner Angaben.
+                                </small>
+                            </label>
+                        </div>
+
+                        <div class="form-group has-feedback">
+                            <label>
+                                <input type="checkbox" value="" class="" required>
+                                <small class="form-no-highlight control-label">
+                                    Von der <a class="form-link" href="#">Widerrufsbelehrung</a> habe ich Kenntnis genommen.
+                                </small>
+                            </label>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <div class="form-info-box">
+                            Hiermit beantrage ich die Aufnahme in den von der UniBw M und der Hochschule Reutlingen gemeinsam
+                            getragenen Bachelor-Studiengang Wirtschaftsingenieurwesen (B. Eng.).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="form-group submit-btn-wrapper">
+                        <button type="submit" class="btn btn-primary">Formular absenden</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </div>
+    </section><!--/#services-->
+
+    <section class="silver-light form">
+        <div class="container">
+
+            <h2 class="center">Anmeldung</h2>
+            <div class="center form-subline">
+                Anmeldung zu den Präsenzworkshops der Vorbereitungsphase 2016 im Bachelor-Studiengang Wirtschaftsingenieurwesen. <br/>
+                <b>Anmeldung bis zum 15.03.2016 möglich!</b>
+            </div>
+
+
+            <div class="">
+
+                <form data-toggle="validator" data-disable="false" role="form" novalidate="true">
+
+                    <div class="row">
+                        <div class="form-group has-feedback col-sm-6">
+                            <label for="firstName1" class="control-label">Vorname*</label>
+                            <input type="text" class="form-control" id="firstName1" placeholder="z.B. Max" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group has-feedback col-sm-6">
+                            <label for="lastName1" class="control-label">Nachname*</label>
+                            <input type="text" class="form-control" id="lastName1" placeholder="z.B. Mustermann" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-sm-6">
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Sa–So 02.04.2016 – 03.04.2016
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Feierliche Begrüßung Lern- und Präsentationstechniken | Mathematik</p>
+                            </div>
+
+                            <hr/>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Sa–So 23.04.2016 –24.04.2016
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Englisch | Mathematik</p>
+                            </div>
+
+                            <hr/>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Mo–Fr 21.05.2016 –22.05.2016 Blockseminar
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Englisch | Mathematik | Physik</p>
+                            </div>
+
+                            <hr/>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Sa–So 18.06.2016 –19.06.2016
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Mathematik | Physik</p>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group col-sm-6">
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Mo–Fr 18.07.2016 –22.07.2016 Blockseminar
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Mathematik | Physik</p>
+                            </div>
+
+                            <hr/>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Sa–So 23.07.2016 –24.07.2016
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Mathematik | Physik</p>
+                            </div>
+
+                            <hr/>
+
+                            <div class="form-group">
+                                <label>
+                                    <input type="checkbox" value="">
+                                    Sa–So 10.09.2016–11.09.2016
+                                </label>
+                                <label class="inset-label">
+                                    <input type="checkbox" value="">
+                                    Inklusive Unterkunft
+                                </label>
+                                <p>Mathematik | Physik</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="">
+
+                        <div class="form-group">
+                            <label for="notes" class="control-label">Sie haben noch Bemerkungen?</label>
+                            <textarea class="form-control" id="notes" rows="3"></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-group col-sm-4">
+                            <p><b>Veranstaltungsort:</b></p>
+                            <p>Universität der Bundeswehr München</p>
+                            <p>Werner-Heisenberg Weg 39</p>
+                            <p>85577 Neubiberg</p>
+                        </div>
+
+                        <div class="form-group col-sm-3">
+                            <p><small>Bitte entnehmen Sie die genaue Raumangabe dem Studenplan für die Vorbereitungsphase auf der Lernplattform ILIAS.</small></p>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Formular absenden</button>
+                    </div>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="" class="">
+        <div class="container">
+
+            <form data-toggle="validator" data-disable="false" role="form" novalidate="true">
+
+                <div class="row">
+
+                    <h2 class="center">Anmeldung</h2>
+                    <p class="center form-subline">Anmeldung für die Vorbereitungsphase zum Bachelor-Studiengang Wirtschaftsingenieurwesen</p>
+
+                </div>
+
+                <div class="row form-info-box">
+                    <p>Hiermit melde ich mich verbindlich für folgendes Angebot an:
+                    „Vorbereitungsphase zum Bachelor-Studiengang Wirtschaftsingenieurwesen“
+                    Kursdauer: 01.04.2016 – 30.09.2016 | Teilnahmeentgelt: 1.500,- EUR</p>
+                </div>
+
+                <div class="row form-text-box">
+
+                    <div class="col-md-7">
+                        <p>Das Teilnahmeentgelt ist zum 01. Oktober 2015 fällig. Die Teilnehmerin/der Teilnehmer erhält 28 Tage vor Zahlungstermin eine Rechnung über den zu zahlenden Betrag. Der Rechnungsbetrag ist auf das Konto von casc unter Angabe des Verwendungszwecks zu überweisen. Maßgebend für die Rechtzeitigkeit der Zahlung ist der Eingang des Überweisungsauftrags bei der Bank von casc.</p>
+
+                        <p>
+                            <b>Bundeskasse Weiden (Kontoinhaber)</b><br/>
+                            <b>Deutsche Bundesbank, Filiale Regensburg</b><br/>
+                            <b>IBAN: DE 08 750 000 000 075 001 007</b><<br/>
+                            <b>BIC: MARKDEF1750</b><br/>
+                            <b>Verwendungszweck: UniBwM-03179188/BA7316</b>
+                        </p>
+
+                    </div>
+
+                    <div class="col-md-4 col-md-offset-1">
+                        <p><small>Sollte es zu Kursänderungen kommen (Ort, Termine o.ä.), die casc nicht zu vertreten hat, besteht
+                        kein Anspruch auf Schadensersatz. Die Vorbereitungsphase zum Bachelor-Studiengang Wirtschaftsingenieurwesen
+                        setzt eine Mindestteilnehmerzahl voraus. Bei Unterschreiten kann das Programm
+                        bis zum 01. März 2016 einseitig von casc storniert werden. Bereits geleistete Zahlungen werden
+                        zurückerstattet.</small></p>
+
+                        <p><small>Stornierung: Sie können jederzeit schriftlich vom Vertrag zurücktreten. Die Rückerstattung hängt
+                        vom Zeitpunkt des Rücktritts ab. Stornierung bis vier Wochen vor Kursbeginn: 100% Rückerstattung,
+                        Stornierung bis zwei Wochen vor Beginn: 50% Rückerstattung, ab zwei Wochen vor Beginn ist keine
+                        Rückerstattung möglich, außer bei vom Teilnehmer nicht zu vertretenden Gründen oder bei Benennung
+                        einer Vertreterin/eines Vertreters.</small></p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12">
+
+                        <div class="row">
+
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="firstName3" class="control-label">Vorname*</label>
+                                <input type="text" class="form-control" id="firstName3" placeholder="z.B. Max" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt."  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="lastName3" class="control-label">Nachname*</label>
+                                <input type="text" class="form-control" id="lastName3" placeholder="z.B. Mustermann" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt."  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-12">
+                                <label for="company" class="control-label">Firma*</label>
+                                <input type="text" class="form-control" id="company" placeholder="z.B. Orange Hills" required  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="street-1" class="control-label">Straße*</label>
+                                <input type="text" class="form-control" id="street-1" placeholder="z.B. Sendlingerstraße" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt."  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="street-number-1" class="control-label">Hausnummer*</label>
+                                <input type="text" class="form-control" id="street-number-1" placeholder="z.B. 25" required  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="plz" class="control-label">PLZ*</label>
+                                <input type="text" class="form-control" id="plz" placeholder="z.B. 80331" required  data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="city" class="control-label">Ort*</label>
+                                <input type="text" class="form-control" id="city" placeholder="z.B. München" required pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt."  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="phone-1" class="control-label">Tel.*</label>
+                                <input type="text" class="form-control" id="phone-1" placeholder="z.B. 089 123456" required  data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group has-feedback col-sm-6">
+                                <label for="mobile" class="control-label">Mobil*</label>
+                                <input type="text" class="form-control" id="mobile" placeholder="z.B. 0151 2123141" required  data-required-error="Füllen Sie dieses Feld aus.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-12">
+                                <label for="email-1" class="control-label">Email*</label>
+                                <input type="email" class="form-control" id="email-1" placeholder="z.B. max.mustermann@gmail.com" required  data-required-error="Füllen Sie dieses Feld aus." data-error="Bitte geben Sie eine gültige Emailadresse ein.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Formular absenden</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+    </section><!--/#services-->
+
+    <section id="bottom" class="wet-asphalt visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="" id="accordion" aria-multiselectable="true">
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#interested-studies" aria-expanded="true" aria-controls="interested-studies">
+                            <h4>Programme</h4>
+                        </a>
+                        <ul id="interested-studies" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li><a href="#">Wirtschaftsingenieurwesen</a></li>
+                            <li><a href="#">International Management</a></li>
+                            <li><a href="#">International Security Studies</a></li>
+                            <li><a href="#">Personalentwicklung</a></li>
+                            <li><a href="#">Public Management</a></li>
+                            <li><a href="#">Systems Engineering</a></li>
+                            <li><a href="#">Modulstudien</a></li>
+                            <li><a href="#">Zertifikate</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#alumni" aria-expanded="true" aria-controls="alumni">
+                            <h4>Aktuelles</h4>
+                        </a>
+                        <ul id="alumni" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li><a href="#">Cyber Defence ist eine gesamtstaatliche Aufgabe</a></li>
+                            <li><a href="#">Work-Life-Balance im Fokus</a></li>
+                            <li><a href="#">Im Gespräch mit Ulrich Deppendorf</a></li>
+                            <li><a href="#">Uni BW München überzeugt in New York</a></li>
+                            <li><a href="#">Suche nach Leben auf Saturnmond</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#scientists" aria-expanded="true" aria-controls="scientists">
+                            <h4>Service</h4>
+                        </a>
+                        <ul id="scientists" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li><a href="#">Karriereförderung</a></li>
+                            <li><a href="#">Beratung</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#praxis" aria-expanded="true" aria-controls="praxis">
+                            <h4>Institut</h4>
+                        </a>
+                        <ul id="praxis" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Leitbild</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li class="hidden-xs">
+                                <a href="#">Zertifizierungen:</a>
+                                <img src="images/uniBw/button_acquin_small.jpg" class="img-responsive cert-logo"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom" class="wet-asphalt hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <h4>Programme</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><a href="#">Wirtschaftsingenieurwesen</a></li>
+                            <li><a href="#">International Management</a></li>
+                            <li><a href="#">International Security Studies</a></li>
+                            <li><a href="#">Personalentwicklung</a></li>
+                            <li><a href="#">Public Management</a></li>
+                            <li><a href="#">Systems Engineering</a></li>
+                            <li><a href="#">Modulstudien</a></li>
+                            <li><a href="#">Zertifikate</a></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6 hidden-sm hidden-xs">
+                    <h4>Aktuelles</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><a href="#">Cyber Defence ist eine gesamtstaatliche Aufgabe</a></li>
+                            <li><a href="#">Work-Life-Balance im Fokus</a></li>
+                            <li><a href="#">Im Gespräch mit Ulrich Deppendorf</a></li>
+                            <li><a href="#">Uni BW München überzeugt in New York</a></li>
+                            <li><a href="#">Suche nach Leben auf Saturnmond</a></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6">
+                    <h4>Service</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><a href="#">Karriereförderung</a></li>
+                            <li><a href="#">Beratung</a></li>
+                            <li><a href="#">Downloads</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+
+                <div class="col-md-3 col-sm-6 hidden-sm hidden-xs">
+                    <hr class="visible-xs"/>
+                    <h4>Institut</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Leitbild</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                            <li class="hidden-xs">
+                                <a href="#">Zertifizierungen:</a>
+                                <img src="images/uniBw/button_acquin_small.jpg" class="img-responsive cert-logo"/>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <ul class="pull-left">
+                        <li><a href="#">Kontakt</a></li><br class="visible-xs"/>
+                        <li><a href="#">Anfahrt</a></li><br class="visible-xs"/>
+                        <li><a href="#">Impressum</a></li><br class="visible-xs"/>
+                        <li><a href="#">Datenschutz</a></li><br class="visible-xs"/>
+                        <li><a href="#">Presse</a></li><br class="visible-xs"/>
+                        <li><a href="#">Sitemap</a></li><br class="visible-xs"/>
+                    </ul>
+                </div>
+
+                <div class="col-sm-5">
+                    <ul class="pull-right">
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.hc-sticky.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/bootstrap-datepicker.de.min.js"></script>
+    <script src="js/youtube.js"></script>
+    <script src="js/isInViewport.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/dropzone.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

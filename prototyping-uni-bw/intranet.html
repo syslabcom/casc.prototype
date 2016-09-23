@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Home | Universität der Bundeswehr München</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body class="body">
+
+    <header class="navbar navbar-inverse wet-asphalt hidden-xs" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="logo-small-wrapper">
+                    <a id="logo-small" class="navbar-brand" href="home.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- mobile menu -->
+    <header class="navbar navbar-inverse wet-asphalt visible-xs" role="banner">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="logo-small-wrapper">
+                    <a id="logo-small" class="navbar-brand animated" href="home.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header><!--/header-->
+
+    <section class="silver-light news-sec">
+        <div class="container">
+
+            <div class="col-sm-4">
+                <h4><b>Aktuelles</b></h4>
+                <ul>
+                    <li><a href="content.html">Tag der Bundeswehr</a></li>
+                    <li><a href="content.html">Universität der Bundeswehr München überzeugt in New York</a></li>
+                    <li><a href="content.html">3. Kinderuni</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h4><b>Anstehende Wartungen</b></h4>
+                <ul>
+                    <li><a href="#">RZ-Fileserver (share.unibw.de): 26.08.16 08-18:00 Uhr</a></li>
+                    <li><a href="#">HISinOne: 23.08.16 18-20:00 Uhr</a></li>
+                    <li><a href="#">Geb. 36 Stromabschaltung: 10.-12.08.16 jeweils 08-18:00 Uhr</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h4><b>Öffnungszeiten von heute</b></h4>
+                <ul>
+                    <li><a href="#">Mensa: 11-14:00 Uhr</a></li>
+                    <li><a href="#">PAUS: 07:30-11:30 Uhr, 13:30-15:30 Uhr</a></li>
+                    <li><a href="#">Zahlstelle: 07:30-11:30 Uhr, 13:30-15:30 Uhr</a></li>
+<!--                     <li><a href="#">Schwimmbad: 07:00 - 21:00 Uhr</a></li>
+                    <li><a href="#">Fitnesshalle: 07:00 - 22:30 Uhr</a></li> -->
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="intranet-search">
+        <div class="container">
+            <div class="row search-form">
+                <h1 class="center">
+                    UniBw Intranet
+                </h1>
+                <form>
+                    <div class="form-group">
+                        <label for="search-box"><h4><b>Suchbegriff</b></h4></label>
+                        <input type="text" class="form-control" id="search-box" placeholder="z.B. Prüfungsamt">
+                    </div>
+                    <div class="col-md-9 col-sm-12">
+                        <h4><b>Filter</b></h4>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker services"></span>
+                                    <input type="checkbox" class="filter" id="services" value="Übergreifende Dienste"> Übergreif. Dienste
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker research"></span>
+                                    <input type="checkbox" class="filter" id="research" value="Forschung"> Forschung
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker studies"></span>
+                                    <input type="checkbox" class="filter" id="studies" value="Studium"> Studium
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker personel"></span>
+                                    <input type="checkbox" class="filter" id="personal" value="Personal"> Personal
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker it"></span>
+                                    <input type="checkbox" class="filter" id="it" value="IT-Dienste"> IT-Dienste
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker soul"></span>
+                                    <input type="checkbox" class="filter" id="soul" value="Für die Seele"> Für die Seele
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker people"></span>
+                                    <input type="checkbox" class="filter" id="people" value="Personen"> Personen
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker lunch"></span>
+                                    <input type="checkbox" class="filter" id="lunch" value="Verpflegung"> Verpflegung
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <label class="checkbox-inline">
+                                    <span class="color-marker learning"></span>
+                                    <input type="checkbox" class="filter" id="learning" value="Weiterbildung"> Weiterbildung
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <h4><b>Sortierung</b></h4>
+                        <select id="sorting" class="form-control">
+                            <option value="hits">Häufigkeit</option>
+                            <option value="alphabetical">A - Z</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="row search-results">
+                <div class="grid">
+                    <div class="grid-sizer"></div>
+                    <div class="grid-item" data-category="Übergreifende Dienste" data-hits="23">
+                        <a href="#">
+                            <div class="item-header services">
+                                <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Arbeitssicherheit</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Übergreifende Dienste" data-hits="22">
+                        <a href="#">
+                            <div class="item-header services">
+                                <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Gremienangelegenheiten</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Übergreifende Dienste" data-hits="14">
+                        <a href="#">
+                            <div class="item-header services">
+                                <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Qualitätsmanagement</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Übergreifende Dienste" data-hits="15">
+                        <a href="#">
+                            <div class="item-header services">
+                                <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Hochschulkooperationen</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Übergreifende Dienste" data-hits="16">
+                        <a href="#">
+                            <div class="item-header services">
+                                <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Datenschutz</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Forschung" data-hits="29">
+                        <a href="#">
+                            <div class="item-header research">
+                                <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Drittmittelanzeige</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Forschung" data-hits="21">
+                        <a href="#">
+                            <div class="item-header research">
+                                <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Personal</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Forschung" data-hits="19">
+                        <a href="#">
+                            <div class="item-header research">
+                                <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Athene Forschung</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Forschung" data-hits="13">
+                        <a href="#">
+                            <div class="item-header research">
+                                <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Ombudsperson</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="18">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">HISinOne</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="17">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Prüfungsamt</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="11">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Modulhandbücher</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="12">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Termine</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="12">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Studiengänge</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Studium" data-hits="25">
+                        <a href="#">
+                            <div class="item-header studies">
+                                <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Praktika</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="24">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Krankmeldung</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="70">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Dienstreiseantrag</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="3">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Arbeitsvertrag</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="4">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Jobbörse</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="40">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Urlaubsantrag</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="60">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Telefonverzeichnis</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="29">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Zeiterfassung</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="25">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Verträge</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="30">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">SHK-Anträge</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personal" data-hits="11">
+                        <a href="#">
+                            <div class="item-header personel">
+                                <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Ansprechpartner</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="5">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Drucken</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="6">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Cloud</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="1">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Benutzerkonto</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="2">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Web-Mail</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="7">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Software</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="16">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Nutzerverwaltung</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="IT-Dienste" data-hits="18">
+                        <a href="#">
+                            <div class="item-header it">
+                                <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">ZPM</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Für die Seele" data-hits="8">
+                        <a href="#">
+                            <div class="item-header soul">
+                                <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Psychologische Beratung</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Für die Seele" data-hits="9">
+                        <a href="#">
+                            <div class="item-header soul">
+                                <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Betriebsarzt</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Für die Seele" data-hits="14">
+                        <a href="#">
+                            <div class="item-header soul">
+                                <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Zahnarzt</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Für die Seele" data-hits="10">
+                        <a href="#">
+                            <div class="item-header soul">
+                                <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Kirche</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Für die Seele" data-hits="26">
+                        <a href="#">
+                            <div class="item-header soul">
+                                <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Gesundheitsmanagement</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personen" data-hits="14">
+                        <a href="#">
+                            <div class="item-header people">
+                                <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Bernhard Hirsch</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personen" data-hits="14">
+                        <a href="#">
+                            <div class="item-header people">
+                                <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Gabi Dreo Rodosek</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Personen" data-hits="14">
+                        <a href="#">
+                            <div class="item-header people">
+                                <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Stefan Josten</span>
+                        </a>
+                    </div>
+                    <div class="grid-item" data-category="Verpflegung" data-hits="50">
+                        <a href="#">
+                            <div class="item-header lunch">
+                                <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <span class="text">Speiseplan Mensa</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="" class="silver-light visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="people-scroller-mobile" class="carousel slide" data-ride="carousel" data-pause="hover" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/hirsch_4x4.jpg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Univ.-Prof. Dr. Bernhard Hirsch</h4>
+                                            <p>Professur für Allgemeine Betriebswirtschaftslehre, insbesondere Controlling</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                            <div class="item">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/schueler_4x4.jpeg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Univ.-Prof. Dr. Andreas Schüler</h4>
+                                            <p>Professur für Betriebswirtschaftslehre, insbesondere Finanzwirtschaft und Finanzdienstleistungen</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                            <div class="item">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/brieden_4x4.jpeg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Univ.-Prof. Dr. Andreas Brieden</h4>
+                                            <p>Professur für Statistik, insbesondere Risikomanagement</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                            <div class="item">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/hartung_4x4.jpeg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Univ.-Prof. Dr. Thomas Hartung</h4>
+                                            <p>Professur für Versicherungswirtschaft</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                            <div class="item">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/laschewski_4x4.jpeg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Dr. Christian Laschewski</h4>
+                                            <p>Juniorprofessur für Externes Rechnungswesen</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                            <div class="item">
+                                <a href="person.html" class="no-hover">
+                                    <div class="media">
+                                        <div class="pull-left">
+                                            <img class="icon-md" src="images/uniBw/essig_4x4.jpg" />
+                                        </div>
+                                        <div class="media-body dark">
+                                            <h4 class="media-heading">Univ.-Prof. Dr. Michael Eßig</h4>
+                                            <p>Professur für Allgemeine Betriebswirtschaftslehre, insbesondere Materialwirtschaft und Distribution</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div><!--/.col-md-4-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="prev-event hidden-xs hidden-sm" href="#people-scroller-mobile" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </a>
+        <a class="next-event hidden-xs hidden-sm" href="#people-scroller-mobile" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+        </a>
+        </div>
+    </section>
+
+    <section id="prof-scroller" class="silver-light hidden-xs scroller">
+        <div class="container">
+            <div class="row">
+                <h2 class="center prof">Kannten Sie schon...?</h2>
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="people-scroller" class="carousel slide" data-ride="carousel" data-pause="hover" data-wrap="true">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/hirsch_4x4.jpg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Univ.-Prof. Dr. Bernhard Hirsch</h4>
+                                                    <p>Professur für Allgemeine Betriebswirtschaftslehre, insbesondere Controlling</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/schueler_4x4.jpeg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Univ.-Prof. Dr. Andreas Schüler</h4>
+                                                    <p>Professur für Betriebswirtschaftslehre, insbesondere Finanzwirtschaft und Finanzdienstleistungen</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/brieden_4x4.jpeg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Univ.-Prof. Dr. Andreas Brieden</h4>
+                                                    <p>Professur für Statistik, insbesondere Risikomanagement</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/hartung_4x4.jpeg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Univ.-Prof. Dr. Thomas Hartung</h4>
+                                                    <p>Professur für Versicherungswirtschaft</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/laschewski_4x4.jpeg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Dr. Christian Laschewski</h4>
+                                                    <p>Juniorprofessur für Externes Rechnungswesen</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                    <div class="col-sm-4">
+                                        <a href="person.html" class="no-hover">
+                                            <div class="media">
+                                                <div class="pull-left">
+                                                    <img class="icon-md" src="images/uniBw/essig_4x4.jpg" />
+                                                </div>
+                                                <div class="media-body dark">
+                                                    <h4 class="media-heading">Univ.-Prof. Dr. Michael Eßig</h4>
+                                                    <p>Professur für Allgemeine Betriebswirtschaftslehre, insbesondere Materialwirtschaft und Distribution</p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div><!--/.col-sm-4-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="prev-event hidden-xs hidden-sm" href="#people-scroller" data-slide="prev">
+                <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="next-event hidden-xs hidden-sm" href="#people-scroller" data-slide="next">
+                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </section>
+
+    <section id="bottom" class="wet-asphalt visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="" id="accordion" aria-multiselectable="true">
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#interested-studies" aria-expanded="true" aria-controls="interested-studies">
+                            <h4>Quicklinks</h4>
+                        </a>
+                        <ul id="interested-studies" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                    HISinOne
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-circle-o" aria-hidden="true"></i>
+                                    QIS/FSV
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                    Ilias
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-industry" aria-hidden="true"></i>
+                                    BCSW
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    Webmail
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-line-chart" aria-hidden="true"></i>
+                                    DV-Börse
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-laptop" aria-hidden="true"></i>
+                                    StudiSoft
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                                    Formulare
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-adjust" aria-hidden="true"></i>
+                                    DreamSpark
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-exchange" aria-hidden="true"></i>
+                                    IPAM
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-ambulance" aria-hidden="true"></i>
+                                    Support
+                                </a>
+                            </li>
+                            <li class="mobile-quick-link">
+                                <a href="#" class="">
+                                    <i class="fa fa-clock-o" aria-hidden="true"></i>
+                                    Zeiterfassung
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#alumni" aria-expanded="true" aria-controls="alumni">
+                            <h4>Veranstaltungen</h4>
+                        </a>
+                        <ul id="alumni" class="collapse arrow" role="tabpanel" aria-labelledby="headingOne">
+                            <li><a href="event.html">Tag der Bundeswehr</a></li>
+                            <li><a href="event.html">4. Gesundheitstag der Universität der Bundeswehr</a></li>
+                            <li><a href="event.html">Konferenz: Auton. Infrastructure, Management and Security (AIMS)</a></li>
+                            <li><a href="event.html">Veranstaltungsreihe "Qualitätssache - Medien auf dem Prüfstand"</a></li>
+                            <li><a href="event.html">Grup3. Kinderuni: Warum suchen so viele Menschen Asyl in Deutschland?</a></li>
+                            <li><a href="event.html">Dies academicus 2016: Ein Jahr voller Ereignisse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom" class="wet-asphalt hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h4>Quicklinks</h4>
+                     <div class="quicklinks-wrapper clearfix">
+                         <div class="row">
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-briefcase" aria-hidden="true"></i><br/>
+                                 HISinOne
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-circle-o" aria-hidden="true"></i><br/>
+                                 QIS/FSV
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-eye" aria-hidden="true"></i><br/>
+                                 Ilias
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-industry" aria-hidden="true"></i><br/>
+                                 BCSW
+                             </a>
+                         </div>
+                         <div class="row">
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-envelope" aria-hidden="true"></i><br/>
+                                 Webmail
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-line-chart" aria-hidden="true"></i><br/>
+                                 DV-Börse
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-laptop" aria-hidden="true"></i><br/>
+                                 StudiSoft
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-check-square-o" aria-hidden="true"></i><br/>
+                                 Formulare
+                             </a>
+                         </div>
+                         <div class="row">
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-adjust" aria-hidden="true"></i><br/>
+                                 DreamSpark
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-exchange" aria-hidden="true"></i><br/>
+                                 IPAM
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-ambulance" aria-hidden="true"></i><br/>
+                                 Support
+                             </a>
+                             <a href="#" class="quicklink">
+                                 <i class="fa fa-clock-o" aria-hidden="true"></i><br/>
+                                 Zeiterfassung
+                             </a>
+                         </div>
+                     </div>
+                </div><!--/.col-lg-3-->
+
+                <div class="col-lg-6">
+                    <hr class="visible-xs"/>
+                    <h4>Veranstaltungen</h4>
+                    <div>
+                        <ul class="arrow">
+                            <li><a href="event.html">Tag der Bundeswehr</a></li>
+                            <li><a href="event.html">4. Gesundheitstag der Universität der Bundeswehr</a></li>
+                            <li><a href="event.html">Konferenz: Auton. Infrastructure, Management and Security (AIMS)</a></li>
+                            <li><a href="event.html">Veranstaltungsreihe "Qualitätssache - Medien auf dem Prüfstand"</a></li>
+                            <li><a href="event.html">Grup3. Kinderuni: Warum suchen so viele Menschen Asyl in Deutschland?</a></li>
+                            <li><a href="event.html">Dies academicus 2016: Ein Jahr voller Ereignisse</a></li>
+                        </ul>
+                    </div>
+                </div><!--/.col-md-3-->
+            </div>
+        </div>
+    </section><!--/#bottom-->
+
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <ul class="pull-left">
+                        <li><a href="#">Kontakt</a></li><br class="visible-xs"/>
+                        <li><a href="#">Anfahrt</a></li><br class="visible-xs"/>
+                        <li><a href="#">Impressum</a></li><br class="visible-xs"/>
+                        <li><a href="#">Datenschutz</a></li><br class="visible-xs"/>
+                        <li><a href="#">Presse</a></li><br class="visible-xs"/>
+                        <li><a href="#">Sitemap</a></li><br class="visible-xs"/>
+                    </ul>
+                </div>
+
+                <div class="col-sm-5">
+                    <ul class="pull-right">
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-print" aria-hidden="true"></i></a></li>
+                        <li><a id="gototop" class="gototop" href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.hc-sticky.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/underscore-min.js"></script>
+</body>
+</html>
