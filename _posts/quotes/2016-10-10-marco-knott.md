@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Marco Knott
 name: marco-knott
 description: "Wirtschaftsingenieurwesen Jg. 2013"

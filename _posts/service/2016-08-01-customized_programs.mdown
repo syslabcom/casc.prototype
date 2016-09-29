@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Customized Programs - Maßgeschneiderte Weiterbildung für den Erfolg Ihres Unternehmens!
 name: customized_programs_maßgeschneiderte_weiterbildung_für_den_erfolg_ihres_unternehmens!
 description: Die forschungsstarke Universität der Bundeswehr München arbeitet in der Innovationsregion München eng mit der Industrie und Wirtschaft zusammen.

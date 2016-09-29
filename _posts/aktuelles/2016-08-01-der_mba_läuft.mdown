@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-item
 title: Der MBA läuft
 name: der_mba_läuft
 description: Beim Münchner Stadtlauf am 26. Juni 2016 holt das MBA-International Management-Team den 18. Platz.

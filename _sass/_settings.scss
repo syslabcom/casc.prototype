@@ -1,17 +1,39 @@
+// Fonts
+@font-face {
+    font-family: thesans;
+    src: url('fonts/TheSaB4_.woff') format('woff');
+}
+
 // Assets
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,500,700);
 @import "fontello/css/fontello.css";
 @import "mixins";
 
-$break-small: 768px;
+$break-small: 769px;
 $break-medium: 1024px;
 $break-large: 1280px;
 
 // Colours
 $colour-primary: #A31E39;
+$colour-base-light: #e8e8e8;
+$body-font-colour: black;
+
+// Grid
+$grid-gutter: 15px;
+$baseline: 34px;
+
+$container-padding: 2rem;
+$container-padding-medium: 3rem;
+
+// Font treatment
+$base-font-size: 18px;
+
+// Libraries
+@import "libraries/reset";
+@import "libraries/animate";
 
 // Third party libraries
-// @import "libraries/patterns/patterns";
+@import "libraries/patterns/patterns";
 
 // Project components
 @import "components/body";
+@import "components/container";

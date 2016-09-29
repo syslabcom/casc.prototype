@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Prof. Dr. Uwe M. Borghoff
 name: prof_dr_uwe_m_borghoff
 description: 

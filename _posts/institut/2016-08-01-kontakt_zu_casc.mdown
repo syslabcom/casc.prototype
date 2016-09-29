@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Kontakt zu casc
 name: kontakt_zu_casc
 description: Wir freuen uns über Ihr Interesse an casc. 

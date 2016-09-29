@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Sascha Heeren (M.A.)
 name: sascha-heeren
 description: "Personalentwickler HECTAS Facility Services Stiftung & Co. KG, Absolvent Personalentwicklung Jg. 2014"

@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Angebotsformen
 name: angebotsformen
 description: casc nutzt die Potenziale des Bologna-Prozesses für die strukturelle Gestaltung der Weiterbildungsangebote und schöpft das gesamte Spektrum wissenschaftlicher Weiterbildung aus.

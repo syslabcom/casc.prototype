@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Kerstin Melzer (M.A.)
 name: kerstin-melzer
 description: "Personalentwicklerin Universität Konstanz, Personalentwicklung Jg. 2014"

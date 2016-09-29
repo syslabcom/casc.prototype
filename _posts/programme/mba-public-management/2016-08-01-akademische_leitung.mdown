@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Akademische Leitung
 name: akademische_leitung
 description: Die akademische Leitung des MBA-Studiengangs haben die Universitätsprofessoren Michael Eßig und Bernhard Hirsch inne.

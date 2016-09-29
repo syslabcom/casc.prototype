@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-item
 title: casc beim Tag der Bundeswehr
 name: casc_beim_tag
 description: Karriereförderung als Teil des bunten Programms beim Tag der offenen Tür auf dem Campus der Universität der Bundeswehr München am 11. Juni 2016.

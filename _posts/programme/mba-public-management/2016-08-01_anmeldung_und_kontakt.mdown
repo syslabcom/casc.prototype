@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Anmeldung und Kontakt
 name: anmeldung_und_kontakt
 description: Die Anmeldung zum MBA Public Management ist bis zum 1. März jedes Jahres möglich, der Studiengang beginnt zum 1. April jedes Jahres. 

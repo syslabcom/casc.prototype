@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: news-item
 title: Messetermine und Infoveranstaltungen 2016
 name: infoveranstaltungen_2016
 description: Informieren Sie sich über unsere Studiengänge und Ihre Karrierechancen mit den casc-Weiterbildungsprogrammen.

@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Auf einen Blick
 name: auf_einen_blick
 description: Dauer des Programms - 2 Jahre und 3 Monate

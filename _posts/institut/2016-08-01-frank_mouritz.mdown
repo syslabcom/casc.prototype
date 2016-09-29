@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Frank Mouritz, M.A.
 name: frank_mouritz_m_a_
 description: 

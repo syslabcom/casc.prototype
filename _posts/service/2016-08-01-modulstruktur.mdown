@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Modulstruktur
 name: modulstruktur
 description: Das Studium ist in drei Studienabschnitte organisiert, welche 24 Monate umfassen. Für die Erstellung der Master-Arbeit sind weitere drei Monate vorgesehen ist.

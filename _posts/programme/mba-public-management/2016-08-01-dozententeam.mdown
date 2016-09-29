@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Dozententeam
 name: dozententeam
 description: Die Universität der Bundeswehr München ist der wissenschaftliche Träger des MBA Public Management.

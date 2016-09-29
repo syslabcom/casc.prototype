@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Dipl.-Ing.Florian Grimm
 name: florian-grimm
 description: "Entwicklungsingenieur bei Voith Composites GmbH, Systems Engineering Jg. 2015"

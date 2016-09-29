@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Lehr- und Lernmethode
 name: lehr_und_lernmethode
 description: Der MBA-Studiengang ist modular aufgebaut und konsequent berufsbegleitend studierbar.

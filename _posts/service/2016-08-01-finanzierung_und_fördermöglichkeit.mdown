@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Finanzierung und Fördermöglichkeiten
 name: finanzierung_und_fördermöglichkeiten
 description: Eine gute Übersicht über die verschiedenen Fördermöglichkeiten von Weiterbildungsangeboten bietet der Leitfaden "Weiterbildung finanzieren" der Stiftung Warentest (s. Downloadbereich rechts).

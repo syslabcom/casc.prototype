@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Andre Kutz
 name: andre-kutz
 description: "Associate bei McKinsey & Company ab September 2011, Absolvent MBA International Management Jg. 2011"

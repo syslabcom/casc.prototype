@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Systems Engineering
 name: systems_engineering
 description: casc versteht sich im Prozess der Angebotsplanung, -realisierung und -verbesserung als Dienstleister, der akademischen Verantwortlichen und Unternehmen insbesondere eine administrativ-organisatorische Unterstützung entlang der gesamten Wertschöpfungskette der Weiterbildungsangebote anbietet.

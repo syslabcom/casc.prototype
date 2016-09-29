@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: Bernd Roland
 name: bernd-roland
 description: "Project Manager Global Operations bei der Dräger Medical GmbH, Absolvent MBA International Management Jg. 2011"

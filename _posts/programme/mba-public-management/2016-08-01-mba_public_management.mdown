@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: article
 title: MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung
 name: mba_public_management 
 description: casc versteht sich im Prozess der Angebotsplanung, -realisierung und -verbesserung als Dienstleister, der akademischen Verantwortlichen und Unternehmen insbesondere eine administrativ-organisatorische Unterstützung entlang der gesamten Wertschöpfungskette der Weiterbildungsangebote anbietet.
