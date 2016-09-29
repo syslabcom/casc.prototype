@@ -1,0 +1,173 @@
+.article.content,
+.pat-rich {
+    // -moz-hyphens: auto;
+    // -webkit-hyphens: auto;
+    // hyphens: auto;
+
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    // -webkit-hyphens: auto;
+    // -ms-hyphens: auto;
+    // -moz-hyphens: auto;
+    // hyphens: auto;
+
+    section {
+        margin: 0 0 $baseline 0;
+        @include clear-fix;
+        @include box-sizing;
+    }
+
+    .introduction#page-intro {
+        font-size: 1.3em;
+        line-height: 1.5 * $baseline;
+        margin: 0;
+
+        @include screen-size(small) {
+            line-height: 1.3 * $baseline;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+
+    }
+
+    h1 {
+        font-weight: normal;
+        font-size: 1.75em;
+        line-height: 1.5 * $baseline;
+        margin: 0 0 0.5 * $baseline 0;
+
+        &:first-letter {
+            text-transform: capitalize;
+        }
+
+        @include screen-size(small) {
+            font-size: 1.6em;
+            line-height: 1.5 * $baseline;
+        }
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 0.5 * $baseline;
+        font-size: 1.5em;
+        font-weight: bold;
+        line-height: $baseline;
+
+        @include screen-size(small) {
+            font-size: 1.4em;
+            line-height: 1.3 * $baseline;
+        }
+
+        a {
+            color: $colour-accent;
+        }
+    }
+
+    h3 {
+        margin-top: 0;
+        margin-bottom: 0.5 * $baseline;
+        font-size: 1.2em;
+        font-weight: bold;
+        line-height: $baseline;
+    }
+
+    h4 {
+        font-size: 1em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    h5 {
+        font-size:1em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    h6 {
+        font-size:1em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    counter-reset: fig;  
+
+    figure {
+        width: 100%;
+        margin-bottom: $baseline;
+
+        figcaption {
+            color: rgba(0,0,0,0.5);
+            font-size: 0.8em;
+            padding: 0.5 * $baseline 0;
+            &:before {
+                content: 'Fig. ' counter(fig) ': ';
+            }
+        }
+
+        counter-increment: fig;
+    }
+
+    img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    p,
+    table,
+    ul,
+    ol,
+    dl {
+        margin: 0 0 $baseline 0;
+    }
+
+    ul,
+    ol {
+        > li {
+             margin-left: 0;
+             padding-left: 2em;
+
+             &:before {
+                content: "•";
+                margin-left: -2em;
+                font-size: 1em;
+                // background: pink;
+                width: 1.5em;
+                float: left;
+                color: $colour-accent;
+             }
+        }
+    }
+
+    ol {
+        counter-reset: list;
+
+        > li {
+            counter-increment: list;
+
+            &:before {
+                content: counter(list) ". ";
+                font-size: 1em;
+                margin-left: -2em;
+                width: 2em;
+            }
+
+            > ol > li {
+                &:before {
+                    content: counter(list, lower-alpha) ". ";
+                }
+
+                > ol > li {
+                    &:before {
+                        content: counter(list, decimal) ". ";
+                    }
+                }
+            }
+        }
+    }
+}
