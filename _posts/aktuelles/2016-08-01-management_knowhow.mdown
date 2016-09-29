@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: news
 title: Mit Management-Know-how in die zivile Wirtschaft
 name: management_knowhow
 description: Die Universität der Bundeswehr München und die ESB Reutlingen feiern die Absolventinnen und Absolventen des MBA-Studiengangs "International Management".

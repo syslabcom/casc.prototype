@@ -1,6 +1,6 @@
 ---
-layout: sub-page
-title: Studium für Feldwebel: Vierter Jahrgang begrüßt
+layout: news
+title: "Studium für Feldwebel: Vierter Jahrgang begrüßt"
 name: studium_für_feldwebel
 description: Im Bachelor-Studiengang Wirtschaftsingenieurwesen der Universität der Bundeswehr München und der Hochschule Reutlingen fiel am Samstag, den 2. April 2016, bereits für den vierten Jahrgang in Folge der Startschuss.
 category: aktuelles

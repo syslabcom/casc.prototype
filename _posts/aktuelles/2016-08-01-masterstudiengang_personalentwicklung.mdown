@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: news
 title: Masterstudiengang Personalentwicklung verabschiedet den ersten Absolventen
 name: masterstudiengang_personalentwicklung
 description: Statt einer „klassischen“ Masterfeier wurden die Absolventinnen und Absolventen zur Wochenend-Präsenz des aktuellen Jahrgangs eingeladen und in das pädagogische Konzept des Tages integriert.

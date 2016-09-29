@@ -1,5 +1,5 @@
 ---
-layout: sub-page
+layout: news
 title: Facebook Chat mit WING-Studenten
 name: facebook_chat
 description: Zahlreiche Likes erhielt die gestrige Q+A-Runde zum Bachelor-Studiengang "Wirtschaftsingenieurwesen" auf der Facebook-Seite der Bundeswehr.
