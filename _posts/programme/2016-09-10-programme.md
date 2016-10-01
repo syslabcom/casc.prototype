@@ -11,11 +11,11 @@ hero: /media/hero/programme.jpg
 
 Im Weiterbildungsbereich der Universität der Bundeswehr München sind derzeit folgende Studiengänge im Angebot:
 
-## Bachelor-Studiengänge
+### Bachelor-Studiengänge
 
 - Wirtschaftsingenieurwesen (B. Eng.)
 
-## Master-Studiengänge:
+### Master-Studiengänge:
 
 - International Security Studies (M.A.)
 - MBA International Management
@@ -23,11 +23,11 @@ Im Weiterbildungsbereich der Universität der Bundeswehr München sind derzeit f
 - Personalentwicklung (M.A.)
 - Systems Engineering (M.Sc.)
 
-## Zertifikate
+### Zertifikate
 
 Die neuen Möglichkeiten des Bayerischen Hochschulgesetzes nutzend, bietet die Universität der Bundeswehr München das so genannte Modulstudium an. Es handelt sich hierbei um Module aus anerkannten Weiterbildungs-Studiengängen, die einzeln oder in sinnhaften Zusammenhängen studiert werden können. Teilnehmer werden an der Universität immatrikuliert und erhalten bei erfolgreichem Abschluss ECTS-Leistungspunkte und ein Zertifikat der UniBw M.
 
-###  Folgende Modulstudien können belegt werden:
+####  Folgende Modulstudien können belegt werden:
 
 - International Consulting and Leadership
 - International Finance and Control

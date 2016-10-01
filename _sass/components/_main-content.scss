@@ -1,8 +1,23 @@
 #main-content {
-    padding-left: 20%;
+    padding-left: 25%;
     padding-top: 2em;
+    top: 0.5px !important;
 
     .main-section {
-    	padding-top: 6rem;
+    	padding-top: 8rem;
+    	transition: padding-top 1s;
+
+    	&#overview {
+    		padding-top: 0;
+    	}
+    }
+
+    &.bumped {
+    	.main-section {
+
+    		&#overview {
+    			padding-top: 8rem;
+    		}
+    	}
     }
 }

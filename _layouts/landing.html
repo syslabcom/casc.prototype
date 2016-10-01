@@ -24,6 +24,9 @@ layout: generic
 <div class="container">
 	<section id="section-navigation" class="pat-bumper">
 	    <ul class="navigation">
+			<li>
+				<a href="#overview" class="pat-scroll">Übersicht</a>
+			</li>
 	    	{% for item in site.posts %}
 	    		{% if item.parent == page.title %}
 	    			<li>
@@ -33,9 +36,11 @@ layout: generic
 	    	{% endfor %}
 	    </ul>
 	</section>
-	<article class="pat-rich" id="main-content">
-		{{ content }}
-
+	<article class="pat-rich pat-bumper" id="main-content">
+		<section class="main-section" id="overview">
+			{{ content }}
+		</section>
+		
 		{% for item in site.posts %}
 			{% if item.parent == page.title %}
 				<section id="{{ item.url | remove: '/' }}" class="main-section">
