@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Inhalte im Überblick
-name: inhalte_im_überblick
+name: inhalte_im_ueberblick
 description: Der Studiengang umfasst drei Phasen mit folgenden Schwerpunkten.
 category: mba-public-management
 tagline: Unser Service

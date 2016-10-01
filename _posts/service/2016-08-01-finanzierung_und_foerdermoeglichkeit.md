@@ -2,8 +2,8 @@
 layout: article
 title: Finanzierung und Fördermöglichkeiten
 nav_title: Finanzierung
-name: finanzierung_und_fördermöglichkeiten
-description: Eine gute Übersicht über die verschiedenen Fördermöglichkeiten von Weiterbildungsangeboten bietet der Leitfaden "Weiterbildung finanzieren" der Stiftung Warentest (s. Downloadbereich rechts).
+name: finanzierung_und_foerdermoeglichkeiten
+description: "Eine gute Übersicht über die verschiedenen Fördermöglichkeiten von Weiterbildungsangeboten bietet der Leitfaden 'Weiterbildung finanzieren' der Stiftung Warentest (s. Downloadbereich rechts)."
 category: service
 tagline: Unser Service
 image: pi-profile.jpg

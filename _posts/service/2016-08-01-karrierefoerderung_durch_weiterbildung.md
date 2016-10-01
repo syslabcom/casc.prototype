@@ -2,7 +2,7 @@
 layout: article
 title: Karriereförderung durch Weiterbildung
 nav_title: Karriereförderung
-name: karriereförderung_durch_weiterbildung
+name: karrierefoerderung_durch_weiterbildung
 description: Berufliche Karrieren basieren heutzutage nicht nur auf dem Abschluss eines ersten berufsqualifizierenden Hochschulabschlusses.
 category: service
 tagline: Unser Service
