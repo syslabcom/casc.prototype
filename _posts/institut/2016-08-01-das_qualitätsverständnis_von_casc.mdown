@@ -6,6 +6,7 @@ description: Karriereförderung als Teil des bunten Programms beim Tag der offen
 category: institut
 tagline: Unser Service
 image: 5.jpg
+parent: Das Weiterbildungsinstitut casc
 ---
 
 Die Weiterbildungsangebote von casc orientieren sich an den hohen Qualitätsstandards der Universität der Bundeswehr München in Forschung und Lehre.

@@ -6,6 +6,7 @@ description:
 category: aktuelles
 tagline: Unser Service
 image: 7.jpg
+parent: Das Weiterbildungsinstitut casc
 ---
 
 Dr. Nicol Matzner-Vogel, MBA

@@ -6,6 +6,7 @@ description: Die Anmeldung zum MBA Public Management ist bis zum 1. März jedes 
 category: mba-public-management
 tagline: Unser Service
 image: 2.jpg
+parent: Weiterbildungsstudiengänge
 ---
 
 Bitte fügen Sie Ihrer Bewerbung die folgenden Dokumente bei:

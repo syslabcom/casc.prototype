@@ -6,6 +6,7 @@ description: Der Studiengang richtet sich insbesondere an.
 category: mba-public-management
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 * ausscheidende Zeitoffiziere ein bis zwei Jahre vor Dienstzeitende

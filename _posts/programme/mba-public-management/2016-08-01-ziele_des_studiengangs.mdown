@@ -6,6 +6,7 @@ description: Der weiterbildende MBA-Studiengang Public Management vermittelt auf
 category: mba-public-management
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Weiterbildungsstudiengänge
 ---
 
 Das berufsbegleitend konzipierte Programm eröffnet den Teilnehmerinnen und Teilnehmern die Möglichkeit, sich fachlich gezielt auf eine Führungsaufgabe im öffentlichen Sektor vorzubereiten. Der Studiengang vermittelt aktuelles Fachwissen und relevante Managementkompetenzen.

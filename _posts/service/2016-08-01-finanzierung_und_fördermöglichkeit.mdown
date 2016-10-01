@@ -6,6 +6,7 @@ description: Eine gute Übersicht über die verschiedenen Fördermöglichkeiten 
 category: service
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 Eine Auswahl weiterer Finanzierungsmöglichkeiten ist nachfolgend aufgeführt:

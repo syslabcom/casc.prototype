@@ -3,6 +3,9 @@
     color: white;
     padding: 0.5em 0;
     @include clear-fix;
+    height: 31px;
+    position: relative;
+    z-index: 10;
 
     #site-search {
         float: right;
@@ -28,13 +31,27 @@
 
     #global-navigation {
         @include clear-fix;
-        overflow: hidden;
 
         a {
-            color: white;
+            color: rgba(255,255,255,1);
             text-decoration: none;
             float: left;
             margin-right: 1em;
+            position: relative;
+
+            &.current {
+                &:after {
+                    content: ' ';
+                    background-color: white;
+                    height: 6px;
+                    position: absolute;
+                    width: 100%;
+                    left: 0;
+                    right: 0;
+                    bottom: -12px
+
+                }
+            }
 
             &.faculty-casc {
                 color: transparent;

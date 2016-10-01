@@ -6,6 +6,7 @@ description: Das Studium ist in drei Studienabschnitte organisiert, welche 24 Mo
 category: mba-public-management
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 Pro Studienabschnitt werden vier Module durchgeführt, je Modul ist eine Wochenend-Präsenz von Donnerstag bis Samstag vorgesehen.

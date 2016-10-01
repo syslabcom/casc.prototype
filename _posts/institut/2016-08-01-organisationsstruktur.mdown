@@ -6,6 +6,7 @@ description: Karriereförderung als Teil des bunten Programms beim Tag der offen
 category: aktuelles
 tagline: Unser Service
 image: 5.jpg
+parent: Das Weiterbildungsinstitut casc
 ---
 
 Die Organisationsstruktur von casc ist schlank und effizient gestaltet. Die Leitung von casc besteht aus einem Vorstand aus dem Kreis der Professorenschaft der Universität der Bundeswehr München und einer hauptamtlichen Geschäftsführung.

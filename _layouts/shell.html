@@ -15,7 +15,7 @@
                     <nav class="site-sections">
                         {% for item in site.posts %}
                             {% if item.layout == 'landing' %}
-                                <a href="{{ item.url }}">{{ item.nav_title }}</a>
+                                <a href="{{ item.url }}" class="{% if item.url == page.url %}current{% endif %}">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}
                     </nav>
@@ -36,7 +36,7 @@
 
             </div>
 
-            <a id="home">Universität der Bundeswehr München</a>
+            <a href="http://www.unibw.de" id="home">Universität der Bundeswehr München</a>
         </div>
 
         <script src="/bundles/bundle.min.js" type="text/javascript"></script>

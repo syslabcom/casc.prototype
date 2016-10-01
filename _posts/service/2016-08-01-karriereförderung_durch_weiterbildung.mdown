@@ -6,6 +6,7 @@ description: Berufliche Karrieren basieren heutzutage nicht nur auf dem Abschlus
 category: service
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 Die Bereitschaft zum kontinuierlichen Lernen wird zunehmend zu einem wichtigen Erfolgsfaktor für den Karriereverlauf.

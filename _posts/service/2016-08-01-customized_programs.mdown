@@ -6,6 +6,7 @@ description: Die forschungsstarke Universität der Bundeswehr München arbeitet 
 category: service
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 Die Schwerpunkte der Fakultäten in den Ingenieur-, Wirtschafts- und Gesellschaftswissenschaften machen es möglich, themenspezifische, aber auch interdisziplinäre Weiterbildungsangebote maßgeschneidert nach den Bedürfnissen der Unternehmen zu kreieren.

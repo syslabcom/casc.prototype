@@ -6,6 +6,7 @@ description: Wir freuen uns über Ihr Interesse an casc.
 category: institut
 tagline: Unser Service
 image: 5.jpg
+parent: Das Weiterbildungsinstitut casc
 ---
 
 Falls Sie Fragen, Wünsche oder Anregungen haben, können Sie uns auf den folgenden Wegen erreichen:

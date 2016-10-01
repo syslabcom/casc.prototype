@@ -6,6 +6,7 @@ description: casc versteht sich im Prozess der Angebotsplanung, -realisierung un
 category: service
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Service
 ---
 
 Im Vordergrund der Angebotsentwicklung stehen nachfrageorientierte Weiterbildungsprogramme, die auf die Bedürfnisse der Teilnehmer möglichst passgenau abgestimmt sind.

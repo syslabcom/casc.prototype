@@ -21,15 +21,13 @@ layout: generic
 	</section>
 	<nav id="section-navigation" class="pat-sticky container">
 	    <ul class="navigation">
-	        <li>
-	            <a href="#">Lorem ipsum</a> 
-	        </li>
-	        <li>
-	            <a href="#">Ipsum dolor sit</a> 
-	        </li>
-	        <li>
-	            <a href="#">Consectetuer</a> 
-	        </li>
+	    	{% for item in site.posts %}
+	    		{% if item.parent == page.title %}
+	    			<li>
+	    				<a href="#">{{ item.title }}</a>
+	    			</li>
+	    		{% endif %}
+	    	{% endfor %}
 	    </ul>
 	</nav>
 </header>

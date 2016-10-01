@@ -6,6 +6,7 @@ description: casc versteht sich im Prozess der Angebotsplanung, -realisierung un
 category: System Engineering
 tagline: Unser Service
 image: pi-profile.jpg
+parent: Weiterbildungsstudiengänge
 ---
 
 #Internettexte Master-Studiengang „Systems Engineering“
