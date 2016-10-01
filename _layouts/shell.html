@@ -10,19 +10,29 @@
     <body class="{{ page.class }} layout-{{ page.layout }}">
         <div id="main">
             <header id="site-header">
-                <nav id="global-navigation" class="container">
-                    <a id="faculty" href="#">casc</a>
-                    {% for item in site.posts %}
-                        {% if item.layout == 'landing' %}
-                            <a href="{{ item.url }}">{{ item.title }}</a>
-                        {% endif %}
-                    {% endfor %}
-                </nav>  
+                <div id="global-navigation" class="container">
+                    <a id="faculty" href="/" class="faculty-casc">casc</a>
+                    <nav class="site-sections">
+                        {% for item in site.posts %}
+                            {% if item.layout == 'landing' %}
+                                <a href="{{ item.url }}">{{ item.nav_title }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </nav>
+                    
+                    <form id="site-search">
+                        <label>
+                            <input type="search" placeholder="Suchen" name="site-search" />
+                        </label>
+                    </form>
+                </div>  
             </header>
-            <div class="container" id="content">
+            
+            <div id="content">
                 {{ content }}
             </div>
-            <div class="container" id="site-footer">
+
+            <div id="site-footer">
 
             </div>
 

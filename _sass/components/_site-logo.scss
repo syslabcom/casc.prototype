@@ -1,0 +1,22 @@
+#home {
+	background: url(logo-unibw-text.svg);
+	background-size: cover;
+	color: transparent;
+	width: 330px;
+	height: 53px;
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+
+	&:before {
+		content: ' ';
+		background: url(logo-unibw-brandmark.svg);
+		background-size: cover;
+		width: 330px;
+		height: 53px;
+		display: block;
+	}
+	
+}

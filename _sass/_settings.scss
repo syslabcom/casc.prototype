@@ -13,9 +13,14 @@ $break-medium: 1024px;
 $break-large: 1280px;
 
 // Colours
-$colour-primary: #A31E39;
 $colour-base-light: #e8e8e8;
-$body-font-colour: black;
+$colour-primary: #6A686F;
+$colour-accent: #ED6E00;
+$body-font-colour: $colour-primary;
+
+// Glyphs 
+$glyph-logo-casc: '\e813';
+$glyph-close: '\e801';
 
 // Grid
 $grid-gutter: 15px;
@@ -37,4 +42,8 @@ $base-font-size: 18px;
 // Project components
 @import "components/body";
 @import "components/container";
+@import "components/main-content";
+@import "components/page-header";
+@import "components/site-header";
+@import "components/site-logo";
 @import "components/rich";

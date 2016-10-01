@@ -1,11 +1,12 @@
 ---
 layout: landing
 title: Weiterbildungsstudiengänge
+nav_title: Programme
 name: programme
 description: Weiterbildungsstudiengänge der Universität der Bundeswehr München
 category: programme
 tagline: Unser Service
-image: 2.jpg
+hero: /media/hero/programme.jpg
 ---
 
 Im Weiterbildungsbereich der Universität der Bundeswehr München sind derzeit folgende Studiengänge im Angebot:
