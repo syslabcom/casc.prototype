@@ -40,6 +40,13 @@ layout: generic
 			{% if item.parent == page.title %}
 				<section id="{{ item.url | remove: '/' }}" class="main-section">
 					<h2>{{ item.title }}</h2>
+					{% if item.description %}
+						<section class="introduction">
+							<p>
+								{{ item.description }}
+							</p>
+						</section>
+					{% endif %}
 					{{ item.content | markdownify }}
 				</section>
 			{% endif %}

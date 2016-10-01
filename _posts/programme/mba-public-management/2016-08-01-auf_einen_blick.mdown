@@ -9,7 +9,7 @@ image: 2.jpg
 parent: Weiterbildungsstudiengänge
 ---
 
-# Programmstruktur
+### Programmstruktur
 
 * Starterworkshop
 * 10 berufsbegleitende Module (je eine Wochenendpräsenz pro Modul, jeweils Donnerstag bis Samstag, sowie ca. sechs Wochen medial unterstützte und tutoriell begleitete Selbstlernphase)
@@ -18,37 +18,37 @@ parent: Weiterbildungsstudiengänge
 * Master-Thesis (drei Monate Bearbeitungszeit)
  
 
-# Anmeldung und Start
+### Anmeldung und Start
 
 Die Anmeldung zum Studiengang ist bis zum 1. März jedes Jahres möglich. Der Studiengang beginnt zum 1. April jedes Jahres.
 
  
 
-# Studienort
+### Studienort
 
 Universität der Bundeswehr München, Neubiberg
 
  
 
-# Lernziel
+### Lernziel
 
 Umfassende und systematische Vorbereitung auf eine Führungsaufgabe im Bereich Public Management, insbesondere im öffentlichen Controlling oder im öffentlichen Beschaffungswesen.
 
  
 
-# Zugangsvoraussetzungen
+### Zugangsvoraussetzungen
 
 * Abschluss eines ersten berufsqualifizierenden Hochschulstudiums (Diplom, Diplom FH oder Bachelor im Umfang von 210 ECTS-Leistungspunkten)
 * Nachweis einer mindestens einjährigen qualifizierten berufspraktischen Erfahrung
 * Auswahlgespräch
  
 
-# Abschluss
+### Abschluss
 
 * MBA-Abschluss der Universität der Bundeswehr München
 * Nachweis von 90 ECTS-Leistungspunkten (Transcript of Records)
  
 
-# Ihre Investition
+### Ihre Investition
 
 15.800,- EUR (incl. Studienmaterialien und Prüfungen; nicht enthalten sind Kosten für die Exkursion, Reisekosten und Spesen.)

@@ -9,9 +9,7 @@ image: pi-profile.jpg
 parent: Weiterbildungsstudiengänge
 ---
 
-#Internettexte Master-Studiengang „Systems Engineering“
-
-#Warum ist das Studium Systems Engineering wichtig? (> „WARUM?“)
+### Warum ist das Studium Systems Engineering wichtig?
 Technische Systeme sind geprägt durch eine zunehmende Komplexität, die nicht nur aus dem System heraus sondern auch durch Wechselwirkungen und Beziehungen zu anderen Systemen und zur Umgebung resultieren. Zusätzlich ist in der Systementwicklung eine zunehmende Spezialisierung durch technische Experten zu beobachten. Die resultierende Notwendigkeit zur Systemintegration ist nicht mehr allein mit Expertenwissen zu Teillösungen zu beherrschen.
 
 Als erfahrene Ingenieurinnen und Ingenieure mit fundiertem Wissen zu technischen Sachverhalten eignen Sie sich in diesem Studiengang das Rüstzeug an, um komplexe Projekte systematisch und ganzheitlich zum Erfolg zu führen. 
@@ -24,7 +22,7 @@ Das Studium legt besondere Schwerpunkte auf folgende Aspekte:
 * Sie erwerben vielseitige Kompetenzen zur Lösungsfindung und zum ganzheitlichen Management.
 
 
-# Zielgruppe (> „FÜR WEN? FÜR MICH GEEIGNET?“)
+### Zielgruppe 
 
 
 Der Studiengang richtet sich an erfahrene Fach- und Führungskräfte aus der Bundeswehr und der zivilen Wirtschaft mit einem ersten Hochschulstudium und Berufserfahrung von mindestens zwei Jahren. Die Ingenieurinnen und Ingenieure werden in den Methoden und Prozessen des Systems Engineering und des Systems Engineering Managements geschult, so dass sie die Aufgaben von Systemingenieuren übernehmen können. Zudem werden spezifisches Problembewusstsein und Systemdenken entwickelt, welche erlauben, situationsangepasst vorzugehen sowie Fehlentwicklungen frühzeitig entgegenzusteuern. Als wesentlich für den Lernerfolg wird hierbei ein dem Studium unterlegter Theorie-Praxis-Transfer verstanden.
@@ -32,7 +30,8 @@ Der Studiengang richtet sich an erfahrene Fach- und Führungskräfte aus der Bun
 Der Schwerpunkt des Studiengangs liegt daher nicht auf der Vermittlung von technischem Wissen, das als Voraussetzung angesehen wird, sondern auf der Basis von Kenntnissen von technischen Systemen als hochvernetzte Teilsysteme werden Entwicklungs- und Managementansätze vorgestellt, die in der Projektabwicklung genauso wie bei der konkreten Problemlösung unterstützen. Zudem entwickeln die Teilnehmenden ein Bewusstsein für Limitierungen und Randbedingungen des realen „Projektlebens“. 
 
 
-# Überblick (> SCHNELLINFORMATION“)
+### Überblick 
+
 Studiendauer:	    zwei Jahre und drei Monate (Regelstudienzeit)
 Studienbeginn:	    1. April jedes Jahres (Empfehlung)
 Anmeldeschluss: 	1. März jeden Jahres oder einen Monat vor Modulbeginn
@@ -42,7 +41,8 @@ Studienort:			Campus der Universität der Bundeswehr München, Neubiberg
 Workload:			90 ECTS-Leistungspunkte
 Abschluss:			Master of Science (M.Sc.)
 
-# Beratung und Kontakt („KONTAKTE/PERSONEN“)
+### Beratung und Kontakt 
+
 **BILD **
 **Prof. Dr.-Ing. Kristin Paetzold**	
 Institut für Technische Produktentwicklung 
@@ -69,12 +69,14 @@ Kontaktbutton oder appellative Aufforderung: Wir freuen uns auf Ihren Anruf oder
 
 
 
-# Modulstruktur (>INHALTE)
+### Modulstruktur
+
 *Graphische Darstellung, s. Flyer (pdf) bzw. Umsetzung in Prototyping; Wunsch: Hinterlegung der Buttons mit Kurzbeschreibung jedes Moduls*
 
 Die Module des Master-Studiengangs Systems Engineering können auch einzeln studiert und zertifiziert werden und gliedern sich in folgende drei Bereiche:
 
-# Work-Life-Balance: Das Studieren in unserem SE-Master (>“SCHAFFE ICH DAS?“)
+### Work-Life-Balance: Das Studieren in unserem SE-Master
+
 Die Verbindung von Leben, Arbeiten und Lernen ist essentiell für Ihre Freude am Studium und Ihren Erfolg. Das sogenannte Blended-Learning-Prinzip, d.h. der Wechsel von kurzen Präsenzphsaen und begleiteten Selbstlernphasen in virtuellen Lerngruppen halten wir für am besten geeignet, um die Work-Life-Balance zu ermöglichen. Daher legen wir besonderen Wert auf Ihre fachliche und organisatorische Betreuung während der Selbstlernphasen. Aufgabenstellungen beziehen häufig Ihre berufliche Erfahrung und aktuelle Projekte mit ein, so dass ein direkter Nutzen für Ihren beruflichen Einsatz bereits während des Studiums entsteht. Die Workload des Studiengangs ist im Vergleich zu Vollzeit-Studiengängen an die zur Verfügung stehenden Zeitkontingente Berufstätiger mit durchschnittlich 40 ECTS pro Studienjahr angepasst.
 
 Präsenzwochenenden finden durchschnittlich sieben Mal im Jahr statt, in der Regel freitags und samstags, zu Beginn und nach ca. zwei Dritteln des Trimesters. Neben klassischen Lehrmethoden finden darin neuartige Konzepte (Workshop bzw. Symposiumscharakter mit Lehrenden als Moderierende) Anwendung, um der gewünschten Anwendungsorientierung des Studiengangs gerecht zu werden.
