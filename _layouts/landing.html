@@ -30,7 +30,7 @@ layout: generic
 	    	{% for item in site.posts %}
 	    		{% if item.parent == page.title %}
 	    			<li>
-	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>
+	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
 	    			</li>
 	    		{% endif %}
 	    	{% endfor %}
