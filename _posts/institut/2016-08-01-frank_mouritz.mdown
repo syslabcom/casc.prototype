@@ -6,7 +6,7 @@ description:
 category: aktuelles
 tagline: Unser Service
 image: 9.jpg
-parent: Das Weiterbildungsinstitut casc
+parent: Team
 ---
 
 Frank Mouritz, M.A.

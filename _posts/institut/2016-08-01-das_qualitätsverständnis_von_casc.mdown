@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Das Qualitätsverständnis von casc
+title: Qualitätsverständnis
 name: das_qualitätsverständnis_von_casc
 description: Karriereförderung als Teil des bunten Programms beim Tag der offenen Tür auf dem Campus der Universität der Bundeswehr München am 11. Juni 2016.
 category: institut

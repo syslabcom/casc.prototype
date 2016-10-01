@@ -6,7 +6,7 @@ description:
 category: aktuelles
 tagline: Unser Service
 image: 6.jpg
-parent: Das Weiterbildungsinstitut casc
+parent: Team
 ---
 
 
