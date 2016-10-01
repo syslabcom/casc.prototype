@@ -27,7 +27,7 @@ layout: generic
 	    	{% for item in site.posts %}
 	    		{% if item.parent == page.title %}
 	    			<li>
-	    				<a href="#">{{ item.title }}</a>
+	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{{ item.title }}</a>
 	    			</li>
 	    		{% endif %}
 	    	{% endfor %}
@@ -35,5 +35,14 @@ layout: generic
 	</section>
 	<article class="pat-rich" id="main-content">
 		{{ content }}
+
+		{% for item in site.posts %}
+			{% if item.parent == page.title %}
+				<section id="{{ item.url | remove: '/' }}" class="main-section">
+					<h2>{{ item.title }}</h2>
+					{{ item.content | markdownify }}
+				</section>
+			{% endif %}
+		{% endfor %}
 	</article>
 </div>
