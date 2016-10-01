@@ -9,11 +9,10 @@
         }
 
         &.sticky-supported {
-          @media screen and (-webkit-min-device-pixel-ratio:0) {
             position: -webkit-sticky !important;
+            position: -moz-sticky !important;
             position: sticky !important;
             top: 0.01px !important;
-          }
         }
     }
 

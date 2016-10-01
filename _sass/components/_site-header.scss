@@ -5,6 +5,8 @@
     @include clear-fix;
     height: 31px;
     position: -webkit-sticky;
+    position: -moz-sticky;
+    position: sticky;
     top: 0;
     z-index: 20;
 
