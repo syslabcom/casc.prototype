@@ -5,7 +5,7 @@ name: mba_international_management
 description: "Der MBA-Studiengang International Management für Offiziere bereitet Zeitoffiziere am Ende ihrer Dienstzeit maßgeschneidert auf die Übernahme ziviler Management-Positionen vor."
 category: MBA International Management
 tagline: 
-image: pi-profile.jpg
+image:  /media/programme/casc_2.jpg
 parent: Weiterbildungsstudiengänge
 ---
 

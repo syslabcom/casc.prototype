@@ -5,7 +5,7 @@ name: compliance_manager
 description: "Spezialisierungsprogramm mit Zertifikatabschluss"
 category: Certificate Compliance Manager
 tagline: 
-image: pi-profile.jpg
+image:  /media/programme/casc_7.jpg
 parent: Weiterbildungsstudiengänge
 ---
 

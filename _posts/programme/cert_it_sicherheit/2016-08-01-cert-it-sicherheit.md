@@ -5,7 +5,7 @@ name: it_sicherheit
 description: "8-tägiger Intensivkurs zu Netz-, System- und Softwaresicherheit"
 category: Zertifikat IT Sicherheit
 tagline: 
-image: pi-profile.jpg
+image:  /media/programme/casc_8.jpg
 parent: Weiterbildungsstudiengänge
 ---
 
