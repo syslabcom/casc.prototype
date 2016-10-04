@@ -27,8 +27,13 @@
 
         transition: all 0.5s;
 
+        a.current + ul {
+            display: block;
+        }
+
         ul {
             margin-bottom: 0.8em;
+            display: none;
                 
             li {
                 padding-left: 1em;
