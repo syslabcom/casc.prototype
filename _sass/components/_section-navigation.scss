@@ -1,10 +1,13 @@
 #section-navigation {
     z-index: 10;
-    height: 0;
+    width: 100%;
+    transition: all 0.5s;
 
     &.bumped {
+        width: 25%;
+        
         .navigation {
-            width: 25%;
+            width: 100%;
             margin-left: 0;
             padding-right: 3em;
         }

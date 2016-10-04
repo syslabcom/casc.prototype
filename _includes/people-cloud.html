@@ -1,7 +1,7 @@
 <div class="row people-cloud pat-equaliser">
 	{% for person in site.posts %}
 		{% if item.title == person.parent %}
-			<a  href="{{ person.url }}" class="pat-inject three columns" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content" class="four columns">
+			<a  href="{{ person.url }}" class="pat-inject three columns" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}" class="four columns">
 				<img src="{{ person.image }}" alt="{{ person.title }}" />
 				<h4 class="title">{{ person.title }}</h4>
 			</a>
