@@ -31,15 +31,26 @@ layout: generic
 	    		{% if item.parent == page.title %}
 	    			<li>
 	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
-	    				<ul>
-	    					{% for sub in site.posts %}
-	    						{% if item.title == sub.parent %}
-	    							<li>
-	    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content">{{ sub.title }}</a>
-	    							</li>
-	    						{% endif %}
-	    					{% endfor %}
-	    				</ul>
+
+	    				{% assign this_sub = 0 %}
+
+	    				{% for sub in site.posts %}
+    						{% if item.title == sub.parent %}
+    							{% assign this_sub = this_sub | plus: 1 %}
+    						{% endif %}
+    					{% endfor %}
+
+    					{% if this_sub > 0 %}
+		    				<ul>
+		    					{% for sub in site.posts %}
+		    						{% if item.title == sub.parent %}
+		    							<li>
+		    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content">{{ sub.title }}</a>
+		    							</li>
+		    						{% endif %}
+		    					{% endfor %}
+		    				</ul>
+    					{% endif %}
 	    			</li>
 	    		{% endif %}
 	    	{% endfor %}
