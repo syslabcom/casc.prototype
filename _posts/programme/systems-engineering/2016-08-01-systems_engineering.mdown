@@ -10,6 +10,7 @@ parent: Weiterbildungsstudiengänge
 ---
 
 ### Warum ist das Studium Systems Engineering wichtig?
+
 Technische Systeme sind geprägt durch eine zunehmende Komplexität, die nicht nur aus dem System heraus sondern auch durch Wechselwirkungen und Beziehungen zu anderen Systemen und zur Umgebung resultieren. Zusätzlich ist in der Systementwicklung eine zunehmende Spezialisierung durch technische Experten zu beobachten. Die resultierende Notwendigkeit zur Systemintegration ist nicht mehr allein mit Expertenwissen zu Teillösungen zu beherrschen.
 
 Als erfahrene Ingenieurinnen und Ingenieure mit fundiertem Wissen zu technischen Sachverhalten eignen Sie sich in diesem Studiengang das Rüstzeug an, um komplexe Projekte systematisch und ganzheitlich zum Erfolg zu führen. 

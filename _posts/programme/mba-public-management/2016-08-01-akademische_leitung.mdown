@@ -6,7 +6,7 @@ description: Die akademische Leitung des MBA-Studiengangs haben die Universität
 category: mba-public-management
 tagline: Unser Service
 image: 2.jpg
-parent: Weiterbildungsstudiengänge
+parent: MBA Public Management
 ---
 
 ### Univ.-Prof. Dr. Michael Eßig
