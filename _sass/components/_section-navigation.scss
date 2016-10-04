@@ -26,6 +26,23 @@
 
         transition: all 0.5s;
 
+        ul {
+            margin-bottom: 0.8em;
+                
+            li {
+                padding-left: 1em;
+                position: relative;
+                font-size: 0.8em;
+
+                &:before {
+                    content: '•';
+                    position: absolute;
+                    left: 0;
+                    top: -0.22em;
+                }
+            } 
+        }
+
         a {
             text-decoration: none;
             color: $colour-primary;

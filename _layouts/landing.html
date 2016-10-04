@@ -31,6 +31,15 @@ layout: generic
 	    		{% if item.parent == page.title %}
 	    			<li>
 	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
+	    				<ul>
+	    					{% for sub in site.posts %}
+	    						{% if item.title == sub.parent %}
+	    							<li>
+	    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content">{{ sub.title }}</a>
+	    							</li>
+	    						{% endif %}
+	    					{% endfor %}
+	    				</ul>
 	    			</li>
 	    		{% endif %}
 	    	{% endfor %}
@@ -45,14 +54,16 @@ layout: generic
 			{% if item.parent == page.title %}
 				<section id="{{ item.url | remove: '/' }}" class="main-section">
 					<h2>{{ item.title }}</h2>
-					{% if item.description %}
-						<section class="introduction">
-							<p>
-								{{ item.description }}
-							</p>
-						</section>
-					{% endif %}
-					{{ item.content | markdownify }}
+						<section id="{{ item.url | remove: '/' }}-content">
+						{% if item.description %}
+							<section class="introduction">
+								<p>
+									{{ item.description }}
+								</p>
+							</section>
+						{% endif %}
+						{{ item.content | markdownify }}
+					</section>
 				</section>
 			{% endif %}
 		{% endfor %}
