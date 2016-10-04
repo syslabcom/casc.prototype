@@ -5,7 +5,7 @@ name: akademische_leitung
 description: Die akademische Leitung des MBA-Studiengangs haben die Universitätsprofessoren Michael Eßig und Bernhard Hirsch inne.
 category: mba-public-management
 tagline: Unser Service
-image: 2.jpg
+image: /media/2.jpg
 parent: MBA Public Management
 ---
 

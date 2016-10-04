@@ -5,7 +5,7 @@ name: esa_jrc_international_summerschool
 description: Die Universität der Bundeswehr München und das Weiterbildungsinstitut casc (campus advanced studies center) haben im Auftrag der European Space Agency (ESA) und des Joint Research Center (JRC) der European Union die ESA/JRC International Summerschool on GNSS in Kooperation mit der Universität Graz, der Stanford University (USA) und dem Institut Supérieur de l'Aéronautique et de l'Espace (iSAE SUPAERO) in Ispra, Italien, vom 18. bis 29. Juli 2016 federführend veranstaltet.
 category: aktuelles
 tagline: Unser Service
-image: 4.jpg
+image: /media/4.jpg
 parent: MBA Public Management
 ---
 

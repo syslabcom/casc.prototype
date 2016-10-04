@@ -4,6 +4,12 @@ layout: generic
 
 <div class="container">
 	<article class="pat-rich" id="main-content">
+		<h2>
+			<a href="parent-url-goes-here#{{ parent.url | remove: '/' }}#{{ parent.url | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
+		</h2>
+		<h3>
+			{{ page.title }}
+		</h3>
 		{{ content }}
 	</article>
 </div>

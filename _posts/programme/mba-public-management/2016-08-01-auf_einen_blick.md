@@ -5,7 +5,7 @@ name: auf_einen_blick
 description: Dauer des Programms - 2 Jahre und 3 Monate
 category: mba-public-management
 tagline: Unser Service
-image: 2.jpg
+image: /media/2.jpg
 parent: MBA Public Management
 ---
 

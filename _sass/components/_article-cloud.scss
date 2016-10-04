@@ -1,0 +1,22 @@
+.article-cloud {
+	a {
+		text-decoration: none;
+		
+		img {
+			filter: grayscale(1);
+			transition: all 0.3s;
+		}
+
+		&:hover {
+			img {
+				filter: grayscale(0);
+			}
+		}
+
+		.title {
+			font-size: 0.8em;
+			line-height: 1.4;
+			color: gray;
+		}
+	}
+}

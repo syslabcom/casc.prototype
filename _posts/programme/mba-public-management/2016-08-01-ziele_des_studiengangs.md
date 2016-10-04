@@ -5,7 +5,7 @@ name: ziele_des_studiengangs
 description: Der weiterbildende MBA-Studiengang Public Management vermittelt auf wissenschaftlicher Basis Managementkompetenzen für öffentliche Institutionen, insbesondere in den Fachbereichen des öffentlichen Controllings und Beschaffungswesens.
 category: mba-public-management
 tagline: Unser Service
-image: pi-profile.jpg
+image: "/media/pi-profile.jpg"
 parent: MBA Public Management
 ---
 

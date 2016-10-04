@@ -73,10 +73,16 @@ layout: generic
 								</p>
 							</section>
 						{% endif %}
-						{{ item.content | markdownify }}
+						
 						{% if item.title == 'Team' %}
 							{% include people-cloud.html %}
 						{% endif %}
+
+						{% if item.title == 'MBA Public Management' %}
+							{% include article-cloud.html %}
+						{% endif %}
+
+						{{ item.content | markdownify }}
 					</section>
 				</section>
 			{% endif %}

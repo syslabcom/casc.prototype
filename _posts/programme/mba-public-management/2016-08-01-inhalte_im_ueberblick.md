@@ -5,7 +5,7 @@ name: inhalte_im_ueberblick
 description: Der Studiengang umfasst drei Phasen mit folgenden Schwerpunkten.
 category: mba-public-management
 tagline: Unser Service
-image: pi-profile.jpg
+image: /media/pi-profile.jpg
 parent: MBA Public Management
 ---
 
