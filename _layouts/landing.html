@@ -74,6 +74,9 @@ layout: generic
 							</section>
 						{% endif %}
 						{{ item.content | markdownify }}
+						{% if item.title == 'Team' %}
+							{% include people-cloud.html %}
+						{% endif %}
 					</section>
 				</section>
 			{% endif %}

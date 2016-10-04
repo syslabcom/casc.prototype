@@ -1,0 +1,9 @@
+<ul>
+	{% for person in site.posts %}
+		{% if item.title == person.parent %}
+			<li>
+				<a href="{{ person.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content">{{ person.title }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+</ul>
