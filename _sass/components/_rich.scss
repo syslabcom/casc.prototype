@@ -30,6 +30,14 @@
     h5,
     h6 {
 
+        a {
+            text-decoration: none;   
+           
+            &:before {
+                margin: 0;
+                text-align: left;
+            }
+        }
     }
 
     h1 {
@@ -37,10 +45,6 @@
         font-size: 1.75em;
         line-height: 1.5 * $baseline;
         margin: 0 0 0.5 * $baseline 0;
-
-        &:first-letter {
-            text-transform: capitalize;
-        }
 
         @include screen-size(small) {
             font-size: 1.6em;
@@ -55,6 +59,10 @@
         font-weight: bold;
         line-height: $baseline;
         color: $colour-accent;
+
+        a {
+            color: $colour-accent;
+        }
 
         @include screen-size(small) {
             font-size: 1.4em;

@@ -53,6 +53,24 @@
       "src": "fontawesome"
     },
     {
+      "uid": "d870630ff8f81e6de3958ecaeac532f2",
+      "css": "left-open",
+      "code": 59472,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f3f90c8c89795da30f7444634476ea4f",
+      "css": "angle-left",
+      "code": 59473,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8933c2579166c2ee56ae40dc6a0b4dc6",
+      "css": "angle-circled-left",
+      "code": 61751,
+      "src": "fontawesome"
+    },
+    {
       "uid": "035e394027c7a3c926d8c485ffe07de1",
       "css": "slides",
       "code": 59416,

@@ -45,7 +45,7 @@ layout: generic
 		    					{% for sub in site.posts %}
 		    						{% if item.title == sub.parent %}
 		    							<li>
-		    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}-content">{{ sub.title }}</a>
+		    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}">{{ sub.title }}</a>
 		    							</li>
 		    						{% endif %}
 		    					{% endfor %}
@@ -56,7 +56,7 @@ layout: generic
 	    	{% endfor %}
 	    </ul>
 	</section>
-	<article class="pat-rich pat-bumper" id="main-content">
+	<article class="pat-rich" id="main-content">
 		<section class="main-section" id="overview">
 			{{ content }}
 		</section>
