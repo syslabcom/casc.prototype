@@ -1,6 +1,6 @@
 ---
 layout: programmes
-title: Weiterbildungsstudiengänge
+title: Programme
 nav_title: Programme
 name: programme
 description: Weiterbildungsstudiengänge der Universität der Bundeswehr München

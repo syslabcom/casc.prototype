@@ -6,7 +6,7 @@ description: "Der MBA-Studiengang International Management für Offiziere bereit
 category: MBA International Management
 tagline: 
 image:  /media/programme/casc_2.jpg
-parent: Weiterbildungsstudiengänge
+parent: Studiengänge
 ---
 
 ### MBA International Management für Offiziere

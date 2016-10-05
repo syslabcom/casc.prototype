@@ -6,7 +6,7 @@ description: "The Master of Arts – Program “International Security Studies�
 category: International Security Studies
 tagline: 
 image: pi-profile.jpg
-parent: Weiterbildungsstudiengänge
+parent: Studiengänge
 ---
 
 ### The Master in International Security Studies (MISS)
