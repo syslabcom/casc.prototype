@@ -1,5 +1,5 @@
 ---
-layout: certifikate
+layout: zertifikate
 title: Studiengänge
 name: studiengaenge
 description: Im Weiterbildungsbereich der Universität der Bundeswehr München sind derzeit folgende Studiengänge im Angebot. 

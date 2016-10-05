@@ -6,10 +6,9 @@ description: "Spezialisierungsprogramm mit Zertifikatabschluss"
 category: Certificate Compliance Manager
 tagline: 
 image:  /media/programme/casc_7.jpg
-parent: Certifikate
+parent: Zertifikate
+backlink: "/programme#zertifikate"
 ---
-
-### Compliance Manager/in (univ.) - Spezialisierungsprogramm mit Zertifikatabschluss
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 

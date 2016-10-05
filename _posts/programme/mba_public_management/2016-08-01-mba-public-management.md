@@ -7,9 +7,8 @@ category: MBA Public Management
 tagline: 
 image:  /media/programme/casc_3.jpg
 parent: Studiengänge
+backlink: "/programme#studiengaenge"
 ---
-
-### MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 

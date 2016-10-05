@@ -7,9 +7,8 @@ category: Personalentwicklung
 tagline: 
 image:  /media/programme/casc_4.jpg
 parent: Studiengänge
+backlink: "/programme#studiengaenge"
 ---
-
-### Masterstudiengang "Personalentwicklung" (M.A.)
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 

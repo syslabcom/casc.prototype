@@ -7,9 +7,8 @@ category: MBA International Management
 tagline: 
 image:  /media/programme/casc_2.jpg
 parent: Studiengänge
+backlink: "/programme#studiengaenge"
 ---
-
-### MBA International Management für Offiziere
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 

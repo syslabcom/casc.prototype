@@ -7,9 +7,8 @@ category: International Security Studies
 tagline: 
 image: /media/programme/casc_3.jpg
 parent: Studiengänge
+backlink: "/programme#studiengaenge"
 ---
-
-### The Master in International Security Studies (MISS)
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 
