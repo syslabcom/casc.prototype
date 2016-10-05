@@ -1,10 +1,12 @@
-<div class="row article-cloud pat-equaliser">
+<ul class="article-cloud">
 	{% for article in site.posts %}
 		{% if item.title == article.parent %}
-			<a  href="{{ article.url }}" class="pat-inject three columns" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}" class="four columns">
-				<img src="{{ article.image }}" alt="{{ article.title }}" />
-				<h4 class="title">{{ article.title }}</h4>
-			</a>
+			<li>
+				<a  href="{{ article.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}" class="four columns">
+					<img src="{{ article.image }}" alt="{{ article.title }}" />
+					<strong class="label">{{ article.title }}</strong>
+				</a>
+			</li>
 		{% endif %}
 	{% endfor %}
-</div>
+</ul>
