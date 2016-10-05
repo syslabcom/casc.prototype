@@ -6,7 +6,7 @@ description: "8-tägiger Intensivkurs zu Netz-, System- und Softwaresicherheit"
 category: Zertifikat IT Sicherheit
 tagline: 
 image:  /media/programme/casc_8.jpg
-parent: Weiterbildungsstudiengänge
+parent: Certifikate
 ---
 
 ### Basis-Zertifikat IT-Sicherheit - 8-tägiger Intensivkurs zu Netz-, System- und Softwaresicherheit

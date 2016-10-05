@@ -6,7 +6,7 @@ description: "Masterstudiengang Personalentwicklung (M.A.)"
 category: Personalentwicklung
 tagline: 
 image:  /media/programme/casc_4.jpg
-parent: Weiterbildungsstudiengänge
+parent: Studiengänge
 ---
 
 ### Masterstudiengang "Personalentwicklung" (M.A.)

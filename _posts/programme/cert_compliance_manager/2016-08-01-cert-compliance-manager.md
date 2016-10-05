@@ -6,7 +6,7 @@ description: "Spezialisierungsprogramm mit Zertifikatabschluss"
 category: Certificate Compliance Manager
 tagline: 
 image:  /media/programme/casc_7.jpg
-parent: Weiterbildungsstudiengänge
+parent: Certifikate
 ---
 
 ### Compliance Manager/in (univ.) - Spezialisierungsprogramm mit Zertifikatabschluss

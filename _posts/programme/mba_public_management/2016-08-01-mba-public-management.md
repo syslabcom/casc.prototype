@@ -6,7 +6,7 @@ description: "MBA Public Management mit den Schwerpunkten Öffentliches Controll
 category: MBA Public Management
 tagline: 
 image:  /media/programme/casc_3.jpg
-parent: Weiterbildungsstudiengänge
+parent: Studiengänge
 ---
 
 ### MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung

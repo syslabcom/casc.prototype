@@ -6,7 +6,7 @@ description: "Der praxisorientierte Studiengang mit und ohne Abitur für Feldweb
 category: Zertifikat IT Sicherheit
 tagline: 
 image:  /media/programme/casc_6.jpg
-parent: Weiterbildungsstudiengänge
+parent: Studiengänge
 ---
 
 ### Bachelorstudiengang Wirtschaftsingenieurwesen (B.Eng.)

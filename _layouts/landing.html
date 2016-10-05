@@ -56,36 +56,44 @@ layout: generic
 	    	{% endfor %}
 	    </ul>
 	</section>
-	<article class="pat-rich pat-bumper" id="main-content">
-		<section class="main-section" id="overview">
-			{{ content }}
-		</section>
+	<div class="pat-bumper" id="main-content">
+		<article class="pat-rich">
+			<section class="main-section" id="overview">
+				{{ content }}
+			</section>
+		</article>
 		
 		{% for item in site.posts %}
 			{% if item.parent == page.title %}
-				<section id="{{ item.url | remove: '/' }}" class="main-section">
-					<h2>{{ item.title }}</h2>
-						<section id="{{ item.url | remove: '/' }}-content">
-						{% if item.description %}
-							<section class="introduction">
-								<p>
-									{{ item.description }}
-								</p>
-							</section>
-						{% endif %}
+				<div id="{{ item.url | remove: '/' }}" class="main-section">
+					<div id="{{ item.url | remove: '/' }}-content">
+						<article class="pat-rich">
+							<h2>{{ item.title }}</h2>
+							{% if item.description %}
+								<section class="introduction">
+									<p>
+										{{ item.description }}
+									</p>
+								</section>
+							{% endif %}
+
+							{{ item.content | markdownify }}
+						</article>
 						
 						{% if item.title == 'Team' %}
 							{% include people-cloud.html %}
 						{% endif %}
 
-						{% if item.title == 'MBA Public Management' %}
+						{% if item.title == 'Studiengänge' %}
 							{% include article-cloud.html %}
 						{% endif %}
 
-						{{ item.content | markdownify }}
-					</section>
-				</section>
+						{% if item.title == 'Certifikate' %}
+							{% include article-cloud.html %}
+						{% endif %}
+					</div>
+				</div>
 			{% endif %}
 		{% endfor %}
-	</article>
+	</div>
 </div>
