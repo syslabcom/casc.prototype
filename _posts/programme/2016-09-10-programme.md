@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: programmes
 title: Weiterbildungsstudiengänge
 nav_title: Programme
 name: programme

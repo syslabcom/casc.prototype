@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: programme
 title: MBA Public Management
 name: mba_public_management
 description: "MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung"

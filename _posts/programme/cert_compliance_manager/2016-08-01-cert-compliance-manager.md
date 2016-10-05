@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: programme
 title: Compliance Manager/in (univ.)
 name: compliance_manager
 description: "Spezialisierungsprogramm mit Zertifikatabschluss"

@@ -14,7 +14,7 @@
                     <a id="faculty" href="/" class="faculty-casc">casc</a>
                     <nav class="site-sections">
                         {% for item in site.posts %}
-                            {% if item.layout == 'landing' or item.layout == 'news' %}
+                            {% if item.layout == 'landing' or item.layout == 'news' or item.layout == 'programmes' %}
                                 <a href="{{ item.url }}" class="{% if item.url == page.url %}current{% endif %}">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}

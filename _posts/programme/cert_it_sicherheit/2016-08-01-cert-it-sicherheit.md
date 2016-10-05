@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: programme
 title: Basis-Zertifikat IT-Sicherheit
 name: it_sicherheit
 description: "8-tägiger Intensivkurs zu Netz-, System- und Softwaresicherheit"

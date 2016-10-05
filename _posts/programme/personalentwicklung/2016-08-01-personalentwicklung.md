@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: programme
 title: Masterstudiengang Personalentwicklung 
 name: personalentwicklung
 description: "Masterstudiengang Personalentwicklung (M.A.)"

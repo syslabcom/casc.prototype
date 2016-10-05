@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: programme
 title: Bachelorstudiengang Wirtschaftsingenieurwesen (B.Eng.)
 name: wirtschaftsingenieur
 description: "Der praxisorientierte Studiengang mit und ohne Abitur für Feldwebel. Ein maßgeschneidertes Programm der Hochschule Reutlingen und der Universität der Bundeswehr München."
