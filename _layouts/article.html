@@ -5,7 +5,15 @@ layout: generic
 <div class="container" id="main-content">
 	<article class="pat-rich">
 		<h2>
-			<a href="{{ page.backlink | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
+        {% for post in site.posts %}
+            {% if post.title == page.parent %}
+                {% for parents in site.posts %}
+                    {% if parents.title == post.parent %}
+			             <a href="{{ parents.url | remove: '/' }}#{{ post.id | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
 		</h2>
 		<h3>
 			{{ page.title }}
