@@ -1,34 +1,48 @@
 #site-header {
-    background-color: $colour-primary;
-    color: white;
+    background-color: rgba(255,255,255,1);
+    color: $colour-primary;
     padding: 0.5em 0;
     @include clear-fix;
     height: 31px;
-    position: -webkit-sticky;
-    position: -moz-sticky;
-    position: sticky;
-    top: 0;
     z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    padding-top: 80px;
+    transition: all 1s;
+
+    .bumped & {
+        position: fixed;
+        top: 0;
+        padding-top: 0.5em;
+    }
 
     #site-search {
         float: right;
 
         input {
             &::-webkit-input-placeholder { 
-              color: rgba(255,255,255,0.5); 
+              color: rgba(0,0,0,0.3); 
             }
 
             &::-moz-placeholder { 
-              color: rgba(255,255,255,0.5); 
+              color: rgba(0,0,0,0.3); 
             } /* firefox 19+ */
 
             &:-ms-input-placeholder { 
-              color: rgba(255,255,255,0.5); 
+              color: rgba(0,0,0,0.3); 
             } /* ie */
 
             &input:-moz-placeholder { 
-              color: rgba(255,255,255,0.5); 
+              color: rgba(0,0,0,0.3); 
             }
+        }
+    }
+
+    &.bumped {
+        #global-navigation {
+            position: fixed;
         }
     }
 
@@ -36,7 +50,7 @@
         @include clear-fix;
 
         a {
-            color: rgba(255,255,255,1);
+            color: $colour-primary;
             text-decoration: none;
             float: left;
             margin-right: 1em;
@@ -64,7 +78,7 @@
                 &:before {
                     content: '#{$glyph-logo-casc}';
                     font-family: fontello;
-                    color: white;
+                    color: $colour-primary;
                     font-size: 1.6em;
                     position: absolute;
                 }

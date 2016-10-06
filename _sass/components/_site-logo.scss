@@ -1,10 +1,11 @@
 #home {
 	position: absolute;
 	left: 50%;
-	top: 5px;
 	transform: -webkit-translateX(-50%);
 	transform: -moz-translateX(-50%);
 	transform: translateX(-50%);
+	z-index: 10000;
+	top: -80px;
 
 	a {
 
