@@ -2,7 +2,7 @@
 layout: news-item
 title: Neuer YouTube-Kanal der UniBw München
 name: youtube_kanal
-description: Videos der casc Weiterbildungsstudiengänge können auf dem YouTube-Kanal der Universität der Bundeswehr München angeschaut werden. Wir freuen uns auf zahlreiche Klicks und Abonenntinnen und Abonennten!
+description: "Videos der casc Weiterbildungsstudiengänge können auf dem YouTube-Kanal der Universität der Bundeswehr München angeschaut werden. Wir freuen uns auf zahlreiche Klicks und Abonenntinnen und Abonennten!"
 category: aktuelles
 tagline: Unser Service
 image: /media/16.jpg
