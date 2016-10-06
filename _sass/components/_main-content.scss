@@ -9,17 +9,17 @@
     	transition: padding-top 1s;
         // min-height: 100%;
 
-    	&#overview {
-    		padding-top: 0;
-    	}
+    	// &#overview {
+    	// 	padding-top: 0;
+    	// }
     }
 
-    &.bumped {
-    	.main-section {
+    // &.bumped {
+    // 	.main-section {
 
-    		&#overview {
-    			padding-top: 8rem;
-    		}
-    	}
-    }
+    // 		&#overview {
+    // 			padding-top: 8rem;
+    // 		}
+    // 	}
+    // }
 }
