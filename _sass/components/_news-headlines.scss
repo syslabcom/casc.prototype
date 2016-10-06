@@ -1,0 +1,24 @@
+#news-headlines {
+	padding-top: 1em;
+	margin-bottom: 2em;
+
+	.headline-tile {
+		float: left;
+		width: 50%;
+		background-size: cover;
+		position: relative;
+
+		img {
+			opacity: 0;
+		}
+
+		figcaption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 1em;
+			z-index: 1;
+			color: white;
+		}
+	}
+}
