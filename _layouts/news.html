@@ -26,41 +26,21 @@ layout: generic
 		</figure>
 	</div>
 	<div class="news-items pat-equaliser row">
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile three columns">
-			<img style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image_thumb);" src="/media/placeholder-16x9.png" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
+		{% for item in site.posts %}
+			{% if item.layout == 'news-item' %}
+				<figure class="headline-tile three columns">
+					<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
+					<figcaption>
+						<h3>
+							{{ item.title }}
+						</h3>
+						<p class="summary">
+							{{ item.description }}
+						</p>
+					</figcaption>
+				</figure>
+			{% endif %}
+		{% endfor %}
 		</figure>
 	</div>
 </div>
