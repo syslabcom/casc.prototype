@@ -2,9 +2,10 @@
     z-index: 10;
     margin-left: 25%;
     position: relative;
-    transition: margin-left 0.5s;
+    transition: margin 0.5s;
     // background: pink;
     width: 25%;
+    margin-bottom: -8rem;
 
     &.bumped {
         margin-left: 0%;

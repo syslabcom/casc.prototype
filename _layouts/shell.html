@@ -15,7 +15,7 @@
                     <nav class="site-sections">
                         {% for item in site.posts %}
                             {% if item.layout == 'landing' or item.layout == 'news' or item.layout == 'programmes' %}
-                                <a href="{{ item.url }}" class="{% if item.url == page.url %}current{% endif %}">{{ item.nav_title }}</a>
+                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}" class="{% if item.url == page.url %}current pat-scroll{% endif %}">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}
                     </nav>
