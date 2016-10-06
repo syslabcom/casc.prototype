@@ -4,26 +4,26 @@ layout: generic
 
 {{ content }}
 
+{% assign count = 0 %}
+
 <div class="container">
 	<div id="news-headlines">
-		<figure class="headline-tile" style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image);">
-			<img src="https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile" style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image);">
-			<img src="https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
-		<figure class="headline-tile" style="background-image: url(https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image);">
-			<img src="https://www.unibw.de/casc/meldungen/neuer-jahrgang-im-master-personalentwicklung/image" alt="" />
-			<figcaption>
-				Caption
-			</figcaption>
-		</figure>
+		{% for item in site.posts %}
+			{% if item.layout == 'news-item' %}
+				<figure class="headline-tile" style="background-image: url({{ item.image }});">
+					<img src="{{ item.image }}" alt="" />
+					<figcaption>
+						<h3>
+							{{ item.title }}
+						</h3>
+						<p class="summary">
+							{{ item.description }}
+						</p>
+					</figcaption>
+				</figure>
+				
+			{% endif %}
+		{% endfor %}
 	</div>
 	<div class="news-items pat-equaliser row">
 		{% for item in site.posts %}
