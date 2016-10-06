@@ -3,10 +3,19 @@
 		font-size: 0.8em;
 		line-height: 1.4;
 		margin-bottom: 3rem;
+		float: left;
+
+		&.columns {
+			float: left;
+		}
 
 		.title {
 			font-size: 1em;
 			font-weight: bold;
+		}
+
+		.summary {
+			display: none;
 		}
 
 		img {
