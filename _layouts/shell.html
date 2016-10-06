@@ -15,7 +15,7 @@
                     <nav class="site-sections">
                         {% for item in site.posts %}
                             {% if item.layout == 'landing' or item.layout == 'news' or item.layout == 'programmes' %}
-                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}" class="{% if item.url == page.url %}current pat-scroll{% endif %}">{{ item.nav_title }}</a>
+                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}#main" class="pat-inject {% if item.url == page.url %}current-section pat-scroll{% endif %}">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}
                     </nav>
@@ -38,6 +38,10 @@
 
             <p id="home">
                 <a href="http://www.unibw.de">Universität der Bundeswehr München</a>
+            </p>
+
+            <p>
+                <a href="#main" class="pat-scroll" data-pat-scroll="trigger: auto; selector: #main">Back to top</a>
             </p>
         </div>
 
