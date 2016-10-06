@@ -5,7 +5,7 @@ name: master_personalentwicklung
 description: Am 1. April 2016 wurden die Studierenden von der akademischen Leiterin, Prof. Sigrid Rotering-Steinberg und der Präsidentin der Universität der Bundeswehr München, Prof. Merith Niehuss zum ersten Präsenzwochenende auf dem Campus willkommen geheißen..
 category: aktuelles
 tagline: Unser Service
-image: 11.jpg
+image: /media/11.jpg
 ---
 
 Die Studierendengruppe besteht in diesem Jahr aus Berufstätigen der freien Wirtschaft, ausscheidenden Zeitoffizieren sowie zivilen Mitarbeitern der Universität der Bundeswehr München. Sie alle nutzen die Chance einer hochkarätigen akademischen Weiterbildung und werden den Master "Personalentwicklung" innerhalb von 2 Jahren und 3 Monaten berufsbegleitend ablegen.
