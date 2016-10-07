@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: article
 title: Antragsformular
 nav_title: Antragsformular
 name: programme
