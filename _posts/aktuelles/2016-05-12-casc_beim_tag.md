@@ -5,7 +5,7 @@ name: casc_beim_tag
 description: Karriereförderung als Teil des bunten Programms beim Tag der offenen Tür auf dem Campus der Universität der Bundeswehr München am 11. Juni 2016.
 category: aktuelles
 tagline: Unser Service
-image: /media/5.jpg
+image: /media/news/news_5.jpg
 ---
 
 Die Universität der Bundeswehr München öffnet im Rahmen des bundesweiten „Tag der Bundeswehr“ am Samstag, den 11. Juni 2016 von 10:00 - 18:00 Uhr die Türen aller Institute und Labore und bietet den Besuchern mit Vorträgen, Mitmach-Experimenten und Campusführungen ein buntes Programm rund um spannende Forschungsprojekte.
