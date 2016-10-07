@@ -1,10 +1,10 @@
-.news-items {
+.news-list {
 	.headline-tile {
 		font-size: 0.7em;
 		line-height: 1.4;
-		margin-bottom: 3rem;
 		color: $colour-primary;
 		text-decoration: none;
+		@include clear-fix;
 
 		&:hover {
 			text-decoration: underline;
@@ -24,9 +24,20 @@
 			display: none;
 		}
 
-		img {
-			background-size: cover;
-			margin-bottom: 0.5em;
+		figure {
+			padding-left: 40%;
+			@include box-sizing;
+			clear: both;
+			margin-bottom: 1rem;
+
+			img {
+				background-size: cover;
+				margin-bottom: 0.5em;
+
+			float: left;
+			margin-left: -40%;
+			width: 38%;
+			}
 		}
 	}
 }

@@ -4,23 +4,14 @@ parent: Aktuelles
 ---
 
 <div class="container">
+	<article class="pat-rich row">
+		<h1 class=" eight columns">
+			{{ page.title }}
+		</h1>
+	</article>
 	<div class="row">	
 		<div class="eight columns">
 			<article class="pat-rich news-item">
-				<p>
-		        {% for post in site.posts %}
-		            {% if post.title == page.parent %}
-		                {% for parents in site.posts %}
-		                    {% if parents.title == post.parent %}
-					             <a href="{{ parents.url | remove: '/' }}#main" class="pat-inject icon-angle-left">{{ page.parent }}</a>
-		                    {% endif %}
-		                {% endfor %}
-		            {% endif %}
-		        {% endfor %}
-				</p>
-				<h1>
-					{{ page.title }}
-				</h1>
 				<figure class="news-hero">
 					<img src="{{ page.image }}" alt="" />
 					<figcaption>
