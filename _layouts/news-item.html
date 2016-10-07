@@ -26,7 +26,7 @@ parent: Aktuelles
 			<div class="news-list">
 				{% for item in site.posts %}
 					{% if item.layout == 'news-item' %}
-						{% if count_old > 3 %}
+						{% unless page.url == item.url %}
 							<a href="{{ item.url }}" class="headline-tile">
 								<figure>
 									<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
@@ -40,8 +40,7 @@ parent: Aktuelles
 									</figcaption>
 								</figure>
 							</a>
-						{% endif %}
-						{% assign count_old = count_old | plus: 1 %}
+						{% endunless %}					
 					{% endif %}
 				{% endfor %}
 			</div>
