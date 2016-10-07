@@ -104,20 +104,20 @@
 // Mixins for individual components
 
 @mixin injection() {
-  .injecting {
-    * {
-        opacity: 0.19;
-      }
+  .injecting:not(.discrete-injection) {
+    > * {
+      opacity: 0.19;
+    }
 
     &.injecting-after *,
     &.injecting-content-after * {
       opacity: inherit;
     }
-  }
-
-  .injecting:before {
-    @include throbber();
-  }
+    
+    &:before {
+      @include throbber();
+    }
+  }  
 }
 
 @mixin pat-rich() {
