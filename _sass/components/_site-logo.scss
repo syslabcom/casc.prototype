@@ -1,13 +1,15 @@
 #home {
-	position: fixed;
+	position: absolute;
 	left: 50%;
 	transform: -webkit-translateX(-50%);
 	transform: -moz-translateX(-50%);
 	transform: translateX(-50%);
-	z-index: 10000;
-	transition: all 2s;
-	top: 5px;
+	z-index: 1;
+	transition: all 1s;
+	top: -80px;
 	opacity: 1;
+	height: 70px;
+	overflow: hidden;
 
 	.bumped & {
 		top: -50px;

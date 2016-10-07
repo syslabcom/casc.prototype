@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     position: fixed;
-    padding-top: 80px;
+    padding-top: 85px;
     transition: all 1s;
 
     .bumped & {
@@ -50,6 +50,12 @@
         @include clear-fix;
         position: relative;
         height: 36px;
+
+        .site-sections {
+            position: relative;
+            z-index: 2;
+            float: left;
+        }
 
         &:after {
             content: ' ';
