@@ -45,6 +45,7 @@
         font-size: 1.75em;
         line-height: 1.5 * $baseline;
         margin: 0 0 0.5 * $baseline 0;
+        color: black;
 
         @include screen-size(small) {
             font-size: 1.6em;
