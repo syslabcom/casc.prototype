@@ -10,6 +10,7 @@ layout: generic
                 {% for parents in site.posts %}
                     {% if parents.title == post.parent %}
 			             <a href="{{ parents.url | remove: '/' }}#{{ post.id | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
+			             <a hidden href="#{{ post.id | remove: '/' }}" class="pat-scroll" data-pat-scroll="trigger: auto;">Back to top</a>
                     {% endif %}
                 {% endfor %}
             {% endif %}
@@ -19,9 +20,5 @@ layout: generic
 			{{ page.title }}
 		</h3>
 		{{ content }}
-
-		<p hidden>
-		    <a href="#{{ post.id | remove: '/' }}" class="pat-scroll" data-pat-scroll="trigger: auto;">Back to top</a>
-		</p>
 	</article>
 </div>
