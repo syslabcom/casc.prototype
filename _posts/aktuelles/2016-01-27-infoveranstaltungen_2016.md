@@ -5,7 +5,7 @@ name: infoveranstaltungen_2016
 description: Informieren Sie sich über unsere Studiengänge und Ihre Karrierechancen mit den casc-Weiterbildungsprogrammen.
 category: aktuelles
 tagline: Unser Service
-image: /media/15.jpg
+image: /media/news/news_15.jpg
 ---
 
 Auch in diesem Jahr sind wir auf den folgenden BFD-Karrieremesseveranstaltungen mit einem Infostand vor Ort:

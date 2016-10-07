@@ -5,6 +5,7 @@ layout: generic
 {{ content }}
 
 {% assign count = 1 %}
+{% assign count_old = 1 %}
 
 <div class="container">
 	<div id="news-headlines">
@@ -30,20 +31,22 @@ layout: generic
 	<div class="news-items pat-equaliser row">
 		{% for item in site.posts %}
 			{% if item.layout == 'news-item' %}
-				<a href="{{ item.url }}" class="headline-tile three columns">
-					<figure>
-						<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
-						<figcaption>
-							<h3 class="title">
-								{{ item.title }}
-							</h3>
-							<p class="summary">
-								{{ item.description }}
-							</p>
-						</figcaption>
-					</figure>
-				</a>
-				{% assign count = count | plus: 1 %}
+				{% if count_old > 3 %}
+					<a href="{{ item.url }}" class="headline-tile three columns">
+						<figure>
+							<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
+							<figcaption>
+								<h3 class="title">
+									{{ item.title }}
+								</h3>
+								<p class="summary">
+									{{ item.description }}
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+				{% endif %}
+				{% assign count_old = count_old | plus: 1 %}
 			{% endif %}
 		{% endfor %}
 		</figure>

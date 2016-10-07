@@ -5,7 +5,7 @@ name: studium_für_feldwebel
 description: Im Bachelor-Studiengang Wirtschaftsingenieurwesen der Universität der Bundeswehr München und der Hochschule Reutlingen fiel am Samstag, den 2. April 2016, bereits für den vierten Jahrgang in Folge der Startschuss.
 category: aktuelles
 tagline: Unser Service
-image: /media/13.jpg
+image: /media/news/news_13.jpg
 ---
 
 Die Teilnehmerinnen und Teilnehmer beginnen nun mit der Vorbereitungsphase, einem halbjährigen, eigens für das Bachelor-Studium konzipierten Fachkurs in den Fächern Mathematik, Englisch und Physik, der noch während der Dienstzeit absolviert wird. „Hier wird in Mathematik tatsächlich mit den Grundlagen angefangen“, berichtet Eugen Kalitka, Teilnehmer im neuen Jahrgang.
