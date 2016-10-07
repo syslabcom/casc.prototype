@@ -2,7 +2,7 @@
 	{% for article in site.posts %}
 		{% if item.title == article.parent %}
 			<li>
-				<a  href="{{ article.url }}" class="pat-inject pat-scroll" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}" data-pat-scroll="#{{ item.url | remove: '/' }}">
+				<a  href="{{ article.url | remove: '/'}}" class="pat-inject pat-scroll" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}" data-pat-scroll="#{{ item.url | remove: '/' }}">
 					<img src="{{ article.image }}" alt="{{ article.title }}" />
 					<strong class="label">{{ article.title }}</strong>
 				</a>

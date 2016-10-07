@@ -45799,6 +45799,9 @@ define('pat-scroll',[
                 // The intent is to move target into view within scrollable
                 // if the scrollable has no scrollbar, do not scroll body
                 var target = $(this.$el.attr('href'));
+                if (target.length === 0) {
+                    return;
+                }
                 scrollable = $(target.parents().filter(function() {
                     return ( $(this).css('overflow') === 'auto' ||
                              $(this).css('overflow') === 'scroll' );
