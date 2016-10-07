@@ -31,8 +31,29 @@ parent: Aktuelles
 				{{ content }}
 			</article>
 		</div>
-		<aside class="four columns">
-			
+		<aside class="four columns" id="sidebar-right">
+			<div class="news-list">
+				{% for item in site.posts %}
+					{% if item.layout == 'news-item' %}
+						{% if count_old > 3 %}
+							<a href="{{ item.url }}" class="headline-tile">
+								<figure>
+									<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
+									<figcaption>
+										<h3 class="title">
+											{{ item.title }}
+										</h3>
+										<p class="summary">
+											{{ item.description }}
+										</p>
+									</figcaption>
+								</figure>
+							</a>
+						{% endif %}
+						{% assign count_old = count_old | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+			</div>
 		</aside>
 	</div>
 </div>

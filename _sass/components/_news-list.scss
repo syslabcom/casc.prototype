@@ -1,0 +1,32 @@
+.news-items {
+	.headline-tile {
+		font-size: 0.7em;
+		line-height: 1.4;
+		margin-bottom: 3rem;
+		color: $colour-primary;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+			color: black;
+		}
+
+		&.columns {
+			float: left;
+		}
+
+		.title {
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		.summary {
+			display: none;
+		}
+
+		img {
+			background-size: cover;
+			margin-bottom: 0.5em;
+		}
+	}
+}
