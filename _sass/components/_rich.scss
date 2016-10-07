@@ -106,12 +106,35 @@
             color: rgba(0,0,0,0.5);
             font-size: 0.8em;
             padding: 0.5 * $baseline 0;
+            font-family: theserif;
+
             &:before {
                 content: 'Fig. ' counter(fig) ': ';
             }
         }
 
         counter-increment: fig;
+    }
+
+    &.news-item {
+        h1 {
+            font-size: 2em;
+            color: black;
+        }
+
+        figure {
+            margin-bottom: 0.5em;
+
+            figcaption {
+                font-size: 1.2em;
+                line-height: 1.4;
+                color: $colour-accent;
+
+                &:before {
+                    display: none;
+                }
+            }
+        }
     }
 
     img {
