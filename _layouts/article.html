@@ -19,5 +19,9 @@ layout: generic
 			{{ page.title }}
 		</h3>
 		{{ content }}
+
+		<p hidden>
+		    <a href="#{{ post.id | remove: '/' }}" class="pat-scroll" data-pat-scroll="trigger: auto;">Back to top</a>
+		</p>
 	</article>
 </div>
