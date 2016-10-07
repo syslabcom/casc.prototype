@@ -17,6 +17,8 @@
         position: relative;
         width: 100%;
         overflow: hidden;
+        background-color: $colour-support;
+        min-height: 15rem;
 
         &:before {
             content: ' ';
