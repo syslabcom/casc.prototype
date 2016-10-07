@@ -8,7 +8,7 @@
         <link rel="stylesheet" media="screen" type="text/css" href="/style/base.css"/>
     </head>
     <body class="{{ page.class }} layout-{{ page.layout }}">
-        <div id="main" class="pat-bumper discrete-injection">
+        <div id="main" class="pat-bumper">
             
             <div id="content">
                 {{ content }}
@@ -32,7 +32,7 @@
                     <nav class="site-sections">
                         {% for item in site.posts %}
                             {% if item.layout == 'landing' or item.layout == 'news' or item.layout == 'programmes' %}
-                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}#main" class="pat-inject {% if item.url == page.url %}current-section pat-scroll{% endif %}" data-pat-inject="history: record">{{ item.nav_title }}</a>
+                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}#content" class="pat-inject {% if item.url == page.url %}current pat-scroll{% endif %}" data-pat-inject="history: record">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}
                     </nav>
