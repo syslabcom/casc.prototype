@@ -107,6 +107,8 @@
                 color: transparent;
                 overflow: hidden;
                 width: 2em;
+                height: 1.6em;
+                line-height: 1;
 
                 &:before {
                     content: '#{$glyph-logo-casc}';
