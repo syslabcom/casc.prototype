@@ -32,7 +32,7 @@
                     <nav class="site-sections">
                         {% for item in site.posts %}
                             {% if item.layout == 'landing' or item.layout == 'news' or item.layout == 'programmes' %}
-                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}{% endif %}#content" class="pat-inject {% if item.url == page.url %}current pat-scroll{% endif %}" data-pat-inject="history: record">{{ item.nav_title }}</a>
+                                <a href="{% if item.url == page.url %}#main{% else %}{{ item.url }}#content{% endif %}" class="pat-inject {% if item.url == page.url %}current pat-scroll{% endif %}" data-pat-inject="history: record">{{ item.nav_title }}</a>
                             {% endif %}
                         {% endfor %}
                     </nav>
