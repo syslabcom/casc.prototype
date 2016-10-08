@@ -262,7 +262,7 @@
 @mixin pat-well() {
     color: rgba(0,0,0,0.6);
     padding: 1em;
-    background-color: #efefef;
+    background-color: $colour-well;
     margin-bottom: 2em;
     display: block;
 
