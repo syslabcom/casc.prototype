@@ -9,7 +9,9 @@ image: "/media/team-members/9.jpg"
 parent: Team
 ---
 
+**Frank Mouritz, M.A.**
+
 Programmkoordinator MISS
 
 - Telefon:  +49 8821 750 2444
-- E-Mail:  frank.mouritz@unibw.de
+- E-Mail:  <a href="frank.mouritz@unibw.de">"frank.mouritz@unibw.de"</a>
