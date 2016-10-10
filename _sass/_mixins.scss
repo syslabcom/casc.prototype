@@ -1,0 +1,9 @@
+@mixin container() {
+	@include screen-size(large) {
+    	max-width: 1170px;
+    }
+
+	    padding: 0 $container-padding;
+	    margin: 0 auto;
+	    @include box-sizing;
+}

@@ -1,5 +1,6 @@
 #page-header {
     width: 100%;
+    margin-bottom: 4rem;
 
     #hero-image {
         width: 100%;
@@ -17,6 +18,8 @@
         position: relative;
         width: 100%;
         overflow: hidden;
+        background-color: $colour-support;
+        // min-height: 15rem;
 
         &:before {
             content: ' ';
@@ -63,8 +66,6 @@
             width: 100%;
 
             .text {
-                margin-left: 25%;
-                margin-right: 5%;
                 font-size: 2em;
                 font-weight: 100;
                 line-height: 1.3em;
@@ -75,15 +76,28 @@
                              0 0 5px rgba(0,0,0,0.7);
                 position: relative;
                 font-family: theserif;
+            }
+        }
+    }
 
-                &:before {
-                    position: absolute;
-                    left: -1.5rem;
-                    top: 0;
-                    bottom: 0;
-                    width: 3px;
-                    content: ' ';
-                    background: $colour-accent;
+    &.has-sub-nav {
+        margin-bottom: 0;
+
+        #page-introduction {
+            #page-summary {
+                .text {
+                    margin-left: 25%;
+                    margin-right: 5%;
+
+                    &:before {
+                        position: absolute;
+                        left: -1.5rem;
+                        top: 0;
+                        bottom: 0;
+                        width: 3px;
+                        content: ' ';
+                        background: $colour-accent;
+                    }
                 }
             }
         }

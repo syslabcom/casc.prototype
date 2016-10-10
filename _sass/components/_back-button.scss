@@ -1,0 +1,10 @@
+.back-button {
+	a {
+		color: $colour-accent;
+		text-decoration: none;
+
+		&:hover {
+			color: darken($colour-accent, 10);
+		}
+	}
+}
