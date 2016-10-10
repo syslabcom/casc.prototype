@@ -9,17 +9,16 @@ image: pi-profile.jpg
 parent: Service
 ---
 
-#### Angebotsentwicklung 
 
 **Sie sind Professorin oder Professor an unserer Universität und möchten ein Weiterbildungsprogramm entwickeln? Sie sind in Ihrem Unternehmen, Ihrer Einrichtung oder Behörde für die Personalentwicklung verantwortlich und möchten Ihre Mitarbeiterinnen und Mitarbeiter auf einem speziellen Themengebiet weiterqualifizieren? Dann sind Sie bei uns genau richtig: Wir beraten und betreuen Sie kompetent von der Entwicklung über die Implementierung bis zur Durchführung Ihres Weiterbildungsangebots.**
 
 Die forschungsstarke Universität der Bundeswehr München arbeitet in der Innovationsregion München eng mit der Industrie und Wirtschaft zusammen. Die Schwerpunkte der Fakultäten in den Ingenieur-, Wirtschafts- und Gesellschaftswissenschaften machen es möglich, themenspezifische, aber auch interdisziplinäre Weiterbildungsangebote maßgeschneidert nach den Bedürfnissen von Teilnehmerinnen und Teilnehmern sowie Unternehmen, Einrichtungen und Behörden zu kreieren. 
 
-##### Ihr Partner für maßgeschneiderte Weiterbildungsangebote
+### Ihr Partner für maßgeschneiderte Weiterbildungsangebote
 
 Im Prozess der Angebotsplanung, -realisierung und -verbesserung verstehen wir uns als Dienstleister, der Ihnen insbesondere eine administrativ-organisatorische Unterstützung entlang der gesamten Wertschöpfungskette der Weiterbildungsangebote anbietet. Dabei achten wir vor allem darauf, nachfrageorientierte Angebote am Weiterbildungsmarkt zu etablieren, die auf die Bedürfnisse der Teilnehmerinnen und Teilnehmern möglichst passgenau abgestimmt sind.
 
-##### Für jedes Angebot das richtige Format
+### Für jedes Angebot das richtige Format
 
 Für die strukturelle Gestaltung der Weiterbildungsangebote nutzt casc die Potenziale des Bologna-Prozesses und schöpft das gesamte Spektrum wissenschaftlicher Weiterbildung aus. Unsere Angebotsformen sind daher sehr vielfältig und richten sich nach dem Ziel, das Sie mit Ihrem Angebot verfolgen:
 

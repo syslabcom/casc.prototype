@@ -9,9 +9,8 @@ image: 5.jpg
 parent: Das Weiterbildungsinstitut casc
 ---
 
-#### Unser Anspruch
 
-##### Exzellente Betreuung
+### Exzellente Betreuung
 
 Sämtliche Programme verfügen über eine akademische Leitung, in der Regel ist dies eine Professorin bzw. ein Professor der Universität der Bundeswehr München.
 
@@ -19,7 +18,7 @@ Die Programmkoordination übernimmt administrativ-organisatorische Aufgaben und 
 
 Profitieren Sie von unserem bewährten Kleingruppenkonzept und unserer einzigartigen individuellen Betreuung. Wir begleiten und unterstützen Sie während Ihres gesamten Studiums und fördern Ihre persönliche und berufliche Entwicklung.
 
-##### Qualitätsverständnis
+### Qualitätsverständnis
 
 Die Qualität der Programme hat oberste Priorität. Alle Angebote entsprechen den Kriterien der Wissenschaftlichkeit, was durch die akademische Leitung der Programme und die Zusammensetzung des Lehrkörpers mit aktiv lehrenden Professorinnen und Professoren und externen Experten gewährleistet ist.
 
