@@ -1,5 +1,5 @@
 #news-headlines {
-	margin-top: 2em;
+	// margin-top: 2em;
 	margin-bottom: 2em;
 	position: relative;
 	overflow: hidden;
@@ -7,12 +7,17 @@
 	.headline-tile {
 		float: left;
 		width: 30%;
-		background-size: cover;
-		position: relative;
 		@include box-sizing;
 
-		img {
-			opacity: 0;
+		figure {
+			background-size: cover;
+			background-position: center center;
+			position: relative;
+			height: 100%;
+			
+			img {
+				opacity: 0;
+			}
 		}
 
 		.summary {

@@ -9,7 +9,7 @@
     left: 0;
     right: 0;
     position: fixed;
-    padding-top: 80px;
+    padding-top: 85px;
     transition: all 1s;
 
     .bumped & {
@@ -50,6 +50,13 @@
         @include clear-fix;
         position: relative;
         height: 36px;
+        line-height: 32px;
+
+        .site-sections {
+            position: relative;
+            z-index: 2;
+            float: left;
+        }
 
         &:after {
             content: ' ';
@@ -92,7 +99,7 @@
                     width: 100%;
                     left: 0;
                     right: 0;
-                    bottom: -12px
+                    bottom: -7px
 
                 }
             }
@@ -101,6 +108,8 @@
                 color: transparent;
                 overflow: hidden;
                 width: 2em;
+                // height: 1.6em;
+                // line-height: 1;
 
                 &:before {
                     content: '#{$glyph-logo-casc}';

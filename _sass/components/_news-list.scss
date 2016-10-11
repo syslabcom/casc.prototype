@@ -1,0 +1,44 @@
+.news-list {
+	.headline-tile {
+		font-size: 0.95em;
+		line-height: 1.4;
+		color: $colour-primary;
+		text-decoration: none;
+		@include clear-fix;
+
+		&:hover {
+			text-decoration: underline;
+			color: black;
+		}
+
+		&.columns {
+			float: left;
+		}
+
+		.title {
+			font-size: 1em;
+			font-weight: bold;
+		}
+
+		.summary {
+			display: none;
+		}
+
+		figure {
+			padding-left: 7.5rem;
+			clear: both;
+			margin-bottom: 1rem;
+
+			@include box-sizing;
+
+			img {
+				background-size: cover;
+				margin-bottom: 1rem;
+
+			float: left;
+			margin-left: -7.5rem;
+			width: 7rem;
+			}
+		}
+	}
+}

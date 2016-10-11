@@ -1,5 +1,49 @@
 ---
 layout: generic
+parent: Aktuelles
 ---
 
-{{ content }}
+<div class="container">
+	<article class="pat-rich row">
+		<h1 class=" eight columns">
+			{{ page.title }}
+		</h1>
+	</article>
+	<div class="row">	
+		<div class="eight columns">
+			<article class="pat-rich news-item">
+				<figure class="news-hero">
+					<img src="{{ page.image }}" alt="" />
+					<figcaption>
+						{{ page.description }}
+					</figcaption>
+				</figure>
+				
+				{{ content }}
+			</article>
+		</div>
+		<aside class="four columns" id="sidebar-right">
+			<div class="news-list">
+				{% for item in site.posts %}
+					{% if item.layout == 'news-item' %}
+						{% unless page.url == item.url %}
+							<a href="{{ item.url }}" class="headline-tile">
+								<figure>
+									<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
+									<figcaption>
+										<h3 class="title">
+											{{ item.title }}
+										</h3>
+										<p class="summary">
+											{{ item.description }}
+										</p>
+									</figcaption>
+								</figure>
+							</a>
+						{% endunless %}					
+					{% endif %}
+				{% endfor %}
+			</div>
+		</aside>
+	</div>
+</div>

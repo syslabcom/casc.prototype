@@ -10,7 +10,10 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 ---
 
-#### M.A. International Security Studies
+
+### The Master in International Security Studies (MISS)
+
+### M.A. International Security Studies
 
 **The Master of Arts in International Security Studies (MISS) is a unique post-graduate program for security professionals offered jointly by the Universität der Bundeswehr München (UniBwM) and the George C. Marshall European Center for Security Studies (GCMC). The one-year program is designed to prepare international military and civilian students with some years of professional experience for executive positions in the public and private sector.**
 
@@ -19,9 +22,11 @@ MISS participants profit from the particular strengths of the partnering institu
 Four different study concentrations – Regional Security, Counterterrorism, Cyber Security, and Countering Organized Crime – offer students an opportunity to deepen their understanding and develop professional networks in their specific area of expertise.
 
 The program is designed for full- and part-time studies and can be completed either as a twelve-month course starting in September or by attending modules individually over a duration of two years. The entire program takes place at the Marshall Center in Garmisch-Partenkirchen, a mountain resort in Southern Bavaria.
+
 The following pages will give you more information on career opportunities, program structure and admission requirements. If the website cannot answer all your questions or if you would like individual consultation please visit the contact section and reach out to the program leadership. We are always happy to help!
 
-#### Qualification und Career Prospects
+
+### Qualification und Career Prospects
 
 **The M.A. International Security Studies is an advanced training course which provides theoretical and practical knowledge in international relations, diplomacy and security policy to prepare students for executive position in the security community.**
 
@@ -30,77 +35,94 @@ The program offers young and mid-level professionals a post-graduate academic tr
 A master’s degree in International Security Studies qualifies you for various positions in the very diverse and complex field of international security. Students typically go to work in these sectors:
 
 * Government and Intelligence Agencies
+
 * International Governmental Organization
+
 * Non-Governmental Organizations
+
 * Private companies with a link to the security sector
 
-#### Targeted Audience
+### Targeted Audience
 
 **The MA program in international security studies is aimed at young practitioners from all sectors of the security community**
 
 * Officers at the end of their fixed term service (up to two years before discharge)
+
 * Serving officers as part of their advanced training
+
 * Civil servants in an early or mid-level of their career (Ministries, Police,  Government Agencies)
+
 * Civilians with some relevant work experience in the security sector   
 
-#### Six Good Reasons to Apply for the MA International Security Studies
+### Six Good Reasons to Apply for the MA International Security Studies
 
 * Join a policy-orientated program on a high academic level
+
 * You can profit from an international faculty of academics and practitioners with decades of professional expertise
+
 * The small class size of max. 15 students gives every student the chance to actively participate in the seminars 
+
 * You can study at the campus of an international security and defense studies institute alongside government officials from 110 countries
+
 * The vast alumni network gives you the opportunity to get in contact with security professionals in your country, region and area of interest
+
 * In your free-time, you can enjoy the unspoilt nature of Germany’s number one location for winter and alpine sports
 
-#### Student’s Voice
+### Student’s Voice
 „The Miss program provides you with an unprecedented access to military and civilian experts. The added value is that you spend time with highly experienced professionals that are in fact your fellow students. Apart from acquiring deep knowledge through the academic curriculum you gain hands on experience by being exposed to top experts almost 24/7”
 
-2013 graduate now working for the National Cyber Security Center of the Czech Republic
+2013 graduate now working for the National Cyber Security Center of the Czech Republic 
 
-#### Program Features
+
+### Program Features
 
 The MISS is a twelve-month program that consists of a common study period of four modules, an elective module, a concentration subject and a master thesis. For those professionals who are not able to take a sabbatical, the MISS is also offered on a part-time basis, where single modules can be completed individually over a period of two years.
 
-**Common Curriculum**
+#### Common Curriculum
 
-The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module **“Theories and Methods”**, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
+The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module “Theories and Methods”, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
 
 Subsequently, students attend the Marshall Center's Flagship Course, the <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pass-en.html">"Program in Advanced Security Studies"</a> (PASS). More than 100 international government officials participate in this eight-week foundation course, which makes it the perfect opportunity to exchange views and establish new contacts. The program consists of plenary lectures, small seminar discussion groups, expert panels, role-playing exercises, and a field study trip.
 
 In the course of the module **“Transnational and International Conflict”**, students delve deeper into security and conflict studies and learn to understand and analyze historical and current international conflicts by extending their methodological understanding of sociological, political, and historical approaches.
 
-The common curriculum concludes with a course in **"International Humanitarian Law",** which provides students with a thorough understanding of international treaties and agreements. Students will learn to deal with aspects of *jus ad bellum* as well as j*us in bello* and assess the relationships between international law and politics.
+The common curriculum concludes with a course in **"International Humanitarian Law"**, which provides students with a thorough understanding of international treaties and agreements. Students will learn to deal with aspects of +jus ad bellum+ as well as *jus in bello* and assess the relationships between international law and politics.
 
-**Elective**
+#### Elective
 
 In the second half of the study program students have to attend one out of two electives. 
 
 * **“Transnational Governance”** focuses on the effects of globalization on the governance-capacity of international organization and the role of the state in the international system
-* **“Security and Development”** examines the nexus of security and development in post-conflict settings
 
-**Study Concentration**
+
+* “Security and Development” examines the nexus of security and development in post-conflict settings
+
+#### Study Concentration
 
 Students have the chance to specialize in a specific area of security studies by choosing a study concentration. For this purpose four different Marshall Center residents programs are currently offered (for course descriptions please click on the links).
-Program on Terrorism and Security Studies (PTSS)
-Seminar on Regional Security (SRS)
-Countering Transnational Organized Crime (CTOC)
-Program on Cyber Security Studies (PCSS)
-Master Thesis
+
+* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-ptss-en.html">"Program on Terrorism and Security Studies"</a> (PTSS)
+* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-srs-en.html">"Seminar on Regional Security" </a>  (SRS)
+* <a href_"www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
+* <a href_"www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
+
+#### Master Thesis
+
 The program concludes with a 15,000 word Master Thesis.
 
-#### Teaching and Learning Style
+### Teaching and Learning Style
 
 The Master of Arts Program in International Security Studies is structured in separate modules. Modules last between two and eight weeks and either end with a 5000 word research paper or an oral examination. Classes during modules normally take place from Monday to Friday. In the time between modules students do not have to be present at the Marshall Center as this time is reserved for self-study (research paper, preparation for examinations). 
 
 This study structure has the advantage that part-time students do not have to be present over a long period of time for weekly classes, which makes the course accessible for student from abroad who can fly in and out for single modules. During their time off-campus students keep full access to resources and library databases via the e-learning platforms ILIAS and Globalnet.
 
 As the MISS program only accepts up to 15 students each year, teaching is conducted in small seminar groups. This gives our professors the chance to actively involve the students in the seminars and enables a close supervision. 
+
 The whole program has an overall workload of 60 ECTS credit points and is separated in modules of 5 up to 9 credit points each, which corresponds to 150 up to 270 working hours (presence time and self-study). 
 
-#### Modular Studies
-The modular structure of the program allows to attend single modules without having to finish the whole master program. Successful participants receive an official transcript from the Universität der Bundeswehr München in the amount of the respective ECTS credit points of the module. The obtained credit points can be applied towards degrees at other universities or if a student has attended and passed all modules under this scheme, he can be awarded with a master’s degree in International Security Studies from the Universität der Bundeswehr München if he also prepares a master thesis that meets the academic standards of the program.
+### Modular Studies
 
-FAQ
+The modular structure of the program allows to attend single modules without having to finish the whole master program. Successful participants receive an official transcript from the Universität der Bundeswehr München in the amount of the respective ECTS credit points of the module. The obtained credit points can be applied towards degrees at other universities or if a student has attended and passed all modules under this scheme, he can be awarded with a master’s degree in International Security Studies from the Universität der Bundeswehr München if he also prepares a master thesis that meets the academic standards of the program.
 
 **I only hold a three-year bachelor's degree. Am I eligible?**
 
@@ -134,17 +156,20 @@ Yes, the program is modularized and single modules can be taken individually.
 
 No, successful vetting through German and US authorities is mandatory.
 
-#### Application and Contacts
+
+### Application and Contacts
 
 **The application deadline for the regular start of the one year full time program is May 15th. For part-time or modular studies applications are accepted on a rolling basis.**
 
-Admission Process
-Admission occurs in three steps:
-Submission of an application by the applicant and verification of eligibility
-Invitation to an admission interview (also via phone)
-Offer of a seat in the program and enrollment via Firm Acceptance-Form
+#### Admission Process
 
-**Admission Requirements**
+Admission occurs in three steps:
+
+1. Submission of an application by the applicant and verification of eligibility
+2. Invitation to an admission interview (also via phone)
+3. Offer of a seat in the program and enrollment via Firm Acceptance-Form
+
+#### Admission Requirements
 
 Applicants must meet four requirements:
 
@@ -155,7 +180,7 @@ Applicants must meet four requirements:
 
 If you are unsure whether you meet the admission requirements you can contact the program coordinator for an individual documents check before submission. 
 
-**Application Documents**
+#### Application Documents
 
 Applications must include the following materials:
 
@@ -163,15 +188,15 @@ Applications must include the following materials:
 2. Certified copy (German or English) of higher education qualification certificate
 3. Certified copy (German or English) of university degree certificate (incl. transcript of records)
 4. Documents (German or English) attesting at least two years of qualified professional work experience
-5. Certificate of English language proficiency (Level B2, For more information see:  <a href="www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf">"http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf"</a>)
+5. Certificate of English language proficiency (Level B2, For more information see:  http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf )
 6. A letter of motivation (The applicant should explain why he is interested in this specific program and how he sees it contributing to his further career)
-7. A Curriculum Vitae (bio) listing all study courses hitherto completed by the applicant as well as a complete record of professional experience
+7. A *Curriculum Vitae (bio)* listing all study courses hitherto completed by the applicant as well as a complete record of professional experience
 
 **Please send your application to the Academic Coordinator:**
 
 Frank Mouritz M.A.
 Academic Coordinator
- 
+
 College of International and Security Studies
 George C. Marshall European Center for Security Studies
 Gernackerstrasse 02, D-82467 Garmisch Partenkirchen
@@ -179,7 +204,7 @@ Unit 24502, APO AE 09053-4502
 
 DSN: 314.440.2444
 Comm.: +49 8821 750 2444
-Email: <a href="Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a>
+Email:  <a href="Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a>
 
 What motivates me?
 
@@ -188,19 +213,14 @@ Prof. Dr. Ralf Roloff
 Program Director 
 
 
-Außerplanmäßiger Professor 
-Universität der Bundeswehr München 
-Institut für Politikwissenschaft 
-Werner-Heisenberg-Weg 39 
-D-85577 Neubiberg
-
+Außerplanmäßiger Professor Universität der Bundeswehr München Institut für Politikwissenschaft Werner-Heisenberg-Weg 39 D-85577 Neubiberg
 Senior German Professor and Director MISS 
 George C. Marshall European Center for Security Studies 
 College of International and Security Studies 
 Gernackerstraße 2 
 D-82467 Garmisch-Partenkirchen
 
-<a href="ralf.roloff@marshallcenter.org">Email "</a>
+<a href="ralf.roloff@marshallcenter.org">""Email"</a> 
 Tel.: +49 8821 750 2590 
 Fax: +49 8821 750 2688
 
@@ -208,26 +228,31 @@ What motivates me?
 
 As a student of literature, political science and history at the end of the 1980 I was fascinated that no one predicted the collapse of the Soviet Union and wanted to learn more about the reasons for this historic change. This is how I ended up in the security field. As a professor I soon experienced the huge demand for security experts in Europe but until recent years higher education in security studies was only available in the United Kingdom or the United states. That is why I came up with the idea to establish a Master’s program in International Security Studies at George C. Marshall Center and the Universität der Bundeswehr in Germany.
 
-<a href="www.marshallcenter.org/MCPUBLICWEB/en/nav-itemid-fix-bios-en/107-cat-bios-faculty-en/69-art-bio-roloff-en.html">"Profile at the George C. Marshall European Center for Security Studies"</a>
+<a href="www.marshallcenter.org/MCPUBLICWEB/en/nav-itemid-fix-bios-en/107-cat-bios-faculty-en/69-art-bio-roloff-en.html">"Profile at the George C. Marshall European Center for Security Studies" </a>
 
 
-#### Information Material
+### Information Material
 
 * Information Flyer
+
 * Course Calendar
+
 * Videos
+
 * Presentations
 
-#### Study and Examination Regulations
+### Study and Examination Regulations
 
 * Module Handbook
+
 * Examination Regulations
 
-#### Application Documents
+
+### Application Documents
 
 * Application Form
+
 * Firm Acceptance Letter
+
 * Matriculation Form
-
-
 

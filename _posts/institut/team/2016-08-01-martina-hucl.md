@@ -9,10 +9,10 @@ image: "/media/team-members/8.jpg"
 parent: Team
 ---
 
-Programmkoordination
+**Martina Hucl, Dipl. Kulturwirtin**
 
 Programmkoordinatorin MBA International Management
 
 - Telefon:  +49 89 6004 2225
-- E-Mail:  martina.hucl@unibw.de
+- E-Mail:  <a href="martina.hucl@unibw.de">"martina.hucl@unibw.de"</a>
 

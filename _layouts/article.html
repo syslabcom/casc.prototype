@@ -4,20 +4,23 @@ layout: generic
 
 <div class="container" id="main-content">
 	<article class="pat-rich">
-		<h2>
-        {% for post in site.posts %}
-            {% if post.title == page.parent %}
-                {% for parents in site.posts %}
-                    {% if parents.title == post.parent %}
-			             <a href="{{ parents.url | remove: '/' }}#{{ post.id | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
-                    {% endif %}
-                {% endfor %}
-            {% endif %}
-        {% endfor %}
-		</h2>
-		<h3>
+		<p class="back-button">
+			<strong>
+	        {% for post in site.posts %}
+	            {% if post.title == page.parent %}
+	                {% for parents in site.posts %}
+	                    {% if parents.title == post.parent %}
+				             <a href="{{ parents.url | remove: '/' }}#{{ post.id | remove: '/' }}" class="pat-inject icon-angle-left">{{ page.parent }}</a>
+				             <a hidden href="#{{ post.id | remove: '/' }}" class="pat-scroll" data-pat-scroll="trigger: auto;">Back to top</a>
+	                    {% endif %}
+	                {% endfor %}
+	            {% endif %}
+	        {% endfor %}
+			</strong>
+		</p>
+		<h1>
 			{{ page.title }}
-		</h3>
+		</h1>
 		{{ content }}
 	</article>
 </div>

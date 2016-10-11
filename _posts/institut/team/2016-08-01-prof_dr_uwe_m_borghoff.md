@@ -9,12 +9,12 @@ image: "/media/team-members/6.jpg"
 parent: Team
 ---
 
-Leitung
+**Prof. Dr. Uwe M. Borghoff**
 
 Vorstand
 
 - Telefon:  +49 89 6004 2274 
-- E-Mail:  uwe.borghoff@casc.de
+- E-Mail:  <a href="uwe.borghoff@casc.de">"uwe.borghoff@casc.de"</a>
 
 Sprechstunde für casc-Dozenten und casc-Studenten nach Vereinbarung
 
