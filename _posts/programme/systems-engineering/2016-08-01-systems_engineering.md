@@ -11,7 +11,7 @@ backlink: "/programme#studiengaenge"
 
 ---
 
-#### Systems Engineering (M.Sc.)
+### Systems Engineering (M.Sc.)
 
 **Technische Systeme sind geprägt durch eine zunehmende Komplexität, die nicht nur aus dem System heraus sondern auch durch Wechselwirkungen und Beziehungen zu anderen Systemen und zur Umgebung resultieren. Zusätzlich ist in der Systementwicklung eine zunehmende Spezialisierung durch technische Experten zu beobachten. Die resultierende Notwendigkeit zur Systemintegration ist nicht mehr allein mit Expertenwissen zu Teillösungen zu beherrschen.**
 
@@ -37,13 +37,13 @@ Nach Abschluss des Masters im Systems Engineering sind Sie fachübergreifenden u
 * Sie werden in den Methoden und Prozessen des Systems Engineering und des Systems Engineering Managements geschult, so dass diese die Aufgaben von SystemingenieurInnen übernehmen können. Zudem werden spezifisches Problembewusstsein und Systemdenken entwickelt, welche erlauben, situationsangepasste Vorgehensweisen zu definieren und zu initiieren sowie Fehlentwicklungen frühzeitig zu erkennen und diesen entgegenzusteuern. Als wesentlich für den Lernerfolg wird hierbei ein dem Studium unterlegter Theorie-Praxis-Transfer verstanden.
 
 
-#### Zielgruppe 
+### Zielgruppe 
 
 Der Studiengang richtet sich an erfahrene Ingenieurinnen und Ingenieure, Fach- und Führungskräfte aus der Bundeswehr und der zivilen Wirtschaft mit einem ersten Hochschulstudium und Berufserfahrung von mindestens drei Jahren. 
 
 Der Schwerpunkt des Studiengangs liegt daher nicht auf der Vermittlung von technischem Wissen, das als Voraussetzung angesehen wird, sondern auf der Basis von Kenntnissen von technischen Systemen als hochvernetzte Teilsysteme werden Entwicklungs- und Managementansätze vorgestellt, die in der Projektabwicklung genauso wie bei der konkreten Problemlösung unterstützen. Zudem entwickeln die Studierenden ein Bewusstsein für Limitierungen und Randbedingungen des realen „Projektlebens“. 
 
-#### Gute Gründe für den Master-Studiengang Systems Engineering:
+### Gute Gründe für den Master-Studiengang Systems Engineering:
 
 * Bewährtes Kleingruppenkonzept (10 bis 15 Teilnehmende pro Jahrgang) und hervorragende individuelle Betreuung.
 * Universitäre, bedarfsgerechte Weiterbildung für Berufserfahrene (mindestens drei Jahre) mit erstem Hochschulabschluss.
@@ -51,7 +51,7 @@ Der Schwerpunkt des Studiengangs liegt daher nicht auf der Vermittlung von techn
 * Hohe Flexibilität durch die Möglichkeit, einzelne Module zu belegen (Einstieg alle zwei Monate).
 * Präsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
 
-#### Teilnehmerstimmen
+### Teilnehmerstimmen
 
 **Dipl.-Ing. Florian Grimm, Entwicklungsingenieur bei Voith Composites GmbH, Studienjahrgang 2015**
 
@@ -83,7 +83,7 @@ Zwischen den Präsenzphasen werden die weiteren Inhalte der Module in der Selbst
 
 Bereits aus den ersten Modulen konnte ich für meine Arbeit wichtige Anreize mitnehmen und auch das „systems thinking“ im beruflichen Alltag lohnend anwenden.“
 
-#### Studieninhalte 
+### Studieninhalte 
 
 **Das Studium ist in Trimestern organisiert, ein Trimester umfasst drei Monate. Die Module im Studiengang Systems Engineering sind in drei prinzipielle Kategorien eingeteilt:**
 
@@ -93,11 +93,11 @@ Bereits aus den ersten Modulen konnte ich für meine Arbeit wichtige Anreize mit
 
 * **Praxismodule** bieten Ihnen die Möglichkeit, Lösungsansätze und Best-Practices unterschiedlicher Branchen, Marktverhältnisse oder Wettbewerbsumfelder kennenzulernen und auf andere Aufgaben zu übertragen. Gleichzeitig werden im Rahmen dieser Module konkrete Problemstellungen aus dem beruflichen Umfeld der Teilnehmenden aufgegriffen und analysiert, um Handlungskonzepte abzuleiten. Auch für diese Module erfolgt eine aktive Einbindung der Studierenden über die Vorbereitung und Präsentation von Vorträgen oder der schriftlichen, wissenschaftlichen Bearbeitung von selbstgewählten Themen.
 
-#### Modulstruktur 
+### Modulstruktur 
 
 **Graphische Darstellung, s. Flyer (pdf) bzw. Umsetzung in Prototyping; Wunsch: Hinterlegung der Buttons mit Kurzbeschreibung jedes Moduls**
 
-#### Lehr- und Lernmethode
+### Lehr- und Lernmethode
 
 Die Verbindung von Leben, Arbeiten und Lernen ist essentiell für Ihre Freude am Studium und Ihren Erfolg. Das sogenannte Blended-Learning-Prinzip, d.h. der Wechsel von kurzen Präsenzphsaen und begleiteten Selbstlernphasen in virtuellen Lerngruppen halten wir für am besten geeignet, um die Work-Life-Balance zu ermöglichen. Daher legen wir besonderen Wert auf Ihre fachliche und organisatorische Betreuung während der Selbstlernphasen. Aufgabenstellungen beziehen häufig Ihre berufliche Erfahrung und aktuelle Projekte mit ein, so dass ein direkter Nutzen für Ihren beruflichen Einsatz bereits während des Studiums entsteht. Die Workload des Studiengangs ist im Vergleich zu Vollzeit-Studiengängen an die zur Verfügung stehenden Zeitkontingente Berufstätiger mit durchschnittlich 40 ECTS pro Studienjahr angepasst.
 
@@ -105,13 +105,13 @@ Präsenzwochenenden finden durchschnittlich sieben Mal im Jahr statt, in der Reg
 
 Die Module werden von erfahrenen Professorinnen und Professoren sowie hochrangigen Expertinnen und Experten mit langjähriger Erfahrung im Systems Engineering durchgeführt.
 
-#### Modulstudium
+### Modulstudium
 
 Der modulare Aufbau des Studiengangs erlaubt es, auch einzelne Module im Rahmen eines Modulstudiums zu belegen und diese mit einem Hochschulzertifikat abzuschließen. Für erfolgreich abgelegte Module werden von der Universität ECTS-Leistungspunkte bescheinigt.
 
 Wurden auf diese Art alle Module belegt und erfolgreich abgeschlossen, kann die Ausbildung mit dem Master-Abschluss beendet werden, sofern eine Masterarbeit entsprechend der Prüfungsordnung erfolgreich angefertigt wurde.
 
-#### Anmeldung 
+### Anmeldung 
 
 **Sie können sich bis zum 1. März jedes Jahres zum Master-Studiengang Systems Engineering anmelden, der Studiengang beginnt im April jedes Jahres.**
 
@@ -125,7 +125,7 @@ Wurden auf diese Art alle Module belegt und erfolgreich abgeschlossen, kann die 
 * Nachweis einer mindestens dreijährigen Berufserfahrung
 * Exmatrikulationsbescheinigung (entgegen der Information im Immatrikulationsantrag ist eine einfache Kopie ausreichend)
 
-** Sie sollten folgende Voraussetzungen mitbringen, um für das Studium zugelassen zu werden:**
+**Sie sollten folgende Voraussetzungen mitbringen, um für das Studium zugelassen zu werden:**
 
 * Abschluss eines Hochschulstudiums in einem natur- oder ingenieurwissenschaftlichen Fach, das Kompetenzen in einem Umfang von mindestens 210 ECTS-Leistungspunkten entspricht (Diplom-, Bachelor- oder Master-Abschluss oder ein gleichwertiger in- oder ausländischer Abschluss), mit mindestens der Note 3,0 oder besser
 
@@ -135,48 +135,48 @@ Hinweis: Studieninteressierte mit einem Hochschulabschluss von weniger als 210 E
 
 **Ihre Anmeldung senden Sie bitte an:**
 
-Dr. Nicol Matzner-Vogel, MBA 
-Geschäftsführerin casc 
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg Tel.: +49 89 6004 4530 
-E-Mail:  <a href="nicol.matzner@unibw.de ">"nicol.matzner@unibw.de"</a> 
+Dr. Nicol Matzner-Vogel, MBA <br>
+Geschäftsführerin casc <br>
+Universität der Bundeswehr München<br>
+Werner-Heisenberg-Weg 39<br>
+85577 Neubiberg Tel.: +49 89 6004 4530 <br>
+E-Mail:  <a href="nicol.matzner@unibw.de ">"nicol.matzner@unibw.de"</a><br>
 
 #### Kontakt
 
-#### Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.	
+#### Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.<br>	
 
-**Akademische Leitung**
+**Akademische Leitung**<br>
 
- **Prof. Dr.-Ing. Kristin Paetzold**	
-**Institut für Technische Produktentwicklung, Fakultät für Luft- & Raumfahrttechnik** 
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
+ **Prof. Dr.-Ing. Kristin Paetzold**<br>	
+**Institut für Technische Produktentwicklung, Fakultät für Luft- & Raumfahrttechnik**<br> 
+Universität der Bundeswehr München<br>
+Werner-Heisenberg-Weg 39<br>
+85577 Neubiberg<br>
 
-Tel.: +49 (0)89 6004 2814	 
-E-Mail: <a href="kristin.paetzold@unibw.de">kristin.paetzold@unibw.de"</a>	 
+Tel.: +49 (0)89 6004 2814<br>	 
+E-Mail: <a href="kristin.paetzold@unibw.de">kristin.paetzold@unibw.de"</a><br>	 
 
-**Prof. Dr.-Ing. Roger Förstner**
-**Institut für Raumfahrttechnik & Weltraumnutzung, Fakultät für Luft- & Raumfahrttechnik **
-Universität der Bundeswehr München
+**Prof. Dr.-Ing. Roger Förstner**<br>
+**Institut für Raumfahrttechnik & Weltraumnutzung, Fakultät für Luft- & Raumfahrttechnik **<br>
+Universität der Bundeswehr München<br>
 
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
-Tel.: +49 (0)89 6004 3571	 
-E-Mail: <a href="roger.foerstner@unibw.de">"roger.foerstner@unibw.de"</a>	
+Werner-Heisenberg-Weg 39<br>
+85577 Neubiberg<br>
+Tel.: +49 (0)89 6004 3571<br>	 
+E-Mail: <a href="roger.foerstner@unibw.de">"roger.foerstner@unibw.de"</a><br>	
 
 
-**Programmkoordination**
+**Programmkoordination**<br>
 
-**Dr. Brigita Jeraj**
-**campus advanced studies center**	
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
+**Dr. Brigita Jeraj**<br>
+**campus advanced studies center**<br>
+Universität der Bundeswehr München<br>
+Werner-Heisenberg-Weg 39<br>
+85577 Neubiberg<br>
 
-Tel.: +49 (0)89 6004 2036	 
-E-Mail: <a href="brigita.jeraj@unibw.de">"brigita.jeraj@unibw.de"</a>
+Tel.: +49 (0)89 6004 2036<br>	 
+E-Mail: <a href="brigita.jeraj@unibw.de">"brigita.jeraj@unibw.de"</a><br>
 
 #### Informationsmaterial
 
