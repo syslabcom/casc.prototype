@@ -46,6 +46,7 @@ Für weiterqualifizierte Beratungstätigkeiten wie Coaching und Mentoring stellt
 
 Der Masterstudiengang „Personalentwicklung“ richtet sich sowohl an Berufstätige in der privaten oder staatlichen Wirtschaft, Mitarbeiterinnen und Mitarbeiter von NGOs und ausscheidende Zeitoffiziere als auch an Personen, die langfristig im staatlichen Dienst verbleiben. Erfahrungsgemäß bietet die große Bandbreite der beruflichen Tätigkeiten der Teilnehmenden bei vergleichbaren Interessengebieten einen Rahmen für besonders erkenntnisreiche Zusammenarbeit.
  
+
 #### Gute Gründe für den Master-Studiengang Personalentwicklung:
 
 * Der Studiengang ist staatlich anerkannt und ACQUIN-akkreditiert. 
