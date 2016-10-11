@@ -5,7 +5,7 @@ name: dr__des_sabine_schmalzer
 description: 
 category: aktuelles
 tagline: Unser Service
-image: "/media/team-members/8.jpg"
+image: "/media/team-members/10.jpg"
 parent: Team
 ---
 
