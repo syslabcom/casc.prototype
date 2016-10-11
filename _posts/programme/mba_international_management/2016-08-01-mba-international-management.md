@@ -57,8 +57,8 @@ Mit einem erfolgreichen Abschluss des MBA Public Management qualifizieren Sie si
 **Das Studium ist in drei Studienabschnitte – Grundlagenphase, Vertiefungsphase und Spezialisierungsphase –  organisiert, welche insgesamt 24 Monate umfassen. Pro Studienabschnitt werden vier Module durchgeführt, je Modul ist eine Wochenend-Präsenz von Donnerstag bis Samstag vorgesehen.**
 
 * In der **Grundlagenphase** werden elementare Kenntnisse und Methoden der Wirtschaftswissenschaften in den Bereichen „Organisationsgestaltung und Projektmanagement“, „Mikro- und Makroökonomie“, „Strategisches Management und Personalmanagement“ sowie „Kosten- und Investitionsrechnung“ vermittelt.
-*In der **Vertiefungsphase** stehen die Besonderheiten öffentlicher Verwaltungen im Fokus. Es werden spezifische Kenntnisse und Methoden zu den Themen „Deutsches und internationales politisches System“, „Staats- und Verwaltungsrecht“, „Verwaltungshandeln und Public Management“ vermittelt. Eine Exkursion in politische Zentren wie Berlin oder Brüssel und der Austausch mit hochkarätigen Diskussionspartnern vor Ort rundet diese Phase des Studiengangs ab.
-*Die **Spezialisierungsphase** bietet zielgenaue Inhalte in den Bereichen Öffentliches Controlling und Öffentliche Beschaffung. Das Modul „Wirtschaftlichkeitsuntersuchungen im öffentlichen Sektor“ ist für die Teilnehmerinnen und Teilnehmer beider Vertiefungsrichtungen verpflichtend. Im Bereich Öffentliches Controlling werden Kenntnisse und Methoden zu den Besonderheiten von Steuerung und Controlling in Behörden, zur Erfolgsmessung und zu Planungs- und Kontrollinstrumenten im öffentlichen Bereich vermittelt. Der Bereich Öffentliche Beschaffung umfasst neben einer Lehrveranstaltung zum Vergaberecht weitere Veranstaltungen zum öffentlichen Beschaffungsprozess und zum strategischen Beschaffungsmanagement. Praxisorientierte Seminare in beiden Spezialisierungen sowie die Anfertigung einer Master-Arbeit runden den Studiengang ab.
+* In der **Vertiefungsphase** stehen die Besonderheiten öffentlicher Verwaltungen im Fokus. Es werden spezifische Kenntnisse und Methoden zu den Themen „Deutsches und internationales politisches System“, „Staats- und Verwaltungsrecht“, „Verwaltungshandeln und Public Management“ vermittelt. Eine Exkursion in politische Zentren wie Berlin oder Brüssel und der Austausch mit hochkarätigen Diskussionspartnern vor Ort rundet diese Phase des Studiengangs ab.
+* Die **Spezialisierungsphase** bietet zielgenaue Inhalte in den Bereichen Öffentliches Controlling und Öffentliche Beschaffung. Das Modul „Wirtschaftlichkeitsuntersuchungen im öffentlichen Sektor“ ist für die Teilnehmerinnen und Teilnehmer beider Vertiefungsrichtungen verpflichtend. Im Bereich Öffentliches Controlling werden Kenntnisse und Methoden zu den Besonderheiten von Steuerung und Controlling in Behörden, zur Erfolgsmessung und zu Planungs- und Kontrollinstrumenten im öffentlichen Bereich vermittelt. Der Bereich Öffentliche Beschaffung umfasst neben einer Lehrveranstaltung zum Vergaberecht weitere Veranstaltungen zum öffentlichen Beschaffungsprozess und zum strategischen Beschaffungsmanagement. Praxisorientierte Seminare in beiden Spezialisierungen sowie die Anfertigung einer Master-Arbeit runden den Studiengang ab.
 
 #### Modulstruktur 
 
@@ -94,6 +94,7 @@ Die Grundidee ist, dass berufsbegleitend Studierende zum einen ihre eigenen prak
 Neben der inhaltlichen wie persönlichen Weiterentwicklung, die mit einem Studium immer verbunden ist, steht natürlich die weitere konkrete Karriereentwicklung im Vordergrund. Hier bieten sich zwei Wege an: Zum einen handelt es sich beim MBA Public Management um einen vollständigen universitären Masterabschluss, der die formalen Voraussetzungen für den direkten Zugang zum höheren Dienst in der Verwaltung eröffnet - und damit in ein weites berufliches Feld bei Bundes-, Landes- und Kommunalbehörden wie auch in Ministerien. Neben den Karrierechancen im öffentlichen Dienst gibt es zudem eine Vielzahl von Institutionen an der Schnittstelle zwischen öffentlichem Sektor und privatwirtschaftlicher Organisation wie bspw. Stadtwerke, Öffentlich-Private Partnerschaften oder Stiftungen etc. Und drittens stehen schließlich berufliche Perspektiven bei privatwirtschaftlichen Unternehmen offen, die die öffentliche Hand beliefern oder anderweitig mit ihr zusammenarbeiten. Die Potentiale in allen diesen Bereichen sind also enorm groß. Gleichzeitig ist das Angebot spezifisch ausgebildeter qualifizierter Absolventinnen und Absolventen gering - die Chancen sind also aus unserer Sicht exzellent.
 
 **Wie werde ich während des Studiums betreut? **
+
 Berufsbegleitende Studiengänge sind keine „Dopplung" eines grundständigen Studienganges, sondern werden spezifisch für die Zielgruppe Berufstätige didaktisch konzipiert. Dazu hat der Studiengang ein Dozierendenteam, dem erfahrene Professorinnen und Professoren der Fakultäten für Wirtschafts- und Organisationswissenschaften bzw. Staats- und Sozialwissenschaften angehören sowie weitere hochkarätige Dozierende anderer Universitäten. Diese konzipieren die Module entsprechend einer einheitlichen Vorgehensweise: Am Anfang steht die sogenannte Fernlernphase, in der umfangreiches Material zur Verfügung gestellt wird. Die Studierenden werden während des Fernlernens durch ständiges E-Tutorium und Gruppenarbeitsaufgaben unterstützt und motiviert. Die Bereitstellung der Lerninhalte geschieht sukzessiv jeweils in Verbindung mit konkreten Arbeitsaufträgen. Dann folgt die Präsenzphase jeweils Donnerstag bis Samstag. Hier besteht Möglichkeit zur persönlichen Interaktion und Teambildung sowie zur Vertiefung von Inhalten und Fragen. Als Prüfungsformen sind schriftliche Prüfungen sowie Fallbearbeitungen mit Präsentationen in der Gruppe als Leistungsnachweis vorgesehen. Wir steigen zudem mit einem Starterworkshop ein, in dem Studienaufbau, Unterstützungsmaterialien, Vorgehensweisen etc. vorgestellt werden.
 
 
@@ -117,7 +118,7 @@ Berufsbegleitende Studiengänge sind keine „Dopplung" eines grundständigen St
 Hinweis: Studieninteressierte mit einem Hochschulabschluss von weniger als 210 ECTS (aber mindestens 180 ECTS) erhalten die Zulassung durch die erfolgreiche Absolvierung eines Eingangsprüfungsverfahrens.
 * Nachweis einer mindestens einjährigen qualifizierten berufspraktischen Erfahrung
  
-Zudem findet ein Auswahlgespräch mit den akademischen Leitern des Programms statt.
+Zudem findet ein **Auswahlgespräch** mit den akademischen Leitern des Programms statt.
 
 **Ihre Anmeldung senden Sie bitte an:**
 Dr. Nicol Matzner-Vogel, MBA 
@@ -128,8 +129,8 @@ Werner-Heisenberg-Weg 39
 
 85577 Neubiberg
 
-Tel.: +49 89 6004 4530 E-
-Mail:  nicol.matzner@unibw.de 
+Tel.: +49 89 6004 4530 
+E-Mail: <a href="nicol.matzner@unibw.de">"nicol.matzner@unibw.de"</a> 
 
 #### Kontakt
 
@@ -145,7 +146,7 @@ Werner-Heisenberg-Weg 39
 85577 Neubiberg
 
 Tel.: 089 6004-4221
-E-Mail:  michael.essig@unibw.de
+E-Mail: <a href="michael.essig@unibw.de">"michael.essig@unibw.de"</a>
 
 **Prof. Dr. Bernhard Hirsch**
 **Professor für Controlling**
@@ -155,7 +156,7 @@ Werner-Heisenberg-Weg 39
 85577 Neubiberg
 
 Tel.: 089 6004-4209
-E-Mail:  bernhard.hirsch@unibw.de
+E-Mail:  <a href="bernhard.hirsch@unibw.de">"bernhard.hirsch@unibw.de"</a>
 
 
 **Programmkoordination**
@@ -168,7 +169,7 @@ Werner-Heisenberg-Weg 39
 85577 Neubiberg 
 
 Tel.: +49 89 6004 4262 E-
-Mail:  c.von.deimling@unibw.de
+Mail:  <a href="c.von.deimling@unibw.de">"c.von.deimling@unibw.de"</a>
 
 
 #### Informationsmaterial
