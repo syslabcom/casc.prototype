@@ -204,7 +204,7 @@ Unit 24502, APO AE 09053-4502
 
 DSN: 314.440.2444
 Comm.: +49 8821 750 2444
-Email:  <a href="Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a>
+Email:  <a href="mailto:Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a>
 
 What motivates me?
 
@@ -220,7 +220,7 @@ College of International and Security Studies 
 Gernackerstraße 2 
 D-82467 Garmisch-Partenkirchen
 
-<a href="ralf.roloff@marshallcenter.org">""Email"</a> 
+<a href="mailto:ralf.roloff@marshallcenter.org">""Email"</a> 
 Tel.: +49 8821 750 2590 
 Fax: +49 8821 750 2688
 

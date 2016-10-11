@@ -148,7 +148,7 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg
 
 Tel.: 089 6004-4221
-E-Mail: <a href="mailto:michael.essig@unibw.de">"michael.essig@unibw.de"</a>
+E-Mail: <a href="mailto:mailto:michael.essig@unibw.de">"michael.essig@unibw.de"</a>
 
 **Prof. Dr. Bernhard Hirsch**<br>
 **Professor für Controlling**
@@ -158,7 +158,7 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg
 
 Tel.: 089 6004-4209<br>
-E-Mail:  <a href="bernhard.hirsch@unibw.de">"bernhard.hirsch@unibw.de"</a>
+E-Mail:  <a href="mailto:bernhard.hirsch@unibw.de">"bernhard.hirsch@unibw.de"</a>
 
 
 **Programmkoordination**
@@ -172,7 +172,7 @@ Werner-Heisenberg-Weg 39<br>
 
 
 Tel.: +49 89 6004 4262 <br>
-E-Mail:  <a href="c.von.deimling@unibw.de">"c.von.deimling@unibw.de"</a>
+E-Mail:  <a href="mailto:c.von.deimling@unibw.de">"c.von.deimling@unibw.de"</a>
 
 
 #### Informationsmaterial

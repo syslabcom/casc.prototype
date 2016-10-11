@@ -52,7 +52,7 @@ Der Masterstudiengang „Personalentwicklung“ richtet sich sowohl an Berufstä
 * Hohe Flexibilität durch die Möglichkeit, einzelne Module zu belegen (Einstieg alle zwei Monate).
 * Berufsbegleitend: Fernstudium mit Präsenzwochenenden (Blended Learning).
 * Bewährtes Kleingruppenkonzept und hervorragende individuelle Betreuung.
-P* räsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
+* Präsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
 
 #### Teilnehmerstimmen
 
@@ -70,6 +70,7 @@ Die Organisation des Studiums war sehr gut mit meiner Vollzeitstelle zu vereinba
 **Sascha Heeren (M.A.), Personalentwickler, Studienjahrgang 2014**
 
 „Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen. Persönlich lag mein größtes Interesse in den Bereichen Unternehmensbindung und Kommunikation, weshalb ich in meiner Masterarbeit ein Forschungsprojekt über die öffentliche Darstellung der Personalentwicklung von ausgewählten Dax-Unternehmen durchgeführt habe. Damit war es mir möglich, mit aktuellem Wissensstand in einem zunehmend bedeutenderen Themenfeld bei potenziellen Arbeitgebern zu überzeugen.
+
 Diese Entscheidung hat sich gelohnt, denn heute kann ich als Personalentwickler in der Wirtschaft meine im Studium vertieften Kenntnisse in der Praxis wiedererkennen und anwenden.“
 
 **Astrid Köbernick (Dipl. Btrw. (FH), M.A.), Einplanungsoffizier im Karrierecenter der Bundeswehr Mainz, Studienjahrgang 2014**
@@ -160,72 +161,70 @@ Im vorliegenden Masterstudiengang gehört das offene und kooperative Studienklim
 
 * Eine mindestens einjährige qualifizierte berufspraktische Erfahrung in Personalverantwortung, Führungserfahrung, Personalentwicklung, Personalmanagement/-organisation, Projektmanagement oder Organisationsentwicklung.
 
-**Ihre Anmeldung senden Sie bitte an:**
-Bettina Herrmann
-Programmkoordinatorin
-campus advanced studies center
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
-Tel.: +49-(0)89 / 6004 2388
-E-Mail:  <a href="bettina.herrmann@unibw.de">"bettina.herrmann@unibw.de"</a>
+**Ihre Anmeldung senden Sie bitte an:** <br>
+Bettina Herrmann <br>
+Programmkoordinatorin <br>
+campus advanced studies center <br>
+Universität der Bundeswehr München <br>
+Werner-Heisenberg-Weg 39 <br>
+85577 Neubiberg <br>
+Tel.: +49-(0)89 / 6004 2388 <br>
+E-Mail:  <a href="mailto:bettina.herrmann@unibw.de">"bettina.herrmann@unibw.de"</a>< br>
 
 #### Kontakt
 #### Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.
 	
 **Akademische Leitung**
 
-Prof. Dr. habil. Sigrid Rotering-Steinberg
-Professur für Pädagogische Psychologie 
-Gebäude 42, Raum 3
+Prof. Dr. habil. Sigrid Rotering-Steinberg <br>
+Professur für Pädagogische Psychologie <br>
+Gebäude 42, Raum 3 <br>
 
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
+Universität der Bundeswehr München <br>
+Werner-Heisenberg-Weg 39 <br>
+85577 Neubiberg <br>
 
-Tel: 089 / 6004 3160
-E-Mail:  sigrid.rotering-steinberg@unibw.de
+Tel: 089 / 6004 3160 <br>
+E-Mail:  sigrid.rotering-steinberg@unibw.de <br>
 
 
 **Programmkoordination**
 
-Bettina Herrmann
-Programmkoordinatorin
+Bettina Herrmann <br>
+Programmkoordinatorin <br>
 
-campus advanced studies center
-Universität der Bundeswehr München
-Werner-Heisenberg-Weg 39
-85577 Neubiberg
+campus advanced studies center <br>
+Universität der Bundeswehr München <br>
+Werner-Heisenberg-Weg 39 <br>
+85577 Neubiberg <br>
 
-Tel.: +49-(0)89 / 6004 2388
-E-Mail:  bettina.herrmann@unibw.de
+Tel.: +49-(0)89 / 6004 2388 <br>
+E-Mail:  bettina.herrmann@unibw.de <br>
 
 
 **Informationsmaterial**
 
-* Studiengangsflyer
-* „Auf einen Blick“
-* Modulstruktur/ Modulübersicht
-* Video
+* **Studiengangsflyer**
+* **„Auf einen Blick“**
+* **Modulstruktur/ Modulübersicht**
+* **Video**
 
 **(Termine**
 
-* Studienplan/ Terminplan
-* Kosten- und Leistungsübersicht)
+* **Studienplan/ Terminplan**
+* **Kosten- und Leistungsübersicht)**
 
 **Prüfungsreglement**
 
-* Modulhandbuch
-* Prüfungsordnung
+* **Modulhandbuch**
+* **Prüfungsordnung**
 
 **Anmeldeunterlagen**
 
-* Aufnahmeantrag
-* Immatrikulationsantrag
+* **Aufnahmeantrag**
+* **Immatrikulationsantrag**
  
 
-#### Video
 
-<video autobuffer="" controls="controls" poster="https://www.unibw.de/casc/studiengaenge/pe/master-casc-pe.mp4" style="width: 560px; height: 315px; max-width: 100%;"><source src="https://www.unibw.de/casc/studiengaenge/pe/master-casc-pe.mp4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" height="315" width="560"><param name="movie" value="https://www.unibw.de/medz/strobe-media-playback/strobemediaplayback.swf"><param name="FlashVars" value="src=https://www.unibw.de/casc/studiengaenge/pe/mp4-pe"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed allowfullscreen="true" allowscriptaccess="always" flashvars="https://www.unibw.de/casc/studiengaenge/pe/mp4-pe" height="315" src="https://www.unibw.de/medz/strobe-media-playback/strobemediaplayback.swf" type="application/x-shockwave-flash" width="560"></object></video>
 
  
