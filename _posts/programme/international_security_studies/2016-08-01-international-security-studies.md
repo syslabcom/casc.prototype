@@ -80,7 +80,7 @@ The MISS is a twelve-month program that consists of a common study period of fou
 
 #### Common Curriculum
 
-The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module “Theories and Methods”, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
+The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module **“Theories and Methods”**, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
 
 Subsequently, students attend the Marshall Center's Flagship Course, the <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pass-en.html">"Program in Advanced Security Studies"</a> (PASS). More than 100 international government officials participate in this eight-week foundation course, which makes it the perfect opportunity to exchange views and establish new contacts. The program consists of plenary lectures, small seminar discussion groups, expert panels, role-playing exercises, and a field study trip.
 
@@ -95,7 +95,7 @@ In the second half of the study program students have to attend one out of two e
 * **“Transnational Governance”** focuses on the effects of globalization on the governance-capacity of international organization and the role of the state in the international system
 
 
-* “Security and Development” examines the nexus of security and development in post-conflict settings
+* **“Security and Development”** examines the nexus of security and development in post-conflict settings
 
 #### Study Concentration
 
@@ -103,8 +103,8 @@ Students have the chance to specialize in a specific area of security studies by
 
 * <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-ptss-en.html">"Program on Terrorism and Security Studies"</a> (PTSS)
 * <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-srs-en.html">"Seminar on Regional Security" </a>  (SRS)
-* <a href_"www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
-* <a href_"www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
+* <a href="www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
+* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
 
 #### Master Thesis
 
@@ -123,6 +123,8 @@ The whole program has an overall workload of 60 ECTS credit points and is separa
 ### Modular Studies
 
 The modular structure of the program allows to attend single modules without having to finish the whole master program. Successful participants receive an official transcript from the Universität der Bundeswehr München in the amount of the respective ECTS credit points of the module. The obtained credit points can be applied towards degrees at other universities or if a student has attended and passed all modules under this scheme, he can be awarded with a master’s degree in International Security Studies from the Universität der Bundeswehr München if he also prepares a master thesis that meets the academic standards of the program.
+
+### FAQ
 
 **I only hold a three-year bachelor's degree. Am I eligible?**
 
@@ -194,35 +196,41 @@ Applications must include the following materials:
 
 **Please send your application to the Academic Coordinator:**
 
-Frank Mouritz M.A.
-Academic Coordinator
+Frank Mouritz M.A. <br>
+Academic Coordinator <br>
 
-College of International and Security Studies
-George C. Marshall European Center for Security Studies
-Gernackerstrasse 02, D-82467 Garmisch Partenkirchen
-Unit 24502, APO AE 09053-4502
+College of International and Security Studies <br>
+George C. Marshall European Center for Security Studies <br>
+Gernackerstrasse 02, D-82467 Garmisch Partenkirchen <br>
+Unit 24502, APO AE 09053-4502 <br>
 
-DSN: 314.440.2444
-Comm.: +49 8821 750 2444
-Email:  <a href="mailto:Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a>
+DSN: 314.440.2444 <br>
+Comm.: +49 8821 750 2444 <br>
+Email:  <a href="mailto:Frank.Mouritz@unibw.de">"Frank.Mouritz@unibw.de"</a> <br>
 
 What motivates me?
 
 I think that more people should be interested in international security as peace and stability are the foundations for international cooperation and prosperity. For my generation the merits of globalization are taken for granted. Today most places on earth are save to travel and our daily lives are enriched by the cultural diversity that the free-trade of people and goods has introduced. Therefore, I take pleasure in working with young professionals who want to make contributing to international security their profession. 
-Prof. Dr. Ralf Roloff
-Program Director 
+
+Prof. Dr. Ralf Roloff <br>
+Program Director <br> 
 
 
-Außerplanmäßiger Professor Universität der Bundeswehr München Institut für Politikwissenschaft Werner-Heisenberg-Weg 39 D-85577 Neubiberg
-Senior German Professor and Director MISS 
-George C. Marshall European Center for Security Studies 
-College of International and Security Studies 
-Gernackerstraße 2 
-D-82467 Garmisch-Partenkirchen
+Außerplanmäßiger Professor  <br>
+Universität der Bundeswehr München  <br>
+Institut für Politikwissenschaft  <br>
+Werner-Heisenberg-Weg 39  <br>
+D-85577 Neubiberg <br>
 
-<a href="mailto:ralf.roloff@marshallcenter.org">""Email"</a> 
-Tel.: +49 8821 750 2590 
-Fax: +49 8821 750 2688
+Senior German Professor and Director MISS  <br>
+George C. Marshall European Center for Security Studies  <br>
+College of International and Security Studies  <br>
+Gernackerstraße 2  <br>
+D-82467 Garmisch-Partenkirchen <br>
+
+<a href="mailto:ralf.roloff@marshallcenter.org">""Email"</a>  <br>
+Tel.: +49 8821 750 2590  <br>
+Fax: +49 8821 750 2688 <br>
 
 What motivates me?
 
@@ -233,26 +241,26 @@ As a student of literature, political science and history at the end of the 1980
 
 ### Information Material
 
-* Information Flyer
+* **Information Flyer**
 
-* Course Calendar
+* **Course Calendar**
 
-* Videos
+* **Videos**
 
-* Presentations
+* **Presentations**
 
 ### Study and Examination Regulations
 
-* Module Handbook
+* **Module Handbook**
 
-* Examination Regulations
+* **Examination Regulations**
 
 
 ### Application Documents
 
-* Application Form
+* **Application Form**
 
-* Firm Acceptance Letter
+* **Firm Acceptance Letter**
 
-* Matriculation Form
+* **Matriculation Form**
 
