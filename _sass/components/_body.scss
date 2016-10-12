@@ -9,6 +9,6 @@ body {
 	// margin-top: 80px;
 
 	a {
-		color: $colour-support;
+		color: darken($colour-support, 60);
 	}
 }
