@@ -2,7 +2,7 @@ ul.menu {
   margin: 0 0 1em 0;
   list-style-type: none;
 
-  border-top: 1px silver solid;
+  border-top: 1px rgba(0,0,0,0.1) solid;
 
   li {
 
@@ -10,7 +10,7 @@ ul.menu {
     padding-left: 0;
     position: relative;
 
-    border-bottom: 1px silver solid;
+    border-bottom: 1px rgba(0,0,0,0.1) solid;
 
     &:before {
       display: none;

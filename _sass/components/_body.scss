@@ -7,4 +7,8 @@ body {
 	color: $body-font-colour;
 	background: white;
 	// margin-top: 80px;
+
+	a {
+		color: $colour-support;
+	}
 }

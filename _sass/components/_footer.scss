@@ -1,17 +1,18 @@
 #site-footer {
-	background: $colour-support;
+	background: $colour-base-light;
 	padding: 4rem 0;
 
     h4 {
-        margin-bottom: 1.5em;
+        margin-bottom: 0.7em;
         color: black;
         font-weight: 400;
         opacity: 0.8;
+        font-size: 0.8em;
     }
 
     ul.menu {
         opacity: 0.8;
-    	font-size: 0.8em;
+    	font-size: 0.7em;
 
     	li {
     		a:before {
