@@ -3,7 +3,7 @@ layout: generic
 ---
 
 <header id="page-header" class="{% if page.hero %}has-hero{% endif %} {% if page.description %}has-description{% endif %}">
-	<section id="page-introduction">
+	<section id="page-introduction" {% if page.hero %}style="background-image: url({{ page.hero }})"{% endif %}>
 		{% if page.description %}
 			<section id="page-summary">
 				<div class="container">
@@ -12,11 +12,6 @@ layout: generic
 					</p>
 				</div>
 			</section>
-		{% endif %}
-		{% if page.hero %}
-			<figure id="hero-image">
-				<img src="{{ page.hero }}" alt="Workshop with three people." />
-			</figure>
 		{% endif %}
 	</section>
 </header>

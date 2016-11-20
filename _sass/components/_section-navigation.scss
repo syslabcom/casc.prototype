@@ -1,19 +1,12 @@
 #section-navigation {
     z-index: 10;
-    margin-left: 25%;
+    margin-left: 0;
     position: relative;
-    transition: margin 0.5s;
     // background: pink;
     width: 25%;
     margin-bottom: -8rem;
 
     &.bumped {
-        margin-left: 0%;
-
-        .navigation {
-            padding-top: 8rem;
-        }
-        
 
         &.sticky-supported {
             position: -webkit-sticky !important;

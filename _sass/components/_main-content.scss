@@ -6,15 +6,14 @@
     height: 100%;
 
     .main-section {
-    	padding-top: 8rem;
     	transition: padding-top 1s;
         transition-delay: 0.4s;
         height: 100%;
         // min-height: 100%;
-            margin-bottom: -5.3rem;
+            // margin-bottom: -5.3rem;
 
     	&#overview {
-            margin-bottom: -5.3rem;
+            // margin-bottom: -5.3rem;
     	}
 
         &:last-child {
