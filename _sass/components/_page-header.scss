@@ -18,18 +18,16 @@
         position: relative;
         width: 100%;
         overflow: hidden;
-        background-color: $colour-support;
+        background-color: $colour-accent;
         background-size: cover;
         background-position: center center;
-        filter: grayscale(1);
+        filter: grayscale(0);
         transition: filter 1s;
 
         &:hover {
-            filter: grayscale(0);
+            filter: grayscale(1);
 
         }
-
-        // min-height: 15rem;
 
         &:before {
             // Duo-tone image colouration - Lower part
