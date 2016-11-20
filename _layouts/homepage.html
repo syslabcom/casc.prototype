@@ -45,54 +45,73 @@ layout: generic
 	</div>
 </header>
 
-<div class="container">
-	<div class="main-section">
-<!-- 			<article class="eight columns pat-rich">
-			{{ content }}
-		</article> -->
+
+<div id="homepage-content">
 
 	{% assign count = 1 %}
 
-	<div class="news-items pat-equaliser row">
-		{% for item in site.posts %}
-			{% if item.layout == 'news-item' %}
-				{% if count < 4 %}
-					<a href="{{ item.url }}" class="headline-tile four columns">
-						<figure>
-							<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
-							<figcaption>
-								<h3 class="title">
-									{{ item.title }}
-								</h3>
-								<p class="summary">
-									{{ item.description }}
-								</p>
-							</figcaption>
-						</figure>
-					</a>
-				{% endif %}
-				{% assign count = count | plus: 1 %}
-			{% endif %}
-		{% endfor %}
+	<div class="main-section" id="section-news">
+		<div class="container">
+			<h2 class="section-title">Aktuelles</h2>
+			<div class="news-items pat-equaliser row">
+				{% for item in site.posts %}
+					{% if item.layout == 'news-item' %}
+						{% if count < 4 %}
+							<a href="{{ item.url }}" class="headline-tile four columns">
+								<figure>
+									<img style="background-image: url({{ item.image }});" src="/media/placeholder-16x9.png" alt="" />
+									<figcaption>
+										<h3 class="title">
+											{{ item.title }}
+										</h3>
+										<p class="summary">
+											{{ item.description }}
+										</p>
+									</figcaption>
+								</figure>
+							</a>
+						{% endif %}
+						{% assign count = count | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+			</div>	
+		</div>	
 	</div>
 
-	<div class="pat-well pat-rich">
-		<div class="row">
-			<div class="two columns">
-				<img src="/media/team-members/7.jpg" />
-			</div>
-			<div class="ten columns">
-				<h4>Kontakt</h4>
-				<p>
-				Dr. Nicol Matzner-Vogel<br/>	
-				Geschäftsführerin<br/>
-				Tel.: +49 89 6004-4530 oder -2036 (Geschäftszimmer)<br/>
-				E-Mail: <a href="mailto:info@casc.de">info@casc.de</a>
-				</p>
-				<p>
-				Die Geschäftsräume von casc befinden sich im Präsidialbereich der Universität der Bundeswehr München in Gebäude 38, Erdgeschoss.
-				Das Geschäftszimmer (Raum 0109) ist von Montag bis Donnerstag, 8:30 bis 12.30 Uhr besetzt.
-				</p>
+	<div class="main-section" id="section-testimonials">
+		<div class="container">
+			<h2 class="section-title">Stimmen unserer Studenten</h2>
+	        <div class="testimonial">
+	            <img class="portrait" src="/media/students/meizer_4x4.jpg">
+	            <blockquote>
+	                <p>„Als angehende Personalentwicklerin an einer Universität war ich auf der Suche nach einer ordentlichen Weiterbildung, die mich auf meine neuen Aufgaben gut vorbereitet und sich in meinen Arbeitsalltag integrieren lässt. Nach ausführlicher Recherche des Weiterbildungsmarkts entschied ich mich für das Modulstudium Personalentwicklung an der Bundeswehruniversität München, da mich hier die Studieninhalte und die blended-learning Struktur sehr überzeugten. Die Organisation des Studiums war sehr gut mit meiner Vollzeitstelle zu vereinbaren, da sich die wöchentlichen Aufgaben am Abend und am Wochenende bearbeiten ließen. Die vorgegebene Struktur und das zeitnahe Feedback der Professorin erleichterten es uns zudem, die vielen Studieninhalte zügig und sukzessiv zu behandeln und in unserem Lernprozess voranzukommen. Hilfreich war auch in Lerngruppen zusammenzuarbeiten, wodurch wir uns gegenseitig austauschen, motivieren und unterstützen konnten.“</p>
+	                <p class="signature">Kerstin Meizer (M.A.), Personalentwicklerin Universität Konstanz, Personalentwicklung Jg. 2014</p>
+	            </blockquote>
+	        </div>
+        </div>
+    </div>
+
+	<div class="main-section" id="section-contact">
+		<div class="container">
+			<div class="pat-well pat-rich">
+				<div class="row">
+					<div class="two columns">
+						<img src="/media/team-members/7.jpg" />
+					</div>
+					<div class="ten columns">
+						<h4>Kontakt</h4>
+						<p>
+						Dr. Nicol Matzner-Vogel<br/>	
+						Geschäftsführerin<br/>
+						Tel.: +49 89 6004-4530 oder -2036 (Geschäftszimmer)<br/>
+						E-Mail: <a href="mailto:info@casc.de">info@casc.de</a>
+						</p>
+						<p>
+						Die Geschäftsräume von casc befinden sich im Präsidialbereich der Universität der Bundeswehr München in Gebäude 38, Erdgeschoss.
+						Das Geschäftszimmer (Raum 0109) ist von Montag bis Donnerstag, 8:30 bis 12.30 Uhr besetzt.
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>	

@@ -1,0 +1,26 @@
+
+	.testimonial {
+		margin-bottom: 1rem;
+		padding-left: 16.7%;
+		display: block;
+		font-size: 0.9em;
+
+		p {
+			margin-bottom: 0.5em;
+
+			&.signature {
+				font-weight: bold;
+				
+				&:before {
+					content: '— ';
+				}
+			}
+		}
+
+		.portrait {
+			float: left;
+			margin-left: -20%;
+			width: 16%;
+			border-radius: 50%;
+		}
+	}

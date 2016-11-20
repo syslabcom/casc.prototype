@@ -23,7 +23,7 @@ $colour-primary: #6A686F;
 $colour-accent: #ED6E00;
 $colour-support: #a1dbff;
 $body-font-colour: $colour-primary;
-$colour-well: $colour-support;
+$colour-well: white;
 
 // Slick stuff
 $slick-font-family: fontello;
@@ -66,6 +66,7 @@ $base-font-size: 18px;
 @import "components/html";
 @import "components/main";
 @import "components/main-content";
+@import "components/main-section";
 @import "components/menu-list";
 @import "components/news-headlines";
 @import "components/news-items";
@@ -79,3 +80,4 @@ $base-font-size: 18px;
 @import "components/slick";
 @import "components/slick-theme";
 @import "components/rich";
+@import "components/testimonials";

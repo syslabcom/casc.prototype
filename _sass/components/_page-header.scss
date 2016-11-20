@@ -2,6 +2,10 @@
     width: 100%;
     margin-bottom: 4rem;
 
+    .layout-homepage & {
+        margin-bottom: 0;
+    }
+
     #hero-image {
         width: 100%;
 
