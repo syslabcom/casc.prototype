@@ -3,17 +3,37 @@ layout: generic
 ---
 
 <header id="page-header" class="{% if page.hero %}has-hero{% endif %} {% if page.description %}has-description{% endif %}">
-	<section id="page-introduction" {% if page.hero %}style="background-image: url({{ page.hero }})"{% endif %}>
-		{% if page.description %}
+	<div class="regular slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+		<section id="page-introduction" {% if page.hero %}style="background-image: url({{ page.hero }})"{% endif %}>
+			{% if page.description %}
+				<section id="page-summary">
+					<div class="container">
+						<p class="text">
+							{{ page.description }}
+						</p>
+					</div>
+				</section>
+			{% endif %}
+		</section>
+		<section id="page-introduction" style="background-image: url(/media/hero/class.jpg)">
 			<section id="page-summary">
 				<div class="container">
 					<p class="text">
-						{{ page.description }}
+						Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
 					</p>
 				</div>
 			</section>
-		{% endif %}
-	</section>
+		</section>
+		<section id="page-introduction" style="background-image: url(/media/hero/workshop.jpg)">
+			<section id="page-summary">
+				<div class="container">
+					<p class="text">
+						At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+					</p>
+				</div>
+			</section>
+		</section>
+	</div>
 </header>
 
 <div class="container">
@@ -21,7 +41,7 @@ layout: generic
 <!-- 			<article class="eight columns pat-rich">
 			{{ content }}
 		</article> -->
-	
+
 	{% assign count = 1 %}
 
 	<div class="news-items pat-equaliser row">

@@ -21,13 +21,13 @@
         background-color: $colour-accent;
         background-size: cover;
         background-position: center center;
-        filter: grayscale(0);
-        transition: filter 1s;
+        // filter: grayscale(0);
+        // transition: filter 1s;
 
-        &:hover {
-            filter: grayscale(1);
+        // &:hover {
+        //     filter: grayscale(1);
 
-        }
+        // }
 
         &:before {
             // Duo-tone image colouration - Lower part
