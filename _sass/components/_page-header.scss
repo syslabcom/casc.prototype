@@ -82,11 +82,13 @@
             z-index: 2;
             padding-top: 10rem;
             .layout-homepage & {
-                padding-top: 20rem;
+                height: 14rem;
+                padding-top: 18rem;
             }
             width: 100%;
 
-            .text {
+            .text,
+            .title {
                 font-size: 2em;
                 font-weight: 100;
                 line-height: 1.3em;
@@ -100,6 +102,15 @@
                              0 0 5px rgba(0,0,0,0.7);
                 position: relative;
                 font-family: theserif;
+            }
+
+            .title {
+                padding-bottom: 0;
+            }
+
+            .description {
+                color: white;
+                padding-bottom: 5rem;
             }
         }
     }
