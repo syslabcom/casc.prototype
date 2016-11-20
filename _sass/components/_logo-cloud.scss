@@ -2,6 +2,14 @@
 	text-align: center;
 	padding: 1em 0 0em;
 	margin: 0;
+	overflow: hidden;
+
+	a {
+		text-align: center;
+		width: 33.33332%;
+		display: block;
+		float: left;
+	}
 
 	img {
 		@media screen and (min-width: $break-medium) {
