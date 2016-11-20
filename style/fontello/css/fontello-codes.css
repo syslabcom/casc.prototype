@@ -2,6 +2,8 @@
 .icon-search:before { content: '\e800'; } /* '' */
 .icon-cancel-circled:before { content: '\e801'; } /* '' */
 .icon-spin:before { content: '\e802'; } /* '' */
+.icon-left-circle:before { content: '\e803'; } /* '' */
+.icon-right-circle:before { content: '\e804'; } /* '' */
 .icon-logo-casc:before { content: '\e813'; } /* '' */
 .icon-logo-unibw:before { content: '\e814'; } /* '' */
 .icon-check-on:before { content: '\e821'; } /* '' */
@@ -10,6 +12,7 @@
 .icon-dot-circled:before { content: '\e848'; } /* '' */
 .icon-left-open:before { content: '\e850'; } /* '' */
 .icon-angle-left:before { content: '\e851'; } /* '' */
+.icon-right-open-1:before { content: '\e8c4'; } /* '' */
 .icon-mail-alt:before { content: '\f0e0'; } /* '' */
 .icon-angle-right:before { content: '\f105'; } /* '' */
 .icon-angle-circled-left:before { content: '\f137'; } /* '' */

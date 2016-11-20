@@ -107,6 +107,24 @@
       "src": "fontawesome"
     },
     {
+      "uid": "7e092c82e9a758b6e95297007969aac1",
+      "css": "left-circle",
+      "code": 59395,
+      "src": "websymbols"
+    },
+    {
+      "uid": "d30928620bda0d5eaa85d3b65bf19963",
+      "css": "right-circle",
+      "code": 59396,
+      "src": "websymbols"
+    },
+    {
+      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
+      "css": "right-open-1",
+      "code": 59588,
+      "src": "fontawesome"
+    },
+    {
       "uid": "035e394027c7a3c926d8c485ffe07de1",
       "css": "slides",
       "code": 59416,

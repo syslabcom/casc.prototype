@@ -14,8 +14,10 @@
         }
     }
 
-    #page-introduction {
+    #page-introduction,
+    .page-introduction {
         position: relative;
+        text-decoration: none;
         width: 100%;
         overflow: hidden;
         background-color: $colour-accent;
@@ -77,15 +79,20 @@
             // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#7db9e8', GradientType=0 );
         }
 
-        #page-summary {
+        #page-summary,
+        .page-summary {
             position: relative;
             z-index: 2;
             padding-top: 10rem;
             .layout-homepage & {
-                height: 14rem;
+                min-height: 14rem;
                 padding-top: 18rem;
             }
             width: 100%;
+
+            .container {
+                display: block;
+            }
 
             .text,
             .title {
@@ -118,8 +125,10 @@
     &.has-sub-nav {
         margin-bottom: 0;
 
-        #page-introduction {
-            #page-summary {
+        #page-introduction,
+        .page-introduction {
+            #page-summary,
+            .page-summary {
                 .text {
                     margin-left: 25%;
                     margin-right: 5%;

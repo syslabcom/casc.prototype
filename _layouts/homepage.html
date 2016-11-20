@@ -4,9 +4,9 @@ layout: generic
 
 <header id="page-header" class="{% if page.hero %}has-hero{% endif %} {% if page.description %}has-description{% endif %}">
 	<div class="regular slider" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
-		<section id="page-introduction" {% if page.hero %}style="background-image: url({{ page.hero }})"{% endif %}>
+		<a href="#" class="page-introduction" {% if page.hero %}style="background-image: url({{ page.hero }})"{% endif %}>
 			{% if page.description %}
-				<section id="page-summary">
+				<section class="page-summary">
 					<div class="container">
 						<h2 class="title">
 							Lorem ipsum dolor sit amet consectetuer
@@ -17,9 +17,9 @@ layout: generic
 					</div>
 				</section>
 			{% endif %}
-		</section>
-		<section id="page-introduction" style="background-image: url(/media/hero/class.jpg)">
-			<section id="page-summary">
+		</a>
+		<a href="#" class="page-introduction" style="background-image: url(/media/hero/class.jpg)">
+			<section class="page-summary">
 				<div class="container">
 					<h2 class="title">
 						Lorem ipsum dolor sit amet consectetuer
@@ -29,9 +29,9 @@ layout: generic
 					</p>
 				</div>
 			</section>
-		</section>
-		<section id="page-introduction" style="background-image: url(/media/hero/workshop.jpg)">
-			<section id="page-summary">
+		</a>
+		<a href="#" class="page-introduction" style="background-image: url(/media/hero/workshop.jpg)">
+			<section class="page-summary">
 				<div class="container">
 					<h2 class="title">
 						Lorem ipsum dolor sit amet consectetuer
@@ -41,7 +41,7 @@ layout: generic
 					</p>
 				</div>
 			</section>
-		</section>
+		</a>
 	</div>
 </header>
 

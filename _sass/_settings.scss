@@ -25,6 +25,10 @@ $colour-support: #a1dbff;
 $body-font-colour: $colour-primary;
 $colour-well: $colour-support;
 
+// Slick stuff
+$slick-font-family: fontello;
+$slick-prev-character: "\e803";
+$slick-next-character: "\e804";
 
 // Glyphs 
 $glyph-checkbox: '\e822';
@@ -34,7 +38,6 @@ $glyph-close: '\e801';
 $glyph-throbber: '\e802';
 
 $glyph-icon-angle-right: '\f105';
-
 // Grid
 $grid-gutter: 15px;
 $baseline: 34px;
