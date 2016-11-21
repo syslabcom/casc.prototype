@@ -9,11 +9,13 @@
     	transition: padding-top 1s;
         transition-delay: 0.4s;
         height: 100%;
+        padding-top: 7.5rem;
         // min-height: 100%;
-            // margin-bottom: -5.3rem;
+        margin-bottom: -5.3rem;
 
     	&#overview {
-            // margin-bottom: -5.3rem;
+            padding-top: 0;
+            margin-bottom: -5.3rem;
     	}
 
         &:last-child {
