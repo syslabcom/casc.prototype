@@ -13,4 +13,54 @@
 	&#section-testimonials {
 		background: $colour-support;
 	}
+
+	&#section-cta {
+		.pat-rich {
+			* {
+				text-align: center;
+			}
+
+			.discrete {
+				font-size: 0.7em;
+			}
+			
+			height: 100%;
+			padding: 6%;
+			@include box-sizing;
+
+			&.funnel {
+				font-size: 2em;		
+				padding-top: 10%;		
+
+				h2,
+				p {
+					margin-bottom: 1.5 * $baseline;
+				}
+			}
+
+			&.contact {
+				background: #efefef;
+
+				h2 {
+					font-size: 1em;
+					font-weight: bold;
+					// color: rgba;
+				}
+
+				h4 {
+					color: black;
+					margin-bottom: 1.3em;
+				}
+			}
+		}
+
+		.portrait {
+			margin-bottom: 0.5em;
+
+			img {
+				border-radius: 50%;
+				width: 40%;
+			}
+		}
+	}
 }
