@@ -27,26 +27,24 @@ layout: generic
 	    			<li>
 	    				<a href="{{ item.url }}#main-content" class="pat-inject">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
 
-	    				{% comment %}
-	    					{% assign this_sub = 0 %}
-		    				{% for sub in site.posts %}
-	    						{% if item.title == sub.parent %}
-	    							{% assign this_sub = this_sub | plus: 1 %}
-	    						{% endif %}
-	    					{% endfor %}
+    					{% assign this_sub = 0 %}
+	    				{% for sub in site.posts %}
+    						{% if item.title == sub.parent %}
+    							{% assign this_sub = this_sub | plus: 1 %}
+    						{% endif %}
+    					{% endfor %}
 
-	    					{% if this_sub > 0 %}
-			    				<ul>
-			    					{% for sub in site.posts %}
-			    						{% if item.title == sub.parent %}
-			    							<li>
-			    								<a href="{{ sub.url }}#main-content" class="pat-inject">{{ sub.title }}</a>
-			    							</li>
-			    						{% endif %}
-			    					{% endfor %}
-			    				</ul>
-	    					{% endif %}
-	    				{% endcomment %}
+    					{% if this_sub > 0 %}
+		    				<ul>
+		    					{% for sub in site.posts %}
+		    						{% if item.title == sub.parent %}
+		    							<li>
+		    								<a href="{{ sub.url }}#main-content" class="pat-inject">{{ sub.title }}</a>
+		    							</li>
+		    						{% endif %}
+		    					{% endfor %}
+		    				</ul>
+    					{% endif %}
 	    			</li>
 	    		{% endif %}
 	    	{% endfor %}

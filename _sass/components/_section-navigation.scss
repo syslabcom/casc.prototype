@@ -3,7 +3,7 @@
     margin-left: 0;
     position: relative;
     // background: pink;
-    width: 25%;
+    width: 22.5%;
     float: left;
 
     &.bumped {
@@ -44,6 +44,10 @@
                     top: -0.22em;
                 }
             } 
+        }
+
+        a.current + ul {
+            display: block;
         }
 
         a {
