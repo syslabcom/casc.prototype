@@ -20,12 +20,12 @@ layout: generic
 	<section id="section-navigation" class="pat-bumper">
 	    <ul class="navigation">
 			<li>
-				<a href="#page-content" class="pat-scroll">Übersicht</a>
+				<a href="{{ page.url }}#main-content" class="pat-inject current">Übersicht</a>
 			</li>
 	    	{% for item in site.posts %}
 	    		{% if item.parent == page.title %}
 	    			<li>
-	    				<a href="#{{ item.url | remove: '/' }}" class="pat-scroll">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
+	    				<a href="{{ item.url }}#main-content" class="pat-inject">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
 
 	    				{% comment %}
 	    					{% assign this_sub = 0 %}
@@ -40,7 +40,7 @@ layout: generic
 			    					{% for sub in site.posts %}
 			    						{% if item.title == sub.parent %}
 			    							<li>
-			    								<a href="{{ sub.url }}" class="pat-inject" data-pat-inject="source: #main-content; target: #{{ item.url | remove: '/' }}">{{ sub.title }}</a>
+			    								<a href="{{ sub.url }}#main-content" class="pat-inject">{{ sub.title }}</a>
 			    							</li>
 			    						{% endif %}
 			    					{% endfor %}
@@ -52,44 +52,11 @@ layout: generic
 	    	{% endfor %}
 	    </ul>
 	</section>
-	<div class="pat-bumper" id="main-content">
+	<div id="main-content">
 		<article class="pat-rich">
 			<section class="main-section" id="overview">
 				{{ content }}
 			</section>
 		</article>
-		
-		{% for item in site.posts %}
-			{% if item.parent == page.title %}
-				<div id="{{ item.url | remove: '/' }}" class="main-section">
-					<div id="{{ item.url | remove: '/' }}-content">
-						<article class="pat-rich">
-							<h2>{{ item.title }}</h2>
-							{% if item.description %}
-								<section class="introduction">
-									<p>
-										{{ item.description }}
-									</p>
-								</section>
-							{% endif %}
-
-							{{ item.content | markdownify }}
-						</article>
-						
-						{% if item.title == 'Team' %}
-							{% include people-cloud.html %}
-						{% endif %}
-
-						{% if item.title == 'Studiengänge' %}
-							{% include article-cloud.html %}
-						{% endif %}
-
-						{% if item.title == 'Zertifikate' %}
-							{% include article-cloud.html %}
-						{% endif %}
-					</div>
-				</div>
-			{% endif %}
-		{% endfor %}
 	</div>
 </div>

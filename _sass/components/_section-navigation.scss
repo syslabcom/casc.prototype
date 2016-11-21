@@ -4,7 +4,7 @@
     position: relative;
     // background: pink;
     width: 25%;
-    margin-bottom: -8rem;
+    float: left;
 
     &.bumped {
 
@@ -19,7 +19,7 @@
     .navigation {
         // width: 2                                                                                       5%;
         display: block;
-        padding-top: 8rem;
+        padding-top: 6rem;
         @include box-sizing;
 
         transition: all 0.5s;

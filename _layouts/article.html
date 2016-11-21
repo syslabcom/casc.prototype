@@ -4,7 +4,7 @@ layout: generic
 
 <div class="container" id="main-content">
 	<article class="pat-rich">
-		<p class="back-button">
+<!-- 		<p class="back-button">
 			<strong>
 	        {% for post in site.posts %}
 	            {% if post.title == page.parent %}
@@ -17,10 +17,13 @@ layout: generic
 	            {% endif %}
 	        {% endfor %}
 			</strong>
-		</p>
+		</p> -->
 		<h1>
 			{{ page.title }}
 		</h1>
 		{{ content }}
 	</article>
+	<p hidden>
+        <a href="#main-content" class="pat-scroll" data-pat-scroll="trigger: auto; selector: #main">Back to top</a>
+    </p>
 </div>
