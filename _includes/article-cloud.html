@@ -2,7 +2,7 @@
 	{% for article in site.posts %}
 		{% if page.title == article.parent %}
 			<li>
-				<a  href="{{ article.url | remove: '/'}}" class="pat-inject pat-scroll" data-pat-inject="source: #main-content; target: #{{ page.url | remove: '/' }}" data-pat-scroll="trigger: click">
+				<a  href="{{ article.url }}#main-content" class="pat-inject">
 					<img src="{{ article.image }}" alt="{{ article.title }}" />
 					<strong class="label">{{ article.title }}</strong>
 				</a>

@@ -103,6 +103,40 @@
         border-left: 3px $colour-accent solid;
     }
 
+    .pat-collapsible {
+        border: 1px $colour-accent solid;
+        padding: 0 1em;
+        margin-bottom: 0.6em;
+        border-radius: 1em;
+
+        .collapsible-closed,
+        .collapsible-open {
+            margin-bottom: 0;
+            cursor: pointer;
+            padding: 0.5em 0;
+
+            &:after {
+                font-family: fontello;
+                content: '#{$glyph-icon-angle-right}';
+                float: right;
+                transform: rotate(90deg);
+                transition: all 0.5s;
+                color: $colour-accent;
+            }
+        }
+
+        .collapsible-open {
+            &:after {
+                transform: rotate(90deg) scaleX(-1);
+            }
+        }
+
+        .panel-content {
+            @include box-sizing;
+            padding: 1em 0;
+        }
+    }
+
     counter-reset: fig;  
 
     figure {
