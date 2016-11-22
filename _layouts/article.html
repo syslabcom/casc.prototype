@@ -23,6 +23,19 @@ layout: generic
 		</h1>
 		{{ content }}
 	</article>
+
+	{% if page.title == 'Team' %}
+		{% include people-cloud.html %}
+	{% endif %}
+
+	{% if page.title == 'Studiengänge' %}
+		{% include article-cloud.html %}
+	{% endif %}
+
+	{% if page.title == 'Zertifikate' %}
+		{% include article-cloud.html %}
+	{% endif %}
+
 	<p hidden>
         <a href="#main-content" class="pat-scroll" data-pat-scroll="trigger: auto; selector: #main">Back to top</a>
     </p>
