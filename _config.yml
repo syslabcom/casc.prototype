@@ -5,6 +5,7 @@ domain: myproject.example.com
 media: /media
 markdown: kramdown
 permalink: /:title
+port: 4008
 sass:
   style: :compressed
   load_paths:
